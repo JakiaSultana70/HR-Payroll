@@ -1,0 +1,925 @@
+- generic [ref=f19e4]:
+  - navigation "Modules" [ref=f19e7]:
+    - link "P PayFlow HR & Payroll" [ref=f19e8] [cursor=pointer]:
+      - /url: /dashboard
+      - generic [ref=f19e9]: P
+      - generic [ref=f19e10]:
+        - generic [ref=f19e11]: PayFlow
+        - generic [ref=f19e12]: HR & Payroll
+    - link "Accountant dashboard" [ref=f19e13] [cursor=pointer]:
+      - /url: /dashboard
+    - paragraph [ref=f19e19]: People
+    - link "Change Requests" [ref=f19e20] [cursor=pointer]:
+      - /url: /change-requests
+    - paragraph [ref=f19e25]: Time & Attendance
+    - link "Attendance" [ref=f19e26] [cursor=pointer]:
+      - /url: /attendance
+    - link "Leave" [ref=f19e32] [cursor=pointer]:
+      - /url: /leave
+    - link "Overtime" [ref=f19e38] [cursor=pointer]:
+      - /url: /overtime
+    - paragraph [ref=f19e44]: Payroll
+    - link "Payroll Batches" [ref=f19e45] [cursor=pointer]:
+      - /url: /payroll
+    - link "Payslips" [ref=f19e52] [cursor=pointer]:
+      - /url: /payslips
+    - link "Salary & Rules" [ref=f19e58] [cursor=pointer]:
+      - /url: /salary-rules
+    - link "Loans & Bonuses" [ref=f19e63] [cursor=pointer]:
+      - /url: /loans-bonuses
+    - link "Final Settlement" [ref=f19e70] [cursor=pointer]:
+      - /url: /settlements
+    - paragraph [ref=f19e76]: Governance
+    - link "Reports" [ref=f19e77] [cursor=pointer]:
+      - /url: /reports
+  - generic [ref=f19e85]:
+    - banner [ref=f19e86]:
+      - generic [ref=f19e87]:
+        - navigation "Breadcrumb" [ref=f19e88]:
+          - list [ref=f19e89]:
+            - listitem [ref=f19e90]:
+              - link "Home" [ref=f19e91] [cursor=pointer]:
+                - /url: /dashboard
+            - listitem [ref=f19e92]:
+              - link "Payroll Batches" [ref=f19e97] [cursor=pointer]:
+                - /url: /payroll
+            - listitem [ref=f19e98]:
+              - link "pb-202611-1788339665288" [ref=f19e103] [cursor=pointer]:
+                - /url: /payroll/pb-202611-1788339665288
+        - searchbox "Find a module" [ref=f19e105]
+        - link "Notifications" [ref=f19e106] [cursor=pointer]:
+          - /url: /notifications
+        - button "RH Rakib Hasan" [ref=f19e112]:
+          - generic [ref=f19e113]: RH
+          - generic [ref=f19e114]: Rakib Hasan
+    - main [ref=f19e118]:
+      - generic [ref=f19e119]:
+        - generic [ref=f19e121]:
+          - link "Payroll batches" [ref=f19e122] [cursor=pointer]:
+            - /url: /payroll
+          - generic [ref=f19e126]:
+            - generic [ref=f19e127]:
+              - paragraph [ref=f19e128]: Payroll
+              - heading "PR-2026-11" [level=1] [ref=f19e129]
+              - paragraph [ref=f19e130]: November 2026 · 2026-11-01 → 2026-11-30
+            - generic [ref=f19e131]: paid
+        - paragraph [ref=f19e136]: 1 day(s) across this batch are excused only because a leave request is still pending a decision — those payslips (marked below) may change once HR/Admin decides them. Review before approving.
+        - generic [ref=f19e137]:
+          - generic [ref=f19e139]:
+            - heading "Batch summary" [level=2] [ref=f19e141]
+            - generic [ref=f19e144]:
+              - generic [ref=f19e145]:
+                - term [ref=f19e146]: Cycle
+                - definition [ref=f19e147]: 2026-11-01 → 2026-11-30
+              - generic [ref=f19e148]:
+                - term [ref=f19e149]: Attendance locked
+                - definition [ref=f19e150]: "Yes"
+              - generic [ref=f19e151]:
+                - term [ref=f19e152]: Employees
+                - definition [ref=f19e153]: "55"
+              - generic [ref=f19e154]:
+                - term [ref=f19e155]: Gross total
+                - definition [ref=f19e156]: ৳2,656,328
+              - generic [ref=f19e157]:
+                - term [ref=f19e158]: Deductions
+                - definition [ref=f19e159]: ৳1,342,133
+              - generic [ref=f19e160]:
+                - term [ref=f19e161]: Net payable
+                - definition [ref=f19e162]: ৳1,420,248
+              - generic [ref=f19e163]:
+                - term [ref=f19e164]: Requested by
+                - definition [ref=f19e165]: farhana.islam
+              - generic [ref=f19e166]:
+                - term [ref=f19e167]: Approved by
+                - definition [ref=f19e168]: rakib.hasan
+          - generic [ref=f19e170]:
+            - generic [ref=f19e171]:
+              - heading "Engine steps" [level=2] [ref=f19e172]
+              - paragraph [ref=f19e173]: In order
+            - list [ref=f19e175]:
+              - listitem [ref=f19e176]:
+                - generic [ref=f19e178]: Lock attendance and leave data
+              - listitem [ref=f19e179]:
+                - generic [ref=f19e181]: Calculate working hours, late and overtime
+              - listitem [ref=f19e182]:
+                - generic [ref=f19e184]: Calculate gross salary
+              - listitem [ref=f19e185]:
+                - generic [ref=f19e187]: Calculate tax, PF, loan and bonus
+              - listitem [ref=f19e188]:
+                - generic [ref=f19e190]: Calculate net salary and generate payslips
+              - listitem [ref=f19e191]:
+                - generic [ref=f19e193]: Accountant verifies the batch
+              - listitem [ref=f19e194]:
+                - generic [ref=f19e196]: Process payment via bank
+        - generic [ref=f19e199]:
+          - generic [ref=f19e200]:
+            - heading "Payslips" [level=2] [ref=f19e201]
+            - paragraph [ref=f19e202]: 55 employees in this cycle
+          - table [ref=f19e205]:
+            - rowgroup [ref=f19e206]:
+              - row [ref=f19e207]:
+                - columnheader "Code" [ref=f19e208]
+                - columnheader "Employee" [ref=f19e209]
+                - columnheader "Hours" [ref=f19e210]
+                - columnheader "OT" [ref=f19e211]
+                - columnheader "Gross" [ref=f19e212]
+                - columnheader "Tax" [ref=f19e213]
+                - columnheader "PF" [ref=f19e214]
+                - columnheader "Loan" [ref=f19e215]
+                - columnheader "Absence" [ref=f19e216]
+                - columnheader "Bonus" [ref=f19e217]
+                - columnheader "Net" [ref=f19e218]
+            - rowgroup [ref=f19e219]:
+              - row [ref=f19e220]:
+                - cell "EMP-1001" [ref=f19e221]
+                - cell [ref=f19e222]:
+                  - link "Nasrin Akter" [ref=f19e223] [cursor=pointer]:
+                    - /url: /payslips/ps-pb-202611-1788339665288-e-1787546658330
+                - cell "0.0" [ref=f19e224]
+                - cell "0.0" [ref=f19e225]
+                - cell "৳95,800" [ref=f19e226]
+                - cell "৳14,370" [ref=f19e227]
+                - cell "৳6,200" [ref=f19e228]
+                - cell "৳0" [ref=f19e229]
+                - cell "৳83,027" [ref=f19e230]
+                - cell "৳0" [ref=f19e231]
+                - cell "৳0" [ref=f19e232]
+              - row [ref=f19e233]:
+                - cell "EMP-1002" [ref=f19e234]
+                - cell [ref=f19e235]:
+                  - link "Rakib Hasan" [ref=f19e236] [cursor=pointer]:
+                    - /url: /payslips/ps-pb-202611-1788339665288-e-1787546896361
+                - cell "0.0" [ref=f19e237]
+                - cell "0.0" [ref=f19e238]
+                - cell "৳95,800" [ref=f19e239]
+                - cell "৳14,370" [ref=f19e240]
+                - cell "৳6,200" [ref=f19e241]
+                - cell "৳0" [ref=f19e242]
+                - cell "৳83,027" [ref=f19e243]
+                - cell "৳0" [ref=f19e244]
+                - cell "৳0" [ref=f19e245]
+              - row [ref=f19e246]:
+                - cell "EMP-1003" [ref=f19e247]
+                - cell [ref=f19e248]:
+                  - link "Shahidul Islam" [ref=f19e249] [cursor=pointer]:
+                    - /url: /payslips/ps-pb-202611-1788339665288-e-1787547254530
+                - cell "0.0" [ref=f19e250]
+                - cell "0.0" [ref=f19e251]
+                - cell "৳131,000" [ref=f19e252]
+                - cell "৳26,200" [ref=f19e253]
+                - cell "৳8,500" [ref=f19e254]
+                - cell "৳0" [ref=f19e255]
+                - cell "৳113,533" [ref=f19e256]
+                - cell "৳8,000" [ref=f19e257]
+                - cell "৳0" [ref=f19e258]
+              - row [ref=f19e259]:
+                - cell "EMP-1004" [ref=f19e260]
+                - cell [ref=f19e261]:
+                  - link "Tanvir Ahmed" [ref=f19e262] [cursor=pointer]:
+                    - /url: /payslips/ps-pb-202611-1788339665288-e-1787547655357
+                - cell "0.0" [ref=f19e263]
+                - cell "0.0" [ref=f19e264]
+                - cell "৳29,600" [ref=f19e265]
+                - cell "৳1,480" [ref=f19e266]
+                - cell "৳1,900" [ref=f19e267]
+                - cell "৳0" [ref=f19e268]
+                - cell "৳25,653" [ref=f19e269]
+                - cell "৳0" [ref=f19e270]
+                - cell "৳567" [ref=f19e271]
+              - row [ref=f19e272]:
+                - cell "EMP-1006" [ref=f19e273]
+                - cell [ref=f19e274]:
+                  - link "Jahangir Alam" [ref=f19e275] [cursor=pointer]:
+                    - /url: /payslips/ps-pb-202611-1788339665288-e-1787547994953
+                - cell "0.0" [ref=f19e276]
+                - cell "0.0" [ref=f19e277]
+                - cell "৳22,800" [ref=f19e278]
+                - cell "৳0" [ref=f19e279]
+                - cell "৳1,450" [ref=f19e280]
+                - cell "৳0" [ref=f19e281]
+                - cell "৳19,760" [ref=f19e282]
+                - cell "৳0" [ref=f19e283]
+                - cell "৳1,590" [ref=f19e284]
+              - row [ref=f19e285]:
+                - cell "EMP-1007" [ref=f19e286]
+                - cell [ref=f19e287]:
+                  - link "Farhana Islam" [ref=f19e288] [cursor=pointer]:
+                    - /url: /payslips/ps-pb-202611-1788339665288-e-1787548160729
+                - cell "0.0" [ref=f19e289]
+                - cell "0.0" [ref=f19e290]
+                - cell "৳70,000" [ref=f19e291]
+                - cell "৳10,500" [ref=f19e292]
+                - cell "৳4,500" [ref=f19e293]
+                - cell "৳0" [ref=f19e294]
+                - cell "৳60,667" [ref=f19e295]
+                - cell "৳0" [ref=f19e296]
+                - cell "৳0" [ref=f19e297]
+              - row [ref=f19e298]:
+                - cell "EMP-1008" [ref=f19e299]
+                - cell [ref=f19e300]:
+                  - link "Kamrul Hasan" [ref=f19e301] [cursor=pointer]:
+                    - /url: /payslips/ps-pb-202611-1788339665288-e-1787548325913
+                - cell "0.0" [ref=f19e302]
+                - cell "0.0" [ref=f19e303]
+                - cell "৳49,800" [ref=f19e304]
+                - cell "৳4,980" [ref=f19e305]
+                - cell "৳3,200" [ref=f19e306]
+                - cell "৳0" [ref=f19e307]
+                - cell "৳43,160" [ref=f19e308]
+                - cell "৳0" [ref=f19e309]
+                - cell "৳0" [ref=f19e310]
+              - row [ref=f19e311]:
+                - cell "EMP-1009" [ref=f19e312]
+                - cell [ref=f19e313]:
+                  - link "Ruma Begum" [ref=f19e314] [cursor=pointer]:
+                    - /url: /payslips/ps-pb-202611-1788339665288-e-1787548627005
+                - cell "0.0" [ref=f19e315]
+                - cell "0.0" [ref=f19e316]
+                - cell "৳440,103" [ref=f19e317]
+                - cell "৳88,021" [ref=f19e318]
+                - cell "৳43,245" [ref=f19e319]
+                - cell "৳0" [ref=f19e320]
+                - cell "৳381,423" [ref=f19e321]
+                - cell "৳0" [ref=f19e322]
+                - cell "৳0" [ref=f19e323]
+              - row [ref=f19e324]:
+                - cell "DEMO-EMPLOYEE" [ref=f19e325]
+                - cell [ref=f19e326]:
+                  - link "Tanvir Ahmed Topu" [ref=f19e327] [cursor=pointer]:
+                    - /url: /payslips/ps-pb-202611-1788339665288-e4
+                - cell "0.0" [ref=f19e328]
+                - cell "0.0" [ref=f19e329]
+                - cell "৳47,000" [ref=f19e330]
+                - cell "৳4,700" [ref=f19e331]
+                - cell "৳3,000" [ref=f19e332]
+                - cell "৳0" [ref=f19e333]
+                - cell "৳40,733" [ref=f19e334]
+                - cell "৳0" [ref=f19e335]
+                - cell "৳0" [ref=f19e336]
+              - row [ref=f19e337]:
+                - cell "EMP-2001" [ref=f19e338]
+                - cell [ref=f19e339]:
+                  - link "Mahfuz Islam" [ref=f19e340] [cursor=pointer]:
+                    - /url: /payslips/ps-pb-202611-1788339665288-te-001
+                - cell "208.0" [ref=f19e341]
+                - cell "0.0" [ref=f19e342]
+                - cell "৳90,000" [ref=f19e343]
+                - cell "৳13,500" [ref=f19e344]
+                - cell "৳6,000" [ref=f19e345]
+                - cell "৳0" [ref=f19e346]
+                - cell "৳0" [ref=f19e347]
+                - cell "৳0" [ref=f19e348]
+                - cell "৳70,500" [ref=f19e349]
+              - row [ref=f19e350]:
+                - cell "EMP-2002" [ref=f19e351]
+                - cell [ref=f19e352]:
+                  - link "Shirin Rahman" [ref=f19e353] [cursor=pointer]:
+                    - /url: /payslips/ps-pb-202611-1788339665288-te-002
+                - cell "208.0" [ref=f19e354]
+                - cell "0.0" [ref=f19e355]
+                - cell "৳90,000" [ref=f19e356]
+                - cell "৳13,500" [ref=f19e357]
+                - cell "৳6,000" [ref=f19e358]
+                - cell "৳0" [ref=f19e359]
+                - cell "৳0" [ref=f19e360]
+                - cell "৳0" [ref=f19e361]
+                - cell "৳70,500" [ref=f19e362]
+              - row [ref=f19e363]:
+                - cell "EMP-2003" [ref=f19e364]
+                - cell [ref=f19e365]:
+                  - link "Kamal Hossain" [ref=f19e366] [cursor=pointer]:
+                    - /url: /payslips/ps-pb-202611-1788339665288-te-003
+                - cell "208.0" [ref=f19e367]
+                - cell "0.0" [ref=f19e368]
+                - cell "৳68,000" [ref=f19e369]
+                - cell "৳10,200" [ref=f19e370]
+                - cell "৳4,500" [ref=f19e371]
+                - cell "৳0" [ref=f19e372]
+                - cell "৳0" [ref=f19e373]
+                - cell "৳0" [ref=f19e374]
+                - cell "৳51,033" [ref=f19e375]
+              - row [ref=f19e376]:
+                - cell "EMP-2004" [ref=f19e377]
+                - cell [ref=f19e378]:
+                  - link "Rokeya Ahmed" [ref=f19e379] [cursor=pointer]:
+                    - /url: /payslips/ps-pb-202611-1788339665288-te-004
+                - cell "208.0" [ref=f19e380]
+                - cell "0.0" [ref=f19e381]
+                - cell "৳68,000" [ref=f19e382]
+                - cell "৳10,200" [ref=f19e383]
+                - cell "৳4,500" [ref=f19e384]
+                - cell "৳0" [ref=f19e385]
+                - cell "৳0" [ref=f19e386]
+                - cell "৳0" [ref=f19e387]
+                - cell "৳51,033" [ref=f19e388]
+              - row [ref=f19e389]:
+                - cell "EMP-2005" [ref=f19e390]
+                - cell [ref=f19e391]:
+                  - link "Anwar Chowdhury" [ref=f19e392] [cursor=pointer]:
+                    - /url: /payslips/ps-pb-202611-1788339665288-te-005
+                - cell "208.0" [ref=f19e393]
+                - cell "0.0" [ref=f19e394]
+                - cell "৳68,000" [ref=f19e395]
+                - cell "৳10,200" [ref=f19e396]
+                - cell "৳4,500" [ref=f19e397]
+                - cell "৳0" [ref=f19e398]
+                - cell "৳0" [ref=f19e399]
+                - cell "৳0" [ref=f19e400]
+                - cell "৳51,033" [ref=f19e401]
+              - row [ref=f19e402]:
+                - cell "EMP-2006" [ref=f19e403]
+                - cell [ref=f19e404]:
+                  - link "Nasreen Uddin" [ref=f19e405] [cursor=pointer]:
+                    - /url: /payslips/ps-pb-202611-1788339665288-te-006
+                - cell "208.0" [ref=f19e406]
+                - cell "0.0" [ref=f19e407]
+                - cell "৳68,000" [ref=f19e408]
+                - cell "৳10,200" [ref=f19e409]
+                - cell "৳4,500" [ref=f19e410]
+                - cell "৳0" [ref=f19e411]
+                - cell "৳0" [ref=f19e412]
+                - cell "৳15,000" [ref=f19e413]
+                - cell "৳68,300" [ref=f19e414]
+              - row [ref=f19e415]:
+                - cell "EMP-2007" [ref=f19e416]
+                - cell [ref=f19e417]:
+                  - link "Faruk Akter" [ref=f19e418] [cursor=pointer]:
+                    - /url: /payslips/ps-pb-202611-1788339665288-te-007
+                - cell "192.0" [ref=f19e419]
+                - cell "0.0" [ref=f19e420]
+                - cell "৳53,000" [ref=f19e421]
+                - cell "৳0" [ref=f19e422]
+                - cell "৳3,500" [ref=f19e423]
+                - cell "৳0" [ref=f19e424]
+                - cell "৳3,533" [ref=f19e425]
+                - cell "৳0" [ref=f19e426]
+                - cell "৳45,967" [ref=f19e427]
+              - row [ref=f19e428]:
+                - cell "EMP-2008" [ref=f19e429]
+                - cell [ref=f19e430]:
+                  - link "Rupa Sarker" [ref=f19e431] [cursor=pointer]:
+                    - /url: /payslips/ps-pb-202611-1788339665288-te-008
+                - cell "192.0" [ref=f19e432]
+                - cell "0.0" [ref=f19e433]
+                - cell "৳53,000" [ref=f19e434]
+                - cell "৳5,300" [ref=f19e435]
+                - cell "৳3,500" [ref=f19e436]
+                - cell "৳0" [ref=f19e437]
+                - cell "৳3,533" [ref=f19e438]
+                - cell "৳0" [ref=f19e439]
+                - cell "৳40,667" [ref=f19e440]
+              - row [ref=f19e441]:
+                - cell "EMP-2009" [ref=f19e442]
+                - cell [ref=f19e443]:
+                  - link "Nazrul Molla" [ref=f19e444] [cursor=pointer]:
+                    - /url: /payslips/ps-pb-202611-1788339665288-te-009
+                - cell "208.0" [ref=f19e445]
+                - cell "0.0" [ref=f19e446]
+                - cell "৳53,000" [ref=f19e447]
+                - cell "৳5,300" [ref=f19e448]
+                - cell "৳3,500" [ref=f19e449]
+                - cell "৳5,000" [ref=f19e450]
+                - cell "৳0" [ref=f19e451]
+                - cell "৳0" [ref=f19e452]
+                - cell "৳39,200" [ref=f19e453]
+              - row [ref=f19e454]:
+                - cell "EMP-2010" [ref=f19e455]
+                - cell [ref=f19e456]:
+                  - link "Jasmin Talukder" [ref=f19e457] [cursor=pointer]:
+                    - /url: /payslips/ps-pb-202611-1788339665288-te-010
+                - cell "208.0" [ref=f19e458]
+                - cell "0.0" [ref=f19e459]
+                - cell "৳53,000" [ref=f19e460]
+                - cell "৳5,300" [ref=f19e461]
+                - cell "৳3,500" [ref=f19e462]
+                - cell "৳4,000" [ref=f19e463]
+                - cell "৳0" [ref=f19e464]
+                - cell "৳0" [ref=f19e465]
+                - cell "৳40,200" [ref=f19e466]
+              - row [ref=f19e467]:
+                - cell "EMP-2011" [ref=f19e468]
+                - cell [ref=f19e469]:
+                  - link "Mostafa Miah" [ref=f19e470] [cursor=pointer]:
+                    - /url: /payslips/ps-pb-202611-1788339665288-te-011
+                - cell "208.0" [ref=f19e471]
+                - cell "0.0" [ref=f19e472]
+                - cell "৳53,000" [ref=f19e473]
+                - cell "৳5,300" [ref=f19e474]
+                - cell "৳3,500" [ref=f19e475]
+                - cell "৳0" [ref=f19e476]
+                - cell "৳0" [ref=f19e477]
+                - cell "৳12,000" [ref=f19e478]
+                - cell "৳56,200" [ref=f19e479]
+              - row [ref=f19e480]:
+                - cell "EMP-2012" [ref=f19e481]
+                - cell [ref=f19e482]:
+                  - link "Shathi Sikder" [ref=f19e483] [cursor=pointer]:
+                    - /url: /payslips/ps-pb-202611-1788339665288-te-012
+                - cell "208.0" [ref=f19e484]
+                - cell "0.0" [ref=f19e485]
+                - cell "৳53,000" [ref=f19e486]
+                - cell "৳5,300" [ref=f19e487]
+                - cell "৳3,500" [ref=f19e488]
+                - cell "৳0" [ref=f19e489]
+                - cell "৳0" [ref=f19e490]
+                - cell "৳0" [ref=f19e491]
+                - cell "৳44,200" [ref=f19e492]
+              - row [ref=f19e493]:
+                - cell "EMP-2013" [ref=f19e494]
+                - cell [ref=f19e495]:
+                  - link "Rafiq Kabir" [ref=f19e496] [cursor=pointer]:
+                    - /url: /payslips/ps-pb-202611-1788339665288-te-013
+                - cell "192.0" [ref=f19e497]
+                - cell "0.0" [ref=f19e498]
+                - cell "৳37,000" [ref=f19e499]
+                - cell "৳1,850" [ref=f19e500]
+                - cell "৳2,500" [ref=f19e501]
+                - cell "৳0" [ref=f19e502]
+                - cell "৳0" [ref=f19e503]
+                - cell "৳0" [ref=f19e504]
+                - cell "৳30,183" [ref=f19e505]
+              - row [ref=f19e506]:
+                - cell "EMP-2014" [ref=f19e507]
+                - cell [ref=f19e508]:
+                  - link "Lipi Alam" [ref=f19e509] [cursor=pointer]:
+                    - /url: /payslips/ps-pb-202611-1788339665288-te-014
+                - cell "192.0" [ref=f19e510]
+                - cell "0.0" [ref=f19e511]
+                - cell "৳37,000" [ref=f19e512]
+                - cell "৳1,850" [ref=f19e513]
+                - cell "৳2,500" [ref=f19e514]
+                - cell "৳0" [ref=f19e515]
+                - cell "৳0" [ref=f19e516]
+                - cell "৳0" [ref=f19e517]
+                - cell "৳32,650" [ref=f19e518]
+              - row [ref=f19e519]:
+                - cell "EMP-2017" [ref=f19e520]
+                - cell [ref=f19e521]:
+                  - link "Selim Bhuiyan" [ref=f19e522] [cursor=pointer]:
+                    - /url: /payslips/ps-pb-202611-1788339665288-te-017
+                - cell "208.0" [ref=f19e523]
+                - cell "0.0" [ref=f19e524]
+                - cell "৳37,000" [ref=f19e525]
+                - cell "৳1,850" [ref=f19e526]
+                - cell "৳2,500" [ref=f19e527]
+                - cell "৳0" [ref=f19e528]
+                - cell "৳0" [ref=f19e529]
+                - cell "৳8,000" [ref=f19e530]
+                - cell "৳40,650" [ref=f19e531]
+              - row [ref=f19e532]:
+                - cell "EMP-2018" [ref=f19e533]
+                - cell [ref=f19e534]:
+                  - link "Munni Mridha" [ref=f19e535] [cursor=pointer]:
+                    - /url: /payslips/ps-pb-202611-1788339665288-te-018
+                - cell "208.0" [ref=f19e536]
+                - cell "0.0" [ref=f19e537]
+                - cell "৳37,000" [ref=f19e538]
+                - cell "৳1,850" [ref=f19e539]
+                - cell "৳2,500" [ref=f19e540]
+                - cell "৳0" [ref=f19e541]
+                - cell "৳0" [ref=f19e542]
+                - cell "৳8,000" [ref=f19e543]
+                - cell "৳40,650" [ref=f19e544]
+              - row [ref=f19e545]:
+                - cell "EMP-2019" [ref=f19e546]
+                - cell [ref=f19e547]:
+                  - link "Golam Barua" [ref=f19e548] [cursor=pointer]:
+                    - /url: /payslips/ps-pb-202611-1788339665288-te-019
+                - cell "208.0" [ref=f19e549]
+                - cell "0.0" [ref=f19e550]
+                - cell "৳37,000" [ref=f19e551]
+                - cell "৳1,850" [ref=f19e552]
+                - cell "৳0" [ref=f19e553]
+                - cell "৳0" [ref=f19e554]
+                - cell "৳0" [ref=f19e555]
+                - cell "৳0" [ref=f19e556]
+                - cell "৳35,150" [ref=f19e557]
+              - row [ref=f19e558]:
+                - cell "EMP-2020" [ref=f19e559]
+                - cell [ref=f19e560]:
+                  - link "Shahnaz Khatun" [ref=f19e561] [cursor=pointer]:
+                    - /url: /payslips/ps-pb-202611-1788339665288-te-020
+                - cell "208.0" [ref=f19e562]
+                - cell "0.0" [ref=f19e563]
+                - cell "৳37,000" [ref=f19e564]
+                - cell "৳1,850" [ref=f19e565]
+                - cell "৳0" [ref=f19e566]
+                - cell "৳0" [ref=f19e567]
+                - cell "৳0" [ref=f19e568]
+                - cell "৳0" [ref=f19e569]
+                - cell "৳35,150" [ref=f19e570]
+              - row [ref=f19e571]:
+                - cell "EMP-2021" [ref=f19e572]
+                - cell [ref=f19e573]:
+                  - link "Shafiq Islam" [ref=f19e574] [cursor=pointer]:
+                    - /url: /payslips/ps-pb-202611-1788339665288-te-021
+                - cell "208.0" [ref=f19e575]
+                - cell "0.0" [ref=f19e576]
+                - cell "৳37,000" [ref=f19e577]
+                - cell "৳1,850" [ref=f19e578]
+                - cell "৳0" [ref=f19e579]
+                - cell "৳0" [ref=f19e580]
+                - cell "৳0" [ref=f19e581]
+                - cell "৳0" [ref=f19e582]
+                - cell "৳35,150" [ref=f19e583]
+              - row [ref=f19e584]:
+                - cell "EMP-2022" [ref=f19e585]
+                - cell [ref=f19e586]:
+                  - link "Halima Rahman" [ref=f19e587] [cursor=pointer]:
+                    - /url: /payslips/ps-pb-202611-1788339665288-te-022
+                - cell "208.0" [ref=f19e588]
+                - cell "0.0" [ref=f19e589]
+                - cell "৳37,000" [ref=f19e590]
+                - cell "৳1,850" [ref=f19e591]
+                - cell "৳2,500" [ref=f19e592]
+                - cell "৳0" [ref=f19e593]
+                - cell "৳0" [ref=f19e594]
+                - cell "৳0" [ref=f19e595]
+                - cell "৳32,650" [ref=f19e596]
+              - row [ref=f19e597]:
+                - cell "EMP-2023" [ref=f19e598]
+                - cell [ref=f19e599]:
+                  - link "Nurul Hossain" [ref=f19e600] [cursor=pointer]:
+                    - /url: /payslips/ps-pb-202611-1788339665288-te-023
+                  - text: 1 pending leave
+                - cell "200.0" [ref=f19e601]
+                - cell "0.0" [ref=f19e602]
+                - cell "৳26,000" [ref=f19e603]
+                - cell "৳0" [ref=f19e604]
+                - cell "৳1,800" [ref=f19e605]
+                - cell "৳0" [ref=f19e606]
+                - cell "৳0" [ref=f19e607]
+                - cell "৳0" [ref=f19e608]
+                - cell "৳24,200" [ref=f19e609]
+              - row [ref=f19e610]:
+                - cell "EMP-2024" [ref=f19e611]
+                - cell [ref=f19e612]:
+                  - link "Rokshana Ahmed" [ref=f19e613] [cursor=pointer]:
+                    - /url: /payslips/ps-pb-202611-1788339665288-te-024
+                - cell "208.0" [ref=f19e614]
+                - cell "0.0" [ref=f19e615]
+                - cell "৳26,000" [ref=f19e616]
+                - cell "৳0" [ref=f19e617]
+                - cell "৳1,800" [ref=f19e618]
+                - cell "৳3,000" [ref=f19e619]
+                - cell "৳0" [ref=f19e620]
+                - cell "৳0" [ref=f19e621]
+                - cell "৳21,200" [ref=f19e622]
+              - row [ref=f19e623]:
+                - cell "EMP-2025" [ref=f19e624]
+                - cell [ref=f19e625]:
+                  - link "Sohel Chowdhury" [ref=f19e626] [cursor=pointer]:
+                    - /url: /payslips/ps-pb-202611-1788339665288-te-025
+                - cell "208.0" [ref=f19e627]
+                - cell "0.0" [ref=f19e628]
+                - cell "৳26,000" [ref=f19e629]
+                - cell "৳0" [ref=f19e630]
+                - cell "৳1,800" [ref=f19e631]
+                - cell "৳5,000" [ref=f19e632]
+                - cell "৳0" [ref=f19e633]
+                - cell "৳0" [ref=f19e634]
+                - cell "৳19,200" [ref=f19e635]
+              - row [ref=f19e636]:
+                - cell "EMP-2026" [ref=f19e637]
+                - cell [ref=f19e638]:
+                  - link "Rehana Uddin" [ref=f19e639] [cursor=pointer]:
+                    - /url: /payslips/ps-pb-202611-1788339665288-te-026
+                - cell "208.0" [ref=f19e640]
+                - cell "0.0" [ref=f19e641]
+                - cell "৳26,000" [ref=f19e642]
+                - cell "৳0" [ref=f19e643]
+                - cell "৳1,800" [ref=f19e644]
+                - cell "৳0" [ref=f19e645]
+                - cell "৳0" [ref=f19e646]
+                - cell "৳3,000" [ref=f19e647]
+                - cell "৳27,200" [ref=f19e648]
+              - row [ref=f19e649]:
+                - cell "EMP-2027" [ref=f19e650]
+                - cell [ref=f19e651]:
+                  - link "Rezaul Akter" [ref=f19e652] [cursor=pointer]:
+                    - /url: /payslips/ps-pb-202611-1788339665288-te-027
+                - cell "208.0" [ref=f19e653]
+                - cell "0.0" [ref=f19e654]
+                - cell "৳26,000" [ref=f19e655]
+                - cell "৳0" [ref=f19e656]
+                - cell "৳1,800" [ref=f19e657]
+                - cell "৳0" [ref=f19e658]
+                - cell "৳0" [ref=f19e659]
+                - cell "৳0" [ref=f19e660]
+                - cell "৳24,200" [ref=f19e661]
+              - row [ref=f19e662]:
+                - cell "EMP-2028" [ref=f19e663]
+                - cell [ref=f19e664]:
+                  - link "Mahmuda Sarker" [ref=f19e665] [cursor=pointer]:
+                    - /url: /payslips/ps-pb-202611-1788339665288-te-028
+                - cell "208.0" [ref=f19e666]
+                - cell "0.0" [ref=f19e667]
+                - cell "৳26,000" [ref=f19e668]
+                - cell "৳0" [ref=f19e669]
+                - cell "৳1,800" [ref=f19e670]
+                - cell "৳0" [ref=f19e671]
+                - cell "৳0" [ref=f19e672]
+                - cell "৳0" [ref=f19e673]
+                - cell "৳24,200" [ref=f19e674]
+              - row [ref=f19e675]:
+                - cell "EMP-2029" [ref=f19e676]
+                - cell [ref=f19e677]:
+                  - link "Jasim Molla" [ref=f19e678] [cursor=pointer]:
+                    - /url: /payslips/ps-pb-202611-1788339665288-te-029
+                - cell "208.0" [ref=f19e679]
+                - cell "0.0" [ref=f19e680]
+                - cell "৳26,000" [ref=f19e681]
+                - cell "৳0" [ref=f19e682]
+                - cell "৳1,800" [ref=f19e683]
+                - cell "৳0" [ref=f19e684]
+                - cell "৳0" [ref=f19e685]
+                - cell "৳0" [ref=f19e686]
+                - cell "৳24,200" [ref=f19e687]
+              - row [ref=f19e688]:
+                - cell "EMP-2030" [ref=f19e689]
+                - cell [ref=f19e690]:
+                  - link "Salma Talukder" [ref=f19e691] [cursor=pointer]:
+                    - /url: /payslips/ps-pb-202611-1788339665288-te-030
+                - cell "208.0" [ref=f19e692]
+                - cell "0.0" [ref=f19e693]
+                - cell "৳26,000" [ref=f19e694]
+                - cell "৳0" [ref=f19e695]
+                - cell "৳1,800" [ref=f19e696]
+                - cell "৳0" [ref=f19e697]
+                - cell "৳0" [ref=f19e698]
+                - cell "৳0" [ref=f19e699]
+                - cell "৳24,200" [ref=f19e700]
+              - row [ref=f19e701]:
+                - cell "EMP-2031" [ref=f19e702]
+                - cell [ref=f19e703]:
+                  - link "Delwar Miah" [ref=f19e704] [cursor=pointer]:
+                    - /url: /payslips/ps-pb-202611-1788339665288-te-031
+                - cell "208.0" [ref=f19e705]
+                - cell "3.0" [ref=f19e706]
+                - cell "৳20,450" [ref=f19e707]
+                - cell "৳0" [ref=f19e708]
+                - cell "৳0" [ref=f19e709]
+                - cell "৳0" [ref=f19e710]
+                - cell "৳0" [ref=f19e711]
+                - cell "৳0" [ref=f19e712]
+                - cell "৳20,450" [ref=f19e713]
+              - row [ref=f19e714]:
+                - cell "EMP-2032" [ref=f19e715]
+                - cell [ref=f19e716]:
+                  - link "Farida Sikder" [ref=f19e717] [cursor=pointer]:
+                    - /url: /payslips/ps-pb-202611-1788339665288-te-032
+                - cell "208.0" [ref=f19e718]
+                - cell "2.5" [ref=f19e719]
+                - cell "৳20,375" [ref=f19e720]
+                - cell "৳0" [ref=f19e721]
+                - cell "৳0" [ref=f19e722]
+                - cell "৳0" [ref=f19e723]
+                - cell "৳0" [ref=f19e724]
+                - cell "৳0" [ref=f19e725]
+                - cell "৳20,375" [ref=f19e726]
+              - row [ref=f19e727]:
+                - cell "EMP-2033" [ref=f19e728]
+                - cell [ref=f19e729]:
+                  - link "Shamim Kabir" [ref=f19e730] [cursor=pointer]:
+                    - /url: /payslips/ps-pb-202611-1788339665288-te-033
+                - cell "208.0" [ref=f19e731]
+                - cell "4.0" [ref=f19e732]
+                - cell "৳20,600" [ref=f19e733]
+                - cell "৳0" [ref=f19e734]
+                - cell "৳1,400" [ref=f19e735]
+                - cell "৳0" [ref=f19e736]
+                - cell "৳0" [ref=f19e737]
+                - cell "৳0" [ref=f19e738]
+                - cell "৳19,200" [ref=f19e739]
+              - row [ref=f19e740]:
+                - cell "EMP-2034" [ref=f19e741]
+                - cell [ref=f19e742]:
+                  - link "Sultana Alam" [ref=f19e743] [cursor=pointer]:
+                    - /url: /payslips/ps-pb-202611-1788339665288-te-034
+                - cell "208.0" [ref=f19e744]
+                - cell "0.0" [ref=f19e745]
+                - cell "৳20,000" [ref=f19e746]
+                - cell "৳0" [ref=f19e747]
+                - cell "৳1,400" [ref=f19e748]
+                - cell "৳2,500" [ref=f19e749]
+                - cell "৳0" [ref=f19e750]
+                - cell "৳0" [ref=f19e751]
+                - cell "৳16,100" [ref=f19e752]
+              - row [ref=f19e753]:
+                - cell "EMP-2035" [ref=f19e754]
+                - cell [ref=f19e755]:
+                  - link "Iqbal Haque" [ref=f19e756] [cursor=pointer]:
+                    - /url: /payslips/ps-pb-202611-1788339665288-te-035
+                - cell "208.0" [ref=f19e757]
+                - cell "0.0" [ref=f19e758]
+                - cell "৳20,000" [ref=f19e759]
+                - cell "৳0" [ref=f19e760]
+                - cell "৳1,400" [ref=f19e761]
+                - cell "৳3,500" [ref=f19e762]
+                - cell "৳0" [ref=f19e763]
+                - cell "৳0" [ref=f19e764]
+                - cell "৳15,100" [ref=f19e765]
+              - row [ref=f19e766]:
+                - cell "EMP-2036" [ref=f19e767]
+                - cell [ref=f19e768]:
+                  - link "Rina Khan" [ref=f19e769] [cursor=pointer]:
+                    - /url: /payslips/ps-pb-202611-1788339665288-te-036
+                - cell "208.0" [ref=f19e770]
+                - cell "0.0" [ref=f19e771]
+                - cell "৳20,000" [ref=f19e772]
+                - cell "৳0" [ref=f19e773]
+                - cell "৳1,400" [ref=f19e774]
+                - cell "৳0" [ref=f19e775]
+                - cell "৳0" [ref=f19e776]
+                - cell "৳3,000" [ref=f19e777]
+                - cell "৳21,600" [ref=f19e778]
+              - row [ref=f19e779]:
+                - cell "EMP-2037" [ref=f19e780]
+                - cell [ref=f19e781]:
+                  - link "Aminul Bhuiyan" [ref=f19e782] [cursor=pointer]:
+                    - /url: /payslips/ps-pb-202611-1788339665288-te-037
+                - cell "208.0" [ref=f19e783]
+                - cell "0.0" [ref=f19e784]
+                - cell "৳20,000" [ref=f19e785]
+                - cell "৳0" [ref=f19e786]
+                - cell "৳1,400" [ref=f19e787]
+                - cell "৳0" [ref=f19e788]
+                - cell "৳0" [ref=f19e789]
+                - cell "৳0" [ref=f19e790]
+                - cell "৳18,600" [ref=f19e791]
+              - row [ref=f19e792]:
+                - cell "EMP-2038" [ref=f19e793]
+                - cell [ref=f19e794]:
+                  - link "Marium Mridha" [ref=f19e795] [cursor=pointer]:
+                    - /url: /payslips/ps-pb-202611-1788339665288-te-038
+                - cell "208.0" [ref=f19e796]
+                - cell "0.0" [ref=f19e797]
+                - cell "৳20,000" [ref=f19e798]
+                - cell "৳0" [ref=f19e799]
+                - cell "৳1,400" [ref=f19e800]
+                - cell "৳0" [ref=f19e801]
+                - cell "৳0" [ref=f19e802]
+                - cell "৳0" [ref=f19e803]
+                - cell "৳18,600" [ref=f19e804]
+              - row [ref=f19e805]:
+                - cell "EMP-2039" [ref=f19e806]
+                - cell [ref=f19e807]:
+                  - link "Zahid Barua" [ref=f19e808] [cursor=pointer]:
+                    - /url: /payslips/ps-pb-202611-1788339665288-te-039
+                - cell "208.0" [ref=f19e809]
+                - cell "0.0" [ref=f19e810]
+                - cell "৳20,000" [ref=f19e811]
+                - cell "৳0" [ref=f19e812]
+                - cell "৳1,400" [ref=f19e813]
+                - cell "৳0" [ref=f19e814]
+                - cell "৳0" [ref=f19e815]
+                - cell "৳0" [ref=f19e816]
+                - cell "৳18,600" [ref=f19e817]
+              - row [ref=f19e818]:
+                - cell "EMP-2040" [ref=f19e819]
+                - cell [ref=f19e820]:
+                  - link "Nazma Khatun" [ref=f19e821] [cursor=pointer]:
+                    - /url: /payslips/ps-pb-202611-1788339665288-te-040
+                - cell "208.0" [ref=f19e822]
+                - cell "0.0" [ref=f19e823]
+                - cell "৳20,000" [ref=f19e824]
+                - cell "৳0" [ref=f19e825]
+                - cell "৳1,400" [ref=f19e826]
+                - cell "৳0" [ref=f19e827]
+                - cell "৳0" [ref=f19e828]
+                - cell "৳0" [ref=f19e829]
+                - cell "৳18,600" [ref=f19e830]
+              - row [ref=f19e831]:
+                - cell "EMP-2041" [ref=f19e832]
+                - cell [ref=f19e833]:
+                  - link "Habib Islam" [ref=f19e834] [cursor=pointer]:
+                    - /url: /payslips/ps-pb-202611-1788339665288-te-041
+                - cell "208.0" [ref=f19e835]
+                - cell "0.0" [ref=f19e836]
+                - cell "৳20,000" [ref=f19e837]
+                - cell "৳0" [ref=f19e838]
+                - cell "৳1,400" [ref=f19e839]
+                - cell "৳0" [ref=f19e840]
+                - cell "৳0" [ref=f19e841]
+                - cell "৳0" [ref=f19e842]
+                - cell "৳18,600" [ref=f19e843]
+              - row [ref=f19e844]:
+                - cell "EMP-2042" [ref=f19e845]
+                - cell [ref=f19e846]:
+                  - link "Ruma Rahman" [ref=f19e847] [cursor=pointer]:
+                    - /url: /payslips/ps-pb-202611-1788339665288-te-042
+                - cell "208.0" [ref=f19e848]
+                - cell "0.0" [ref=f19e849]
+                - cell "৳20,000" [ref=f19e850]
+                - cell "৳0" [ref=f19e851]
+                - cell "৳1,400" [ref=f19e852]
+                - cell "৳0" [ref=f19e853]
+                - cell "৳0" [ref=f19e854]
+                - cell "৳0" [ref=f19e855]
+                - cell "৳18,600" [ref=f19e856]
+              - row [ref=f19e857]:
+                - cell "EMP-2043" [ref=f19e858]
+                - cell [ref=f19e859]:
+                  - link "Yasin Hossain" [ref=f19e860] [cursor=pointer]:
+                    - /url: /payslips/ps-pb-202611-1788339665288-te-043
+                - cell "208.0" [ref=f19e861]
+                - cell "0.0" [ref=f19e862]
+                - cell "৳14,500" [ref=f19e863]
+                - cell "৳0" [ref=f19e864]
+                - cell "৳0" [ref=f19e865]
+                - cell "৳2,000" [ref=f19e866]
+                - cell "৳0" [ref=f19e867]
+                - cell "৳0" [ref=f19e868]
+                - cell "৳12,500" [ref=f19e869]
+              - row [ref=f19e870]:
+                - cell "EMP-2044" [ref=f19e871]
+                - cell [ref=f19e872]:
+                  - link "Poly Ahmed" [ref=f19e873] [cursor=pointer]:
+                    - /url: /payslips/ps-pb-202611-1788339665288-te-044
+                - cell "208.0" [ref=f19e874]
+                - cell "0.0" [ref=f19e875]
+                - cell "৳14,500" [ref=f19e876]
+                - cell "৳0" [ref=f19e877]
+                - cell "৳0" [ref=f19e878]
+                - cell "৳2,000" [ref=f19e879]
+                - cell "৳0" [ref=f19e880]
+                - cell "৳0" [ref=f19e881]
+                - cell "৳12,500" [ref=f19e882]
+              - row [ref=f19e883]:
+                - cell "EMP-2046" [ref=f19e884]
+                - cell [ref=f19e885]:
+                  - link "Momtaz Uddin" [ref=f19e886] [cursor=pointer]:
+                    - /url: /payslips/ps-pb-202611-1788339665288-te-046
+                - cell "208.0" [ref=f19e887]
+                - cell "0.0" [ref=f19e888]
+                - cell "৳14,500" [ref=f19e889]
+                - cell "৳0" [ref=f19e890]
+                - cell "৳1,000" [ref=f19e891]
+                - cell "৳0" [ref=f19e892]
+                - cell "৳0" [ref=f19e893]
+                - cell "৳5,000" [ref=f19e894]
+                - cell "৳18,500" [ref=f19e895]
+              - row [ref=f19e896]:
+                - cell "EMP-2047" [ref=f19e897]
+                - cell [ref=f19e898]:
+                  - link "Emran Akter" [ref=f19e899] [cursor=pointer]:
+                    - /url: /payslips/ps-pb-202611-1788339665288-te-047
+                - cell "208.0" [ref=f19e900]
+                - cell "0.0" [ref=f19e901]
+                - cell "৳14,500" [ref=f19e902]
+                - cell "৳0" [ref=f19e903]
+                - cell "৳1,000" [ref=f19e904]
+                - cell "৳0" [ref=f19e905]
+                - cell "৳0" [ref=f19e906]
+                - cell "৳5,000" [ref=f19e907]
+                - cell "৳18,500" [ref=f19e908]
+              - row [ref=f19e909]:
+                - cell "EMP-2048" [ref=f19e910]
+                - cell [ref=f19e911]:
+                  - link "Anju Sarker" [ref=f19e912] [cursor=pointer]:
+                    - /url: /payslips/ps-pb-202611-1788339665288-te-048
+                - cell "208.0" [ref=f19e913]
+                - cell "0.0" [ref=f19e914]
+                - cell "৳14,500" [ref=f19e915]
+                - cell "৳0" [ref=f19e916]
+                - cell "৳1,000" [ref=f19e917]
+                - cell "৳0" [ref=f19e918]
+                - cell "৳0" [ref=f19e919]
+                - cell "৳2,500" [ref=f19e920]
+                - cell "৳16,000" [ref=f19e921]
+              - row [ref=f19e922]:
+                - cell "EMP-2049" [ref=f19e923]
+                - cell [ref=f19e924]:
+                  - link "Rashed Molla" [ref=f19e925] [cursor=pointer]:
+                    - /url: /payslips/ps-pb-202611-1788339665288-te-049
+                - cell "208.0" [ref=f19e926]
+                - cell "0.0" [ref=f19e927]
+                - cell "৳14,500" [ref=f19e928]
+                - cell "৳0" [ref=f19e929]
+                - cell "৳1,000" [ref=f19e930]
+                - cell "৳0" [ref=f19e931]
+                - cell "৳0" [ref=f19e932]
+                - cell "৳2,500" [ref=f19e933]
+                - cell "৳16,000" [ref=f19e934]
+            - rowgroup [ref=f19e935]:
+              - row [ref=f19e936]:
+                - cell "Totals" [ref=f19e937]
+                - cell "৳2,656,328" [ref=f19e938]
+                - cell "৳1,342,133" [ref=f19e939]
+                - cell [ref=f19e940]
+                - cell "৳1,420,248" [ref=f19e941]
+        - generic [ref=f19e944]:
+          - heading "Bank payment" [level=2] [ref=f19e946]
+          - generic [ref=f19e949]:
+            - generic [ref=f19e950]:
+              - term [ref=f19e951]: Bank file reference
+              - definition [ref=f19e952]: BRAC-BEFTN-20261130-PB-202611-1788339665288
+            - generic [ref=f19e953]:
+              - term [ref=f19e954]: Payment date
+              - definition [ref=f19e955]: 2026-11-30
+            - generic [ref=f19e956]:
+              - term [ref=f19e957]: Amount
+              - definition [ref=f19e958]: ৳1,420,248
+            - generic [ref=f19e959]:
+              - term [ref=f19e960]: Status
+              - definition [ref=f19e961]: processed

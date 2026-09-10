@@ -1,0 +1,89 @@
+[      57ms] [LOG] Angular is running in development mode. @ http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-JI5NBFE4.js?v=8add3b10:11244
+[  260616ms] [LOG] Angular is running in development mode. @ http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-JI5NBFE4.js?v=8add3b10:11244
+[  267163ms] [LOG] Angular is running in development mode. @ http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-JI5NBFE4.js?v=8add3b10:11244
+[  278306ms] [LOG] Angular is running in development mode. @ http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-JI5NBFE4.js?v=8add3b10:11244
+[  292679ms] [LOG] Angular is running in development mode. @ http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-JI5NBFE4.js?v=8add3b10:11244
+[  321671ms] [LOG] Angular is running in development mode. @ http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-JI5NBFE4.js?v=8add3b10:11244
+[  339060ms] [WARNING] @ngrx/store: The feature name "attendance" does not exist in the state, therefore createFeatureSelector cannot access it.  Be sure it is imported in a loaded module using StoreModule.forRoot('attendance', ...) or StoreModule.forFeature('attendance', ...).  If the default state is intended to be undefined, as is the case with router state, this development-only warning message can be ignored. @ http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-65EMF2MA.js?v=8add3b10:723
+[  339063ms] [ERROR] ERROR TypeError: Cannot read properties of undefined (reading 'ids')
+    at selectIds (http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/@ngrx_entity.js?v=8add3b10:29:40)
+    at http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-65EMF2MA.js?v=8add3b10:681:41
+    at Array.map (<anonymous>)
+    at defaultStateFn (http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-65EMF2MA.js?v=8add3b10:681:29)
+    at http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-65EMF2MA.js?v=8add3b10:705:30
+    at memoized (http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-65EMF2MA.js?v=8add3b10:654:33)
+    at http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-65EMF2MA.js?v=8add3b10:702:24
+    at memoized (http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-65EMF2MA.js?v=8add3b10:654:33)
+    at defaultStateFn (http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-65EMF2MA.js?v=8add3b10:682:39)
+    at http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-65EMF2MA.js?v=8add3b10:705:30 @ http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-N7GEMAAD.js?v=8add3b10:3169
+[  339065ms] [ERROR] ERROR TypeError: Cannot read properties of undefined (reading 'ids')
+    at selectIds (http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/@ngrx_entity.js?v=8add3b10:29:40)
+    at http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-65EMF2MA.js?v=8add3b10:681:41
+    at Array.map (<anonymous>)
+    at defaultStateFn (http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-65EMF2MA.js?v=8add3b10:681:29)
+    at http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-65EMF2MA.js?v=8add3b10:705:30
+    at memoized (http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-65EMF2MA.js?v=8add3b10:654:33)
+    at http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-65EMF2MA.js?v=8add3b10:702:24
+    at memoized (http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-65EMF2MA.js?v=8add3b10:654:33)
+    at defaultStateFn (http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-65EMF2MA.js?v=8add3b10:682:39)
+    at http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-65EMF2MA.js?v=8add3b10:705:30 @ http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-N7GEMAAD.js?v=8add3b10:3169
+[  339141ms] [LOG] Angular is running in development mode. @ http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-JI5NBFE4.js?v=8add3b10:11244
+[  339256ms] [WARNING] @ngrx/store: The feature name "attendance" does not exist in the state, therefore createFeatureSelector cannot access it.  Be sure it is imported in a loaded module using StoreModule.forRoot('attendance', ...) or StoreModule.forFeature('attendance', ...).  If the default state is intended to be undefined, as is the case with router state, this development-only warning message can be ignored. @ http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-65EMF2MA.js?v=8add3b10:723
+[  339256ms] [ERROR] ERROR TypeError: Cannot read properties of undefined (reading 'ids')
+    at selectIds (http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/@ngrx_entity.js?v=8add3b10:29:40)
+    at http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-65EMF2MA.js?v=8add3b10:681:41
+    at Array.map (<anonymous>)
+    at defaultStateFn (http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-65EMF2MA.js?v=8add3b10:681:29)
+    at http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-65EMF2MA.js?v=8add3b10:705:30
+    at memoized (http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-65EMF2MA.js?v=8add3b10:654:33)
+    at http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-65EMF2MA.js?v=8add3b10:702:24
+    at memoized (http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-65EMF2MA.js?v=8add3b10:654:33)
+    at defaultStateFn (http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-65EMF2MA.js?v=8add3b10:682:39)
+    at http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-65EMF2MA.js?v=8add3b10:705:30 @ http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-N7GEMAAD.js?v=8add3b10:3169
+[  349343ms] [ERROR] ERROR TypeError: Cannot read properties of undefined (reading 'ids')
+    at selectIds (http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/@ngrx_entity.js?v=8add3b10:29:40)
+    at http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-65EMF2MA.js?v=8add3b10:681:41
+    at Array.map (<anonymous>)
+    at defaultStateFn (http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-65EMF2MA.js?v=8add3b10:681:29)
+    at http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-65EMF2MA.js?v=8add3b10:705:30
+    at memoized (http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-65EMF2MA.js?v=8add3b10:654:33)
+    at http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-65EMF2MA.js?v=8add3b10:702:24
+    at memoized (http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-65EMF2MA.js?v=8add3b10:654:33)
+    at defaultStateFn (http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-65EMF2MA.js?v=8add3b10:682:39)
+    at http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-65EMF2MA.js?v=8add3b10:705:30 @ http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-N7GEMAAD.js?v=8add3b10:3169
+[  349344ms] [ERROR] ERROR TypeError: Cannot read properties of undefined (reading 'ids')
+    at selectIds (http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/@ngrx_entity.js?v=8add3b10:29:40)
+    at http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-65EMF2MA.js?v=8add3b10:681:41
+    at Array.map (<anonymous>)
+    at defaultStateFn (http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-65EMF2MA.js?v=8add3b10:681:29)
+    at http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-65EMF2MA.js?v=8add3b10:705:30
+    at memoized (http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-65EMF2MA.js?v=8add3b10:654:33)
+    at http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-65EMF2MA.js?v=8add3b10:702:24
+    at memoized (http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-65EMF2MA.js?v=8add3b10:654:33)
+    at defaultStateFn (http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-65EMF2MA.js?v=8add3b10:682:39)
+    at http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-65EMF2MA.js?v=8add3b10:705:30 @ http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-N7GEMAAD.js?v=8add3b10:3169
+[  349419ms] [LOG] Angular is running in development mode. @ http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-JI5NBFE4.js?v=8add3b10:11244
+[  349502ms] [WARNING] @ngrx/store: The feature name "payments" does not exist in the state, therefore createFeatureSelector cannot access it.  Be sure it is imported in a loaded module using StoreModule.forRoot('payments', ...) or StoreModule.forFeature('payments', ...).  If the default state is intended to be undefined, as is the case with router state, this development-only warning message can be ignored. @ http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-65EMF2MA.js?v=8add3b10:723
+[  349504ms] [ERROR] ERROR TypeError: Cannot read properties of undefined (reading 'ids')
+    at selectIds (http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/@ngrx_entity.js?v=8add3b10:29:40)
+    at http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-65EMF2MA.js?v=8add3b10:681:41
+    at Array.map (<anonymous>)
+    at defaultStateFn (http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-65EMF2MA.js?v=8add3b10:681:29)
+    at http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-65EMF2MA.js?v=8add3b10:705:30
+    at memoized (http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-65EMF2MA.js?v=8add3b10:654:33)
+    at http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-65EMF2MA.js?v=8add3b10:702:24
+    at memoized (http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-65EMF2MA.js?v=8add3b10:654:33)
+    at defaultStateFn (http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-65EMF2MA.js?v=8add3b10:682:39)
+    at http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-65EMF2MA.js?v=8add3b10:705:30 @ http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-N7GEMAAD.js?v=8add3b10:3169
+[  349522ms] [WARNING] @ngrx/store: The feature name "attendance" does not exist in the state, therefore createFeatureSelector cannot access it.  Be sure it is imported in a loaded module using StoreModule.forRoot('attendance', ...) or StoreModule.forFeature('attendance', ...).  If the default state is intended to be undefined, as is the case with router state, this development-only warning message can be ignored. @ http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-65EMF2MA.js?v=8add3b10:723
+[  349523ms] [ERROR] ERROR TypeError: Cannot read properties of undefined (reading 'ids')
+    at selectIds (http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/@ngrx_entity.js?v=8add3b10:29:40)
+    at http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-65EMF2MA.js?v=8add3b10:681:41
+    at Array.map (<anonymous>)
+    at defaultStateFn (http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-65EMF2MA.js?v=8add3b10:681:29)
+    at http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-65EMF2MA.js?v=8add3b10:705:30
+    at memoized (http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-65EMF2MA.js?v=8add3b10:654:33)
+    at http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-65EMF2MA.js?v=8add3b10:702:24
+    at memoized (http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-65EMF2MA.js?v=8add3b10:654:33)
+    at defaultStateFn (http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-65EMF2MA.js?v=8add3b10:682:39)
+    at http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-65EMF2MA.js?v=8add3b10:705:30 @ http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-N7GEMAAD.js?v=8add3b10:3169

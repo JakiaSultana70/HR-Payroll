@@ -1,0 +1,207 @@
+- generic [ref=e68]:
+  - navigation "Modules" [ref=e71]:
+    - link "P PayFlow HR & Payroll" [ref=e72] [cursor=pointer]:
+      - /url: /dashboard
+      - generic [ref=e73]: P
+      - generic [ref=e74]:
+        - generic [ref=e75]: PayFlow
+        - generic [ref=e76]: HR & Payroll
+    - link "Admin dashboard" [ref=e77] [cursor=pointer]:
+      - /url: /dashboard
+    - paragraph [ref=e83]: People
+    - link "Employees" [ref=e84] [cursor=pointer]:
+      - /url: /employees
+    - link "Organisation" [ref=e92] [cursor=pointer]:
+      - /url: /organisation
+    - link "Users & Roles" [ref=e99] [cursor=pointer]:
+      - /url: /users
+    - link "Change Requests" [ref=e104] [cursor=pointer]:
+      - /url: /change-requests
+    - link "Registration Requests" [ref=e109] [cursor=pointer]:
+      - /url: /registration-requests
+    - paragraph [ref=e117]: Time & Attendance
+    - link "Attendance" [ref=e118] [cursor=pointer]:
+      - /url: /attendance
+    - link "Leave" [ref=e124] [cursor=pointer]:
+      - /url: /leave
+    - link "Overtime" [ref=e130] [cursor=pointer]:
+      - /url: /overtime
+    - paragraph [ref=e136]: Payroll
+    - link "Payroll Batches" [ref=e137] [cursor=pointer]:
+      - /url: /payroll
+    - link "Payslips" [ref=e144] [cursor=pointer]:
+      - /url: /payslips
+    - link "Salary & Rules" [ref=e150] [cursor=pointer]:
+      - /url: /salary-rules
+    - link "Loans & Bonuses" [ref=e155] [cursor=pointer]:
+      - /url: /loans-bonuses
+    - link "Final Settlement" [ref=e162] [cursor=pointer]:
+      - /url: /settlements
+    - paragraph [ref=e168]: Governance
+    - link "Audit Log" [ref=e169] [cursor=pointer]:
+      - /url: /audit
+    - link "Reports" [ref=e174] [cursor=pointer]:
+      - /url: /reports
+  - generic [ref=e182]:
+    - banner [ref=e183]:
+      - generic [ref=e184]:
+        - navigation "Breadcrumb" [ref=e185]:
+          - list [ref=e186]:
+            - listitem [ref=e187]:
+              - link "Home" [ref=e188] [cursor=pointer]:
+                - /url: /dashboard
+            - listitem [ref=e189]:
+              - link "Dashboard" [ref=e194] [cursor=pointer]:
+                - /url: /dashboard
+        - searchbox "Find a module" [ref=e196]
+        - link "Notifications" [ref=e197] [cursor=pointer]:
+          - /url: /notifications
+          - generic [ref=e202]: "1"
+        - button "FI Farhana Islam" [ref=e204]:
+          - generic [ref=e205]: FI
+          - generic [ref=e206]: Farhana Islam
+    - main [ref=e210]:
+      - generic [ref=e211]:
+        - generic [ref=e215]:
+          - paragraph [ref=e216]: Admin
+          - heading "Admin dashboard" [level=1] [ref=e217]
+          - paragraph [ref=e218]: "System-wide view: people, approvals and payroll health"
+        - generic [ref=e219]:
+          - generic [ref=e221]:
+            - paragraph [ref=e222]: Total employees
+            - paragraph [ref=e223]: "20"
+            - paragraph [ref=e224]: 3 draft profile(s)
+          - generic [ref=e226]:
+            - paragraph [ref=e227]: Payroll cost
+            - paragraph [ref=e228]: ৳761,437
+            - paragraph [ref=e229]: January 2027
+          - generic [ref=e231]:
+            - paragraph [ref=e232]: Pending approvals
+            - paragraph [ref=e233]: "0"
+            - paragraph [ref=e234]: Leave and overtime
+          - generic [ref=e236]:
+            - paragraph [ref=e237]: Change requests
+            - paragraph [ref=e238]: "3"
+            - paragraph [ref=e239]: Awaiting your decision
+          - generic [ref=e241]:
+            - paragraph [ref=e242]: Present today
+            - paragraph [ref=e243]: 0 / 20
+            - paragraph [ref=e244]: Attendance summary
+          - generic [ref=e246]:
+            - paragraph [ref=e247]: Payroll status
+            - paragraph [ref=e248]: calculated
+            - paragraph [ref=e249]: PR-2027-01
+        - generic [ref=e250]:
+          - generic [ref=e252]:
+            - generic [ref=e253]:
+              - heading "Payroll cycles" [level=2] [ref=e254]
+              - paragraph [ref=e255]: Newest first
+            - list [ref=e257]:
+              - listitem [ref=e258]:
+                - link "PR-2027-01" [ref=e259] [cursor=pointer]:
+                  - /url: /payroll/pb-202701-1788181327715
+                - generic [ref=e260]: January 2027
+                - generic [ref=e261]: calculated
+                - generic [ref=e264]: ৳761,437
+              - listitem [ref=e265]:
+                - link "PR-2026-12" [ref=e266] [cursor=pointer]:
+                  - /url: /payroll/pb-202612-1788172819704
+                - generic [ref=e267]: December 2026
+                - generic [ref=e268]: paid
+                - generic [ref=e271]: ৳755,437
+              - listitem [ref=e272]:
+                - link "PR-2026-11" [ref=e273] [cursor=pointer]:
+                  - /url: /payroll/pb-202611-1788339665288
+                - generic [ref=e274]: November 2026
+                - generic [ref=e275]: draft
+                - generic [ref=e278]: ৳0
+              - listitem [ref=e279]:
+                - link "PR-2026-10" [ref=e280] [cursor=pointer]:
+                  - /url: /payroll/pb-202610-1788164196747
+                - generic [ref=e281]: October 2026
+                - generic [ref=e282]: paid
+                - generic [ref=e285]: ৳758,437
+              - listitem [ref=e286]:
+                - link "PR-2026-09" [ref=e287] [cursor=pointer]:
+                  - /url: /payroll/pb-202609-1788162382080
+                - generic [ref=e288]: September 2026
+                - generic [ref=e289]: paid
+                - generic [ref=e292]: ৳760,437
+              - listitem [ref=e293]:
+                - link "PR-2026-08" [ref=e294] [cursor=pointer]:
+                  - /url: /payroll/pb-202608-1788161765190
+                - generic [ref=e295]: August 2026
+                - generic [ref=e296]: paid
+                - generic [ref=e299]: ৳721,137
+              - listitem [ref=e300]:
+                - link "PR-2026-07" [ref=e301] [cursor=pointer]:
+                  - /url: /payroll/pb-202607-1788159085958
+                - generic [ref=e302]: July 2026
+                - generic [ref=e303]: paid
+                - generic [ref=e306]: ৳721,137
+              - listitem [ref=e307]:
+                - link "PR-2026-06" [ref=e308] [cursor=pointer]:
+                  - /url: /payroll/pb-202606-1788160964151
+                - generic [ref=e309]: June 2026
+                - generic [ref=e310]: paid
+                - generic [ref=e313]: ৳760,437
+          - generic [ref=e315]:
+            - generic [ref=e316]:
+              - heading "Approval queue" [level=2] [ref=e317]
+              - paragraph [ref=e318]: Oldest first
+            - list [ref=e320]:
+              - listitem [ref=e321]:
+                - generic [ref=e322]: Tanvir Ahmed
+                - generic [ref=e323]: "Change request: name"
+                - generic [ref=e324]: pending
+                - link "Open" [ref=e327] [cursor=pointer]:
+                  - /url: /change-requests
+              - listitem [ref=e328]:
+                - generic [ref=e329]: Rakib Hasan
+                - generic [ref=e330]: "Change request: email"
+                - generic [ref=e331]: pending
+                - link "Open" [ref=e334] [cursor=pointer]:
+                  - /url: /change-requests
+              - listitem [ref=e335]:
+                - generic [ref=e336]: Nasrin Akter
+                - generic [ref=e337]: "Change request: phone"
+                - generic [ref=e338]: pending
+                - link "Open" [ref=e341] [cursor=pointer]:
+                  - /url: /change-requests
+        - generic [ref=e344]:
+          - generic [ref=e345]:
+            - heading "Recent activity" [level=2] [ref=e346]
+            - paragraph [ref=e347]: Newest first
+          - list [ref=e349]:
+            - listitem [ref=e350]:
+              - generic [ref=e351]: farhana.islam
+              - generic [ref=e352]: Signed in · Authentication
+              - generic [ref=e353]: 2026-09-02 10:54
+            - listitem [ref=e354]:
+              - generic [ref=e355]: farhana.islam
+              - generic [ref=e356]: Signed in · Authentication
+              - generic [ref=e357]: 2026-09-02 10:43
+            - listitem [ref=e358]:
+              - generic [ref=e359]: farhana.islam
+              - generic [ref=e360]: Signed in · Authentication
+              - generic [ref=e361]: 2026-09-02 10:43
+            - listitem [ref=e362]:
+              - generic [ref=e363]: farhana.islam
+              - generic [ref=e364]: Signed in · Authentication
+              - generic [ref=e365]: 2026-09-02 10:42
+            - listitem [ref=e366]:
+              - generic [ref=e367]: farhana.islam
+              - generic [ref=e368]: Signed in · Authentication
+              - generic [ref=e369]: 2026-09-02 10:42
+            - listitem [ref=e370]:
+              - generic [ref=e371]: farhana.islam
+              - generic [ref=e372]: Signed in · Authentication
+              - generic [ref=e373]: 2026-09-02 10:42
+            - listitem [ref=e374]:
+              - generic [ref=e375]: farhana.islam
+              - generic [ref=e376]: Signed in · Authentication
+              - generic [ref=e377]: 2026-09-02 10:35
+            - listitem [ref=e378]:
+              - generic [ref=e379]: farhana.islam
+              - generic [ref=e380]: Signed in · Authentication
+              - generic [ref=e381]: 2026-09-02 10:35

@@ -1,0 +1,4 @@
+[     115ms] [LOG] Angular is running in development mode. @ http://localhost:4200/@fs/C:/Users/Hp/Desktop/Project_HRPayroll/Payroll%20Automation/.angular/cache/21.2.20/payroll-app/vite/deps/chunk-JI5NBFE4.js?v=8add3b10:11244
+[   59785ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ http://localhost:8080/api/audit-logs/audit-1788600880028-0:0
+[   59804ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ http://localhost:8080/api/loans/ln-te-021-1788600880024:0
+[   95722ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ http://localhost:8080/api/audit-logs/audit-1788600915978-1:0

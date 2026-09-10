@@ -1,0 +1,499 @@
+- generic [ref=f43e4]:
+  - navigation "Modules" [ref=f43e7]:
+    - link "P PayFlow HR & Payroll" [ref=f43e8] [cursor=pointer]:
+      - /url: /dashboard
+      - generic [ref=f43e9]: P
+      - generic [ref=f43e10]:
+        - generic [ref=f43e11]: PayFlow
+        - generic [ref=f43e12]: HR & Payroll
+    - link "HR dashboard" [ref=f43e13] [cursor=pointer]:
+      - /url: /dashboard
+    - paragraph [ref=f43e19]: People
+    - link "Employees" [ref=f43e20] [cursor=pointer]:
+      - /url: /employees
+    - link "Organisation" [ref=f43e28] [cursor=pointer]:
+      - /url: /organisation
+    - link "Change Requests" [ref=f43e35] [cursor=pointer]:
+      - /url: /change-requests
+    - paragraph [ref=f43e40]: Time & Attendance
+    - link "Attendance" [ref=f43e41] [cursor=pointer]:
+      - /url: /attendance
+    - link "Leave" [ref=f43e47] [cursor=pointer]:
+      - /url: /leave
+    - link "Overtime" [ref=f43e53] [cursor=pointer]:
+      - /url: /overtime
+    - paragraph [ref=f43e59]: Payroll
+    - link "Payroll Batches" [ref=f43e60] [cursor=pointer]:
+      - /url: /payroll
+    - link "Payslips" [ref=f43e67] [cursor=pointer]:
+      - /url: /payslips
+    - link "Loans & Bonuses" [ref=f43e73] [cursor=pointer]:
+      - /url: /loans-bonuses
+    - link "Final Settlement" [ref=f43e80] [cursor=pointer]:
+      - /url: /settlements
+    - paragraph [ref=f43e86]: Governance
+    - link "Reports" [ref=f43e87] [cursor=pointer]:
+      - /url: /reports
+  - generic [ref=f43e95]:
+    - banner [ref=f43e96]:
+      - generic [ref=f43e97]:
+        - navigation "Breadcrumb" [ref=f43e98]:
+          - list [ref=f43e99]:
+            - listitem [ref=f43e100]:
+              - link "Home" [ref=f43e101] [cursor=pointer]:
+                - /url: /dashboard
+            - listitem [ref=f43e102]:
+              - link "Loans & Bonuses" [ref=f43e107] [cursor=pointer]:
+                - /url: /loans-bonuses
+        - searchbox "Find a module" [ref=f43e109]
+        - link "Notifications" [ref=f43e110] [cursor=pointer]:
+          - /url: /notifications
+          - generic [ref=f43e115]: "1"
+        - button "NA Nasrin Akter" [ref=f43e117]:
+          - generic [ref=f43e118]: NA
+          - generic [ref=f43e119]: Nasrin Akter
+    - main [ref=f43e123]:
+      - generic [ref=f43e124]:
+        - generic [ref=f43e127]:
+          - generic [ref=f43e128]:
+            - paragraph [ref=f43e129]: Payroll
+            - heading "Loans & bonuses" [level=1] [ref=f43e130]
+            - paragraph [ref=f43e131]: Recovery schedules deducted, approved bonuses added, by the engine
+          - generic [ref=f43e133]:
+            - button "Raise loan request" [ref=f43e134]
+            - button "Raise bonus request" [ref=f43e135]
+        - dialog "Raise a loan request" [ref=f43e553]:
+          - generic [ref=f43e554]:
+            - generic [ref=f43e555]:
+              - heading "Raise a loan request" [level=2] [ref=f43e556]
+              - paragraph [ref=f43e557]: Goes to HR for approval before recovery is scheduled.
+            - button "Close" [active] [ref=f43e558]
+          - generic [ref=f43e563]:
+            - generic [ref=f43e565]:
+              - generic [ref=f43e566]: Employee *
+              - combobox "Employee" [ref=f43e568]:
+                - option "mukta — 4324"
+                - option "Rakib Hasan — DEMO-ACCOUNTANT"
+                - option "Farhana Islam — DEMO-ADMIN"
+                - option "Tanvir Ahmed Topu — DEMO-EMPLOYEE"
+                - option "Nasrin Akter — DEMO-HR"
+                - option "Nasrin Akter — EMP-1001"
+                - option "Rakib Hasan — EMP-1002"
+                - option "Shahidul Islam — EMP-1003"
+                - option "Tanvir Ahmed — EMP-1004"
+                - option "Sultana Razia — EMP-1005"
+                - option "Jahangir Alam — EMP-1006"
+                - option "Farhana Islam — EMP-1007"
+                - option "Kamrul Hasan — EMP-1008"
+                - option "Ruma Begum — EMP-1009"
+                - option "Abdul Karim — EMP-1010"
+                - option "Nusrat Jahan — EMP-1011"
+                - option "Mizanur Rahaman — EMP-1012"
+                - option "Shirin Sultana — EMP-1013"
+                - option "Habibur Rahaman — EMP-1014"
+                - option "Mahmuda Khatun — EMP-1015"
+                - option "jakia mukta — EMP-1016"
+                - option "fdfd — EMP-1030"
+                - option "Mahfuz Islam — EMP-2001"
+                - option "Shirin Rahman — EMP-2002"
+                - option "Kamal Hossain — EMP-2003"
+                - option "Rokeya Ahmed — EMP-2004"
+                - option "Anwar Chowdhury — EMP-2005"
+                - option "Nasreen Uddin — EMP-2006"
+                - option "Faruk Akter — EMP-2007"
+                - option "Rupa Sarker — EMP-2008"
+                - option "Nazrul Molla — EMP-2009"
+                - option "Jasmin Talukder — EMP-2010"
+                - option "Mostafa Miah — EMP-2011"
+                - option "Shathi Sikder — EMP-2012"
+                - option "Rafiq Kabir — EMP-2013"
+                - option "Lipi Alam — EMP-2014"
+                - option "Mizan Haque — EMP-2015"
+                - option "Beauty Khan — EMP-2016"
+                - option "Selim Bhuiyan — EMP-2017"
+                - option "Munni Mridha — EMP-2018"
+                - option "Golam Barua — EMP-2019"
+                - option "Shahnaz Khatun — EMP-2020"
+                - option "Shafiq Islam — EMP-2021" [selected]
+                - option "Halima Rahman — EMP-2022"
+                - option "Nurul Hossain — EMP-2023"
+                - option "Rokshana Ahmed — EMP-2024"
+                - option "Sohel Chowdhury — EMP-2025"
+                - option "Rehana Uddin — EMP-2026"
+                - option "Rezaul Akter — EMP-2027"
+                - option "Mahmuda Sarker — EMP-2028"
+                - option "Jasim Molla — EMP-2029"
+                - option "Salma Talukder — EMP-2030"
+                - option "Delwar Miah — EMP-2031"
+                - option "Farida Sikder — EMP-2032"
+                - option "Shamim Kabir — EMP-2033"
+                - option "Sultana Alam — EMP-2034"
+                - option "Iqbal Haque — EMP-2035"
+                - option "Rina Khan — EMP-2036"
+                - option "Aminul Bhuiyan — EMP-2037"
+                - option "Marium Mridha — EMP-2038"
+                - option "Zahid Barua — EMP-2039"
+                - option "Nazma Khatun — EMP-2040"
+                - option "Habib Islam — EMP-2041"
+                - option "Ruma Rahman — EMP-2042"
+                - option "Yasin Hossain — EMP-2043"
+                - option "Poly Ahmed — EMP-2044"
+                - option "Alamgir Chowdhury — EMP-2045"
+                - option "Momtaz Uddin — EMP-2046"
+                - option "Emran Akter — EMP-2047"
+                - option "Anju Sarker — EMP-2048"
+                - option "Rashed Molla — EMP-2049"
+                - option "Taslima Talukder — EMP-2050"
+                - option "Mahin — FIN"
+                - option "Araf — HRM"
+                - option "Atiq — M3"
+                - option "Mohammad Ali — PRD"
+            - generic [ref=f43e569]:
+              - generic [ref=f43e571]:
+                - generic [ref=f43e572]: Principal amount *
+                - spinbutton "Principal amount" [ref=f43e574]: "20000"
+              - generic [ref=f43e576]:
+                - generic [ref=f43e577]: Monthly instalment *
+                - spinbutton "Monthly instalment" [ref=f43e579]: "2000"
+            - generic [ref=f43e581]:
+              - generic [ref=f43e582]: Recovery start date *
+              - textbox "Recovery start date" [ref=f43e584]
+            - generic [ref=f43e586]:
+              - generic [ref=f43e587]: Reason *
+              - textbox "Reason" [ref=f43e589]
+              - paragraph [ref=f43e590]: Seen by HR when they review the request.
+          - generic [ref=f43e591]:
+            - button "Cancel" [ref=f43e592]
+            - button "Submit request" [ref=f43e593]
+        - generic [ref=f43e136]:
+          - generic [ref=f43e138]:
+            - paragraph [ref=f43e139]: Active loans
+            - paragraph [ref=f43e140]: "9"
+            - paragraph [ref=f43e141]: Under recovery
+          - generic [ref=f43e143]:
+            - paragraph [ref=f43e144]: Outstanding
+            - paragraph [ref=f43e145]: ৳155,258
+            - paragraph [ref=f43e146]: Total still to recover
+          - generic [ref=f43e148]:
+            - paragraph [ref=f43e149]: Loans pending
+            - paragraph [ref=f43e150]: "2"
+            - paragraph [ref=f43e151]: Awaiting HR decision
+          - generic [ref=f43e153]:
+            - paragraph [ref=f43e154]: Bonuses pending
+            - paragraph [ref=f43e155]: "2"
+            - paragraph [ref=f43e156]: Awaiting Accountant decision
+        - generic [ref=f43e157]:
+          - generic [ref=f43e159]:
+            - generic [ref=f43e160]:
+              - heading "Loan records" [level=2] [ref=f43e161]
+              - paragraph [ref=f43e162]: 14 records
+            - generic [ref=f43e165]:
+              - searchbox "Search employee" [ref=f43e168]
+              - table [ref=f43e170]:
+                - rowgroup [ref=f43e171]:
+                  - row [ref=f43e172]:
+                    - columnheader [ref=f43e173]:
+                      - button "Employee" [ref=f43e174]
+                    - columnheader [ref=f43e175]:
+                      - button "Principal" [ref=f43e176]
+                    - columnheader [ref=f43e177]:
+                      - button "Monthly EMI" [ref=f43e178]
+                    - columnheader [ref=f43e179]:
+                      - button "Outstanding" [ref=f43e180]
+                    - columnheader [ref=f43e181]:
+                      - button "Started" [ref=f43e182]
+                    - columnheader [ref=f43e183]:
+                      - button "Status" [ref=f43e184]
+                - rowgroup [ref=f43e185]:
+                  - row [ref=f43e186]:
+                    - cell [ref=f43e187]:
+                      - link "Tanvir Ahmed" [ref=f43e188] [cursor=pointer]:
+                        - /url: /loans-bonuses/loans/ln-e-1787547655357-1787558865860
+                    - cell "৳60,000" [ref=f43e189]
+                    - cell "৳5,000" [ref=f43e190]
+                    - cell "৳60,000" [ref=f43e191]
+                    - cell "2025-01-11" [ref=f43e192]
+                    - cell "approved" [ref=f43e193]
+                  - row [ref=f43e197]:
+                    - cell [ref=f43e198]:
+                      - link "Sultana Razia" [ref=f43e199] [cursor=pointer]:
+                        - /url: /loans-bonuses/loans/ln-e-1787547833901-1787558974450
+                    - cell "৳30,000" [ref=f43e200]
+                    - cell "৳2,500" [ref=f43e201]
+                    - cell "৳30,000" [ref=f43e202]
+                    - cell "2026-01-15" [ref=f43e203]
+                    - cell "approved" [ref=f43e204]
+                  - row [ref=f43e208]:
+                    - cell [ref=f43e209]:
+                      - link "Nasrin Akter" [ref=f43e210] [cursor=pointer]:
+                        - /url: /loans-bonuses/loans/ln-e-1787546658330-1787564099872
+                    - cell "৳20,000" [ref=f43e211]
+                    - cell "৳2,000" [ref=f43e212]
+                    - cell "৳20,000" [ref=f43e213]
+                    - cell "2026-01-07" [ref=f43e214]
+                    - cell "pending" [ref=f43e215]
+                  - row [ref=f43e219]:
+                    - cell [ref=f43e220]:
+                      - link "Kamrul Hasan" [ref=f43e221] [cursor=pointer]:
+                        - /url: /loans-bonuses/loans/ln-e-1787548325913-1787566414879
+                    - cell "৳10,000" [ref=f43e222]
+                    - cell "৳2,000" [ref=f43e223]
+                    - cell "৳10,000" [ref=f43e224]
+                    - cell "2026-08-06" [ref=f43e225]
+                    - cell "pending" [ref=f43e226]
+                  - row [ref=f43e230]:
+                    - cell [ref=f43e231]:
+                      - link "Sultana Razia" [ref=f43e232] [cursor=pointer]:
+                        - /url: /loans-bonuses/loans/ln-verify-sultana-nov
+                    - cell "৳15,000" [ref=f43e233]
+                    - cell "৳3,000" [ref=f43e234]
+                    - cell "৳3,000" [ref=f43e235]
+                    - cell "2026-11-01" [ref=f43e236]
+                    - cell "active" [ref=f43e237]
+                  - row [ref=f43e241]:
+                    - cell [ref=f43e242]:
+                      - link "Tanvir Ahmed Topu" [ref=f43e243] [cursor=pointer]:
+                        - /url: /loans-bonuses/loans/ln-e4-1788164023593
+                    - cell "৳20,000" [ref=f43e244]
+                    - cell "৳2,000" [ref=f43e245]
+                    - cell "৳10,000" [ref=f43e246]
+                    - cell "2026-10-01" [ref=f43e247]
+                    - cell "active" [ref=f43e248]
+                  - row [ref=f43e252]:
+                    - cell [ref=f43e253]:
+                      - link "Sultana Alam" [ref=f43e254] [cursor=pointer]:
+                        - /url: /loans-bonuses/loans/ln-te-034
+                    - cell "৳25,000" [ref=f43e255]
+                    - cell "৳2,500" [ref=f43e256]
+                    - cell "৳11,043" [ref=f43e257]
+                    - cell "2026-07-01" [ref=f43e258]
+                    - cell "active" [ref=f43e259]
+                  - row [ref=f43e263]:
+                    - cell [ref=f43e264]:
+                      - link "Iqbal Haque" [ref=f43e265] [cursor=pointer]:
+                        - /url: /loans-bonuses/loans/ln-te-035
+                    - cell "৳35,000" [ref=f43e266]
+                    - cell "৳3,500" [ref=f43e267]
+                    - cell "৳23,043" [ref=f43e268]
+                    - cell "2026-08-01" [ref=f43e269]
+                    - cell "active" [ref=f43e270]
+                  - row [ref=f43e274]:
+                    - cell [ref=f43e275]:
+                      - link "Rokshana Ahmed" [ref=f43e276] [cursor=pointer]:
+                        - /url: /loans-bonuses/loans/ln-te-024
+                    - cell "৳30,000" [ref=f43e277]
+                    - cell "৳3,000" [ref=f43e278]
+                    - cell "৳16,086" [ref=f43e279]
+                    - cell "2026-08-01" [ref=f43e280]
+                    - cell "active" [ref=f43e281]
+                  - row [ref=f43e285]:
+                    - cell [ref=f43e286]:
+                      - link "Sohel Chowdhury" [ref=f43e287] [cursor=pointer]:
+                        - /url: /loans-bonuses/loans/ln-te-025
+                    - cell "৳50,000" [ref=f43e288]
+                    - cell "৳5,000" [ref=f43e289]
+                    - cell "৳28,086" [ref=f43e290]
+                    - cell "2026-06-01" [ref=f43e291]
+                    - cell "active" [ref=f43e292]
+                  - row [ref=f43e296]:
+                    - cell [ref=f43e297]:
+                      - link "Yasin Hossain" [ref=f43e298] [cursor=pointer]:
+                        - /url: /loans-bonuses/loans/ln-te-043
+                    - cell "৳20,000" [ref=f43e299]
+                    - cell "৳2,000" [ref=f43e300]
+                    - cell "৳4,000" [ref=f43e301]
+                    - cell "2026-04-01" [ref=f43e302]
+                    - cell "active" [ref=f43e303]
+                  - row [ref=f43e307]:
+                    - cell [ref=f43e308]:
+                      - link "Poly Ahmed" [ref=f43e309] [cursor=pointer]:
+                        - /url: /loans-bonuses/loans/ln-te-044
+                    - cell "৳20,000" [ref=f43e310]
+                    - cell "৳2,000" [ref=f43e311]
+                    - cell "৳0" [ref=f43e312]
+                    - cell "2026-03-01" [ref=f43e313]
+                    - cell "closed" [ref=f43e314]
+                  - row [ref=f43e318]:
+                    - cell [ref=f43e319]:
+                      - link "Nazrul Molla" [ref=f43e320] [cursor=pointer]:
+                        - /url: /loans-bonuses/loans/ln-te-009
+                    - cell "৳60,000" [ref=f43e321]
+                    - cell "৳5,000" [ref=f43e322]
+                    - cell "৳40,000" [ref=f43e323]
+                    - cell "2026-06-01" [ref=f43e324]
+                    - cell "active" [ref=f43e325]
+                  - row [ref=f43e329]:
+                    - cell [ref=f43e330]:
+                      - link "Jasmin Talukder" [ref=f43e331] [cursor=pointer]:
+                        - /url: /loans-bonuses/loans/ln-te-010
+                    - cell "৳40,000" [ref=f43e332]
+                    - cell "৳4,000" [ref=f43e333]
+                    - cell "৳20,000" [ref=f43e334]
+                    - cell "2026-07-01" [ref=f43e335]
+                    - cell "active" [ref=f43e336]
+              - generic [ref=f43e340]: 14 of 14 records
+          - generic [ref=f43e343]:
+            - generic [ref=f43e344]:
+              - heading "Bonus records" [level=2] [ref=f43e345]
+              - paragraph [ref=f43e346]: 18 records
+            - generic [ref=f43e349]:
+              - searchbox "Search employee or type" [ref=f43e352]
+              - table [ref=f43e354]:
+                - rowgroup [ref=f43e355]:
+                  - row [ref=f43e356]:
+                    - columnheader [ref=f43e357]:
+                      - button "Employee" [ref=f43e358]
+                    - columnheader [ref=f43e359]:
+                      - button "Type" [ref=f43e360]
+                    - columnheader [ref=f43e361]:
+                      - button "Amount" [ref=f43e362]
+                    - columnheader [ref=f43e363]:
+                      - button "Payment date" [ref=f43e364]
+                    - columnheader [ref=f43e365]:
+                      - button "Status" [ref=f43e366]
+                - rowgroup [ref=f43e367]:
+                  - row [ref=f43e368]:
+                    - cell [ref=f43e369]:
+                      - link "Nasreen Uddin" [ref=f43e370] [cursor=pointer]:
+                        - /url: /loans-bonuses/bonuses/bn-te-006
+                    - cell "Performance" [ref=f43e371]
+                    - cell "৳15,000" [ref=f43e372]
+                    - cell "2026-11-20" [ref=f43e373]
+                    - cell "approved" [ref=f43e374]
+                  - row [ref=f43e378]:
+                    - cell [ref=f43e379]:
+                      - link "Mostafa Miah" [ref=f43e380] [cursor=pointer]:
+                        - /url: /loans-bonuses/bonuses/bn-te-011
+                    - cell "Performance" [ref=f43e381]
+                    - cell "৳12,000" [ref=f43e382]
+                    - cell "2026-11-20" [ref=f43e383]
+                    - cell "approved" [ref=f43e384]
+                  - row [ref=f43e388]:
+                    - cell [ref=f43e389]:
+                      - link "Selim Bhuiyan" [ref=f43e390] [cursor=pointer]:
+                        - /url: /loans-bonuses/bonuses/bn-te-017
+                    - cell "Festival" [ref=f43e391]
+                    - cell "৳8,000" [ref=f43e392]
+                    - cell "2026-11-20" [ref=f43e393]
+                    - cell "approved" [ref=f43e394]
+                  - row [ref=f43e398]:
+                    - cell [ref=f43e399]:
+                      - link "Munni Mridha" [ref=f43e400] [cursor=pointer]:
+                        - /url: /loans-bonuses/bonuses/bn-te-018
+                    - cell "Festival" [ref=f43e401]
+                    - cell "৳8,000" [ref=f43e402]
+                    - cell "2026-11-20" [ref=f43e403]
+                    - cell "approved" [ref=f43e404]
+                  - row [ref=f43e408]:
+                    - cell [ref=f43e409]:
+                      - link "Rehana Uddin" [ref=f43e410] [cursor=pointer]:
+                        - /url: /loans-bonuses/bonuses/bn-te-026
+                    - cell "Attendance" [ref=f43e411]
+                    - cell "৳3,000" [ref=f43e412]
+                    - cell "2026-11-20" [ref=f43e413]
+                    - cell "approved" [ref=f43e414]
+                  - row [ref=f43e418]:
+                    - cell [ref=f43e419]:
+                      - link "Rina Khan" [ref=f43e420] [cursor=pointer]:
+                        - /url: /loans-bonuses/bonuses/bn-te-036
+                    - cell "Attendance" [ref=f43e421]
+                    - cell "৳3,000" [ref=f43e422]
+                    - cell "2026-11-20" [ref=f43e423]
+                    - cell "approved" [ref=f43e424]
+                  - row [ref=f43e428]:
+                    - cell [ref=f43e429]:
+                      - link "Momtaz Uddin" [ref=f43e430] [cursor=pointer]:
+                        - /url: /loans-bonuses/bonuses/bn-te-046
+                    - cell "Festival" [ref=f43e431]
+                    - cell "৳5,000" [ref=f43e432]
+                    - cell "2026-11-20" [ref=f43e433]
+                    - cell "approved" [ref=f43e434]
+                  - row [ref=f43e438]:
+                    - cell [ref=f43e439]:
+                      - link "Emran Akter" [ref=f43e440] [cursor=pointer]:
+                        - /url: /loans-bonuses/bonuses/bn-te-047
+                    - cell "Festival" [ref=f43e441]
+                    - cell "৳5,000" [ref=f43e442]
+                    - cell "2026-11-20" [ref=f43e443]
+                    - cell "approved" [ref=f43e444]
+                  - row [ref=f43e448]:
+                    - cell [ref=f43e449]:
+                      - link "Anju Sarker" [ref=f43e450] [cursor=pointer]:
+                        - /url: /loans-bonuses/bonuses/bn-te-048
+                    - cell "Attendance" [ref=f43e451]
+                    - cell "৳2,500" [ref=f43e452]
+                    - cell "2026-11-20" [ref=f43e453]
+                    - cell "approved" [ref=f43e454]
+                  - row [ref=f43e458]:
+                    - cell [ref=f43e459]:
+                      - link "Rashed Molla" [ref=f43e460] [cursor=pointer]:
+                        - /url: /loans-bonuses/bonuses/bn-te-049
+                    - cell "Attendance" [ref=f43e461]
+                    - cell "৳2,500" [ref=f43e462]
+                    - cell "2026-11-20" [ref=f43e463]
+                    - cell "approved" [ref=f43e464]
+                  - row [ref=f43e468]:
+                    - cell [ref=f43e469]:
+                      - link "Rakib Hasan" [ref=f43e470] [cursor=pointer]:
+                        - /url: /loans-bonuses/bonuses/bn-e2-1788151461336
+                    - cell "Performance" [ref=f43e471]
+                    - cell "৳5,000" [ref=f43e472]
+                    - cell "2026-09-03" [ref=f43e473]
+                    - cell "pending" [ref=f43e474]
+                  - row [ref=f43e478]:
+                    - cell [ref=f43e479]:
+                      - link "Shahidul Islam" [ref=f43e480] [cursor=pointer]:
+                        - /url: /loans-bonuses/bonuses/bn-verify-shahidul-nov
+                    - cell "Performance" [ref=f43e481]
+                    - cell "৳8,000" [ref=f43e482]
+                    - cell "2026-11-15" [ref=f43e483]
+                    - cell "approved" [ref=f43e484]
+                  - row [ref=f43e488]:
+                    - cell [ref=f43e489]:
+                      - link "Sultana Razia" [ref=f43e490] [cursor=pointer]:
+                        - /url: /loans-bonuses/bonuses/bn-verify-sultana-nov
+                    - cell "Festival" [ref=f43e491]
+                    - cell "৳5,000" [ref=f43e492]
+                    - cell "2026-11-20" [ref=f43e493]
+                    - cell "approved" [ref=f43e494]
+                  - row [ref=f43e498]:
+                    - cell [ref=f43e499]:
+                      - link "Ruma Begum" [ref=f43e500] [cursor=pointer]:
+                        - /url: /loans-bonuses/bonuses/bn-e2e-approve-flow
+                    - cell "Performance" [ref=f43e501]
+                    - cell "৳6,000" [ref=f43e502]
+                    - cell "2027-01-15" [ref=f43e503]
+                    - cell "approved" [ref=f43e504]
+                  - row [ref=f43e508]:
+                    - cell [ref=f43e509]:
+                      - link "Farhana Islam" [ref=f43e510] [cursor=pointer]:
+                        - /url: /loans-bonuses/bonuses/bn-e2e-reject-flow
+                    - cell "Attendance" [ref=f43e511]
+                    - cell "৳1,500" [ref=f43e512]
+                    - cell "2027-01-20" [ref=f43e513]
+                    - cell "rejected" [ref=f43e514]
+                  - row [ref=f43e518]:
+                    - cell [ref=f43e519]:
+                      - link "Shahidul Islam" [ref=f43e520] [cursor=pointer]:
+                        - /url: /loans-bonuses/bonuses/bn-e2e-ui-check
+                    - cell "Festival" [ref=f43e521]
+                    - cell "৳3,000" [ref=f43e522]
+                    - cell "2027-02-01" [ref=f43e523]
+                    - cell "approved" [ref=f43e524]
+                  - row [ref=f43e528]:
+                    - cell [ref=f43e529]:
+                      - link "Rakib Hasan" [ref=f43e530] [cursor=pointer]:
+                        - /url: /loans-bonuses/bonuses/bn-e2-1788181499125
+                    - cell "Performance" [ref=f43e531]
+                    - cell "৳5,000" [ref=f43e532]
+                    - cell "2027-03-01" [ref=f43e533]
+                    - cell "pending" [ref=f43e534]
+                  - row [ref=f43e538]:
+                    - cell [ref=f43e539]:
+                      - link "Tanvir Ahmed Topu" [ref=f43e540] [cursor=pointer]:
+                        - /url: /loans-bonuses/bonuses/bn-e2e-notify-check
+                    - cell "Attendance" [ref=f43e541]
+                    - cell "৳2,000" [ref=f43e542]
+                    - cell "2027-04-01" [ref=f43e543]
+                    - cell "approved" [ref=f43e544]
+              - generic [ref=f43e548]: 18 of 18 records

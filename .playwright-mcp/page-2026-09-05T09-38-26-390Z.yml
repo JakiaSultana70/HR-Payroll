@@ -1,0 +1,102 @@
+- generic [ref=f45e4]:
+  - navigation "Modules" [ref=f45e7]:
+    - link "P PayFlow HR & Payroll" [ref=f45e27] [cursor=pointer]:
+      - /url: /dashboard
+      - generic [ref=f45e9]: P
+      - generic [ref=f45e10]:
+        - generic [ref=f45e11]: PayFlow
+        - generic [ref=f45e12]: HR & Payroll
+    - link "Accountant dashboard" [ref=f45e28] [cursor=pointer]:
+      - /url: /dashboard
+    - paragraph [ref=f45e34]: People
+    - link "Change Requests" [ref=f45e35] [cursor=pointer]:
+      - /url: /change-requests
+    - paragraph [ref=f45e40]: Time & Attendance
+    - link "Attendance" [ref=f45e41] [cursor=pointer]:
+      - /url: /attendance
+    - link "Leave" [ref=f45e47] [cursor=pointer]:
+      - /url: /leave
+    - link "Overtime" [ref=f45e53] [cursor=pointer]:
+      - /url: /overtime
+    - paragraph [ref=f45e59]: Payroll
+    - link "Payroll Batches" [ref=f45e60] [cursor=pointer]:
+      - /url: /payroll
+    - link "Payslips" [ref=f45e67] [cursor=pointer]:
+      - /url: /payslips
+    - link "Salary & Rules" [ref=f45e73] [cursor=pointer]:
+      - /url: /salary-rules
+    - link "Loans & Bonuses" [ref=f45e78] [cursor=pointer]:
+      - /url: /loans-bonuses
+    - link "Final Settlement" [ref=f45e85] [cursor=pointer]:
+      - /url: /settlements
+    - paragraph [ref=f45e91]: Governance
+    - link "Reports" [ref=f45e92] [cursor=pointer]:
+      - /url: /reports
+  - generic [ref=f45e14]:
+    - banner [ref=f45e15]:
+      - generic [ref=f45e16]:
+        - navigation "Breadcrumb" [ref=f45e17]:
+          - list [ref=f45e18]:
+            - listitem [ref=f45e19]:
+              - link "Home" [ref=f45e100] [cursor=pointer]:
+                - /url: /dashboard
+            - listitem [ref=f45e101]:
+              - link "Loans & Bonuses" [ref=f45e106] [cursor=pointer]:
+                - /url: /loans-bonuses
+            - listitem [ref=f45e560]:
+              - link "bonuses" [ref=f45e565] [cursor=pointer]:
+                - /url: /loans-bonuses/bonuses/bn-te-021-1788600999645
+        - searchbox "Find a module" [ref=f45e21]
+        - link "Notifications" [ref=f45e107] [cursor=pointer]:
+          - /url: /notifications
+        - button "RH Rakib Hasan" [ref=f45e112]:
+          - generic [ref=f45e25]: RH
+          - generic [ref=f45e113]: Rakib Hasan
+    - main [ref=f45e26]:
+      - generic [ref=f45e566]:
+        - generic [ref=f45e568]:
+          - link "Loans & bonuses" [ref=f45e569] [cursor=pointer]:
+            - /url: /loans-bonuses
+          - generic [ref=f45e573]:
+            - generic [ref=f45e574]:
+              - paragraph [ref=f45e575]: Payroll
+              - heading "Shafiq Islam · Performance bonus" [level=1] [ref=f45e576]
+              - paragraph [ref=f45e577]: ৳5,000, payable 2027-09-10
+            - generic [ref=f45e578]: approved
+        - generic [ref=f45e582]:
+          - generic [ref=f45e585]:
+            - heading "Request" [level=2] [ref=f45e587]
+            - generic [ref=f45e588]:
+              - generic [ref=f45e590]:
+                - generic [ref=f45e591]:
+                  - term [ref=f45e592]: Employee
+                  - definition [ref=f45e593]:
+                    - link "Shafiq Islam" [ref=f45e594] [cursor=pointer]:
+                      - /url: /employees/te-021
+                - generic [ref=f45e595]:
+                  - term [ref=f45e596]: Employee code
+                  - definition [ref=f45e597]: EMP-2021
+                - generic [ref=f45e598]:
+                  - term [ref=f45e599]: Payment date
+                  - definition [ref=f45e600]: 2027-09-10
+                - generic [ref=f45e601]:
+                  - term [ref=f45e602]: Requested on
+                  - definition [ref=f45e603]: 2026-09-05
+                - generic [ref=f45e604]:
+                  - term [ref=f45e605]: Requested by
+                  - definition [ref=f45e606]: nasrin.akter
+                - generic [ref=f45e607]:
+                  - term [ref=f45e608]: Decided by
+                  - definition [ref=f45e609]: rakib.hasan
+              - generic [ref=f45e610]:
+                - paragraph [ref=f45e611]: Reason
+                - paragraph [ref=f45e612]: Outstanding project delivery bonus
+          - generic [ref=f45e629]:
+            - heading "Amount" [level=2] [ref=f45e631]
+            - generic [ref=f45e633]:
+              - generic [ref=f45e634]:
+                - term [ref=f45e635]: Type
+                - definition [ref=f45e636]: Performance
+              - generic [ref=f45e637]:
+                - term [ref=f45e638]: Amount
+                - definition [ref=f45e639]: ৳5,000

@@ -1,0 +1,36 @@
+npm notice run payroll-app@0.0.0 npx
+npm notice run ng serve --port 4200
+> Building...
+√ Building...
+Initial chunk files | Names                |  Raw size
+chunk-LXVKNEWS.js   | -                    |  74.18 kB | 
+main.js             | main                 |  62.19 kB | 
+styles.css          | styles               |  32.14 kB | 
+chunk-JG2HMCGR.js   | -                    |  22.21 kB | 
+
+                    | Initial total        | 190.72 kB
+
+Lazy chunk files    | Names                |  Raw size
+chunk-ZDLI27N7.js   | organisation-page    | 101.63 kB | 
+chunk-EZVK22JD.js   | salary-rules-page    |  80.53 kB | 
+chunk-YOXDC733.js   | settlements-page     |  60.12 kB | 
+chunk-SVH76HNL.js   | attendance-page      |  56.82 kB | 
+chunk-AGPMK6BO.js   | users-page           |  51.84 kB | 
+chunk-DZMBQJ5Y.js   | batch-detail         |  51.76 kB | 
+chunk-WEIU6P74.js   | dashboard-page       |  50.20 kB | 
+chunk-YHVNVQIG.js   | leave-page           |  49.61 kB | 
+chunk-FCPOFCSW.js   | loans-bonuses-page   |  48.56 kB | 
+chunk-H3U7EUNE.js   | reports-page         |  44.60 kB | 
+chunk-5EIERQYU.js   | employee-detail      |  42.94 kB | 
+chunk-HP75KTOU.js   | overtime-detail      |  38.77 kB | 
+chunk-U5RNMRP5.js   | change-requests-page |  33.20 kB | 
+chunk-Q5FNVTSI.js   | profile-page         |  32.51 kB | 
+chunk-M7HVM5MC.js   | settlement-detail    |  29.90 kB | 
+...and 32 more lazy chunks files. Use "--verbose" to show all the files.
+
+Application bundle generation complete. [6.825 seconds] - 2026-09-08T17:35:58.872Z
+
+Watch mode enabled. Watching for file changes...
+NOTE: Raw file sizes do not reflect development server per-request transformations.
+  ➜  Local:   http://localhost:4200/
+  ➜  press h + enter to show help

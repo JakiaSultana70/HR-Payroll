@@ -1,0 +1,126 @@
+- generic [ref=f65e4]:
+  - navigation "Modules" [ref=f65e7]:
+    - link "P PayFlow HR & Payroll" [ref=f65e27] [cursor=pointer]:
+      - /url: /dashboard
+      - generic [ref=f65e9]: P
+      - generic [ref=f65e10]:
+        - generic [ref=f65e11]: PayFlow
+        - generic [ref=f65e12]: HR & Payroll
+    - link "HR dashboard" [ref=f65e28] [cursor=pointer]:
+      - /url: /dashboard
+    - paragraph [ref=f65e34]: People
+    - link "Employees" [ref=f65e35] [cursor=pointer]:
+      - /url: /employees
+    - link "Organisation" [ref=f65e43] [cursor=pointer]:
+      - /url: /organisation
+    - link "Change Requests" [ref=f65e50] [cursor=pointer]:
+      - /url: /change-requests
+    - paragraph [ref=f65e55]: Time & Attendance
+    - link "Attendance" [ref=f65e56] [cursor=pointer]:
+      - /url: /attendance
+    - link "Leave" [ref=f65e62] [cursor=pointer]:
+      - /url: /leave
+    - link "Overtime" [ref=f65e68] [cursor=pointer]:
+      - /url: /overtime
+    - paragraph [ref=f65e74]: Payroll
+    - link "Payroll Batches" [ref=f65e75] [cursor=pointer]:
+      - /url: /payroll
+    - link "Payslips" [ref=f65e82] [cursor=pointer]:
+      - /url: /payslips
+    - link "Loans & Bonuses" [ref=f65e88] [cursor=pointer]:
+      - /url: /loans-bonuses
+    - link "Final Settlement" [ref=f65e95] [cursor=pointer]:
+      - /url: /settlements
+    - paragraph [ref=f65e101]: Governance
+    - link "Reports" [ref=f65e102] [cursor=pointer]:
+      - /url: /reports
+  - generic [ref=f65e14]:
+    - banner [ref=f65e15]:
+      - generic [ref=f65e16]:
+        - navigation "Breadcrumb" [ref=f65e17]:
+          - list [ref=f65e18]:
+            - listitem [ref=f65e19]:
+              - link "Home" [ref=f65e110] [cursor=pointer]:
+                - /url: /dashboard
+            - listitem [ref=f65e111]:
+              - link "Payroll Batches" [ref=f65e116] [cursor=pointer]:
+                - /url: /payroll
+            - listitem [ref=f65e346]:
+              - link "pb-202703-1788623127009" [ref=f65e351] [cursor=pointer]:
+                - /url: /payroll/pb-202703-1788623127009
+        - searchbox "Find a module" [ref=f65e21]
+        - link "Notifications" [ref=f65e117] [cursor=pointer]:
+          - /url: /notifications
+          - generic [ref=f65e122]: "1"
+        - button "NA Nasrin Akter" [ref=f65e123]:
+          - generic [ref=f65e25]: NA
+          - generic [ref=f65e124]: Nasrin Akter
+    - main [ref=f65e26]:
+      - generic [ref=f65e352]:
+        - generic [ref=f65e354]:
+          - link "Payroll batches" [ref=f65e355] [cursor=pointer]:
+            - /url: /payroll
+          - generic [ref=f65e359]:
+            - generic [ref=f65e360]:
+              - paragraph [ref=f65e361]: Payroll
+              - heading "PR-2027-03" [level=1] [ref=f65e362]
+              - paragraph [ref=f65e363]: March 2027 · 2027-03-01 → 2027-03-31
+            - generic [ref=f65e364]:
+              - generic [ref=f65e365]: draft
+              - button "Lock cycle and run engine" [ref=f65e368]
+        - paragraph [ref=f65e370]: "10 active employee(s) have no salary structure yet and will be excluded from this batch: Rakib Hasan, Farhana Islam, Nasrin Akter, Abdul Karim, Nusrat Jahan, Mizanur Rahaman, Shirin Sultana, fdfd, Atiq, Mohammad Ali."
+        - generic [ref=f65e371]:
+          - generic [ref=f65e373]:
+            - heading "Batch summary" [level=2] [ref=f65e375]
+            - generic [ref=f65e378]:
+              - generic [ref=f65e379]:
+                - term [ref=f65e380]: Cycle
+                - definition [ref=f65e381]: 2027-03-01 → 2027-03-31
+              - generic [ref=f65e382]:
+                - term [ref=f65e383]: Attendance locked
+                - definition [ref=f65e384]: "No"
+              - generic [ref=f65e385]:
+                - term [ref=f65e386]: Employees
+                - definition [ref=f65e387]: "0"
+              - generic [ref=f65e388]:
+                - term [ref=f65e389]: Gross total
+                - definition [ref=f65e390]: ৳0
+              - generic [ref=f65e391]:
+                - term [ref=f65e392]: Deductions
+                - definition [ref=f65e393]: ৳0
+              - generic [ref=f65e394]:
+                - term [ref=f65e395]: Net payable
+                - definition [ref=f65e396]: ৳0
+              - generic [ref=f65e397]:
+                - term [ref=f65e398]: Requested by
+                - definition [ref=f65e399]: nasrin.akter
+              - generic [ref=f65e400]:
+                - term [ref=f65e401]: Approved by
+                - definition [ref=f65e402]: —
+          - generic [ref=f65e404]:
+            - generic [ref=f65e405]:
+              - heading "Engine steps" [level=2] [ref=f65e406]
+              - paragraph [ref=f65e407]: In order
+            - list [ref=f65e409]:
+              - listitem [ref=f65e410]:
+                - generic [ref=f65e412]: Lock attendance and leave data
+              - listitem [ref=f65e413]:
+                - generic [ref=f65e415]: Calculate working hours, late and overtime
+              - listitem [ref=f65e416]:
+                - generic [ref=f65e418]: Calculate gross salary
+              - listitem [ref=f65e419]:
+                - generic [ref=f65e421]: Calculate tax, PF, loan and bonus
+              - listitem [ref=f65e422]:
+                - generic [ref=f65e424]: Calculate net salary and generate payslips
+              - listitem [ref=f65e425]:
+                - generic [ref=f65e427]: Accountant verifies the batch
+              - listitem [ref=f65e428]:
+                - generic [ref=f65e430]: Process payment via bank
+        - generic [ref=f65e433]:
+          - generic [ref=f65e434]:
+            - heading "Payslips" [level=2] [ref=f65e435]
+            - paragraph [ref=f65e436]: 0 employees in this cycle
+          - generic "Not calculated yet" [ref=f65e438]:
+            - generic [ref=f65e439]:
+              - paragraph [ref=f65e446]: Not calculated yet
+              - paragraph [ref=f65e447]: Lock the cycle and run the engine to produce payslips.

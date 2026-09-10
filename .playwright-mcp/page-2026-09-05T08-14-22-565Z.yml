@@ -1,0 +1,178 @@
+- generic [ref=f36e4]:
+  - navigation "Modules" [ref=f36e7]:
+    - link "P PayFlow HR & Payroll" [ref=f36e8] [cursor=pointer]:
+      - /url: /dashboard
+      - generic [ref=f36e9]: P
+      - generic [ref=f36e10]:
+        - generic [ref=f36e11]: PayFlow
+        - generic [ref=f36e12]: HR & Payroll
+    - link "Employee dashboard" [ref=f36e13] [cursor=pointer]:
+      - /url: /dashboard
+    - paragraph [ref=f36e19]: People
+    - link "Change Requests" [ref=f36e20] [cursor=pointer]:
+      - /url: /change-requests
+    - paragraph [ref=f36e25]: Time & Attendance
+    - link "Attendance" [ref=f36e26] [cursor=pointer]:
+      - /url: /attendance
+    - link "Leave" [ref=f36e32] [cursor=pointer]:
+      - /url: /leave
+    - link "Overtime" [ref=f36e38] [cursor=pointer]:
+      - /url: /overtime
+    - paragraph [ref=f36e44]: Payroll
+    - link "Payslips" [ref=f36e45] [cursor=pointer]:
+      - /url: /payslips
+    - link "Loans & Bonuses" [ref=f36e51] [cursor=pointer]:
+      - /url: /loans-bonuses
+  - generic [ref=f36e58]:
+    - banner [ref=f36e59]:
+      - generic [ref=f36e60]:
+        - navigation "Breadcrumb" [ref=f36e61]:
+          - list [ref=f36e62]:
+            - listitem [ref=f36e63]:
+              - link "Home" [ref=f36e64] [cursor=pointer]:
+                - /url: /dashboard
+            - listitem [ref=f36e65]:
+              - link "Leave" [ref=f36e70] [cursor=pointer]:
+                - /url: /leave
+        - searchbox "Find a module" [ref=f36e72]
+        - link "Notifications" [ref=f36e73] [cursor=pointer]:
+          - /url: /notifications
+          - generic [ref=f36e78]: "8"
+        - button "TA Tanvir Ahmed Topu" [ref=f36e80]:
+          - generic [ref=f36e81]: TA
+          - generic [ref=f36e82]: Tanvir Ahmed Topu
+    - main [ref=f36e86]:
+      - generic [ref=f36e87]:
+        - generic [ref=f36e90]:
+          - generic [ref=f36e91]:
+            - paragraph [ref=f36e92]: Time & Attendance
+            - heading "My leave" [level=1] [ref=f36e93]
+            - paragraph [ref=f36e94]: Applications, the approval queue and running balances
+          - button "Apply for leave" [ref=f36e96]
+        - dialog "Apply for leave" [ref=f36e217]:
+          - generic [ref=f36e218]:
+            - generic [ref=f36e219]:
+              - heading "Apply for leave" [level=2] [ref=f36e220]
+              - paragraph [ref=f36e221]: Your application goes to HR or Admin for approval.
+            - button "Close" [active] [ref=f36e222]
+          - generic [ref=f36e227]:
+            - generic [ref=f36e229]:
+              - generic [ref=f36e230]: Leave type *
+              - combobox "Leave type" [ref=f36e232]:
+                - option "Casual — 10 day(s) left" [selected]
+                - option "Sick — 14 day(s) left"
+                - option "Earned — 18 day(s) left"
+                - option "Maternity — 112 day(s) left"
+                - option "Unpaid — no balance required"
+            - generic [ref=f36e233]:
+              - generic [ref=f36e235]:
+                - generic [ref=f36e236]: First day *
+                - textbox "First day" [ref=f36e238]
+              - generic [ref=f36e240]:
+                - generic [ref=f36e241]: Last day *
+                - textbox "Last day" [ref=f36e243]
+            - generic [ref=f36e245]:
+              - generic [ref=f36e246]: Reason *
+              - textbox "Reason" [ref=f36e248]
+              - paragraph [ref=f36e249]: Seen by HR when they review the request.
+            - paragraph [ref=f36e250]: Choose a date range to see the day count.
+          - generic [ref=f36e251]:
+            - button "Cancel" [ref=f36e252]
+            - button "Submit request" [ref=f36e253]
+        - generic [ref=f36e97]:
+          - generic [ref=f36e99]:
+            - paragraph [ref=f36e100]: Pending
+            - paragraph [ref=f36e101]: "0"
+            - paragraph [ref=f36e102]: Awaiting a decision
+          - generic [ref=f36e104]:
+            - paragraph [ref=f36e105]: Approved
+            - paragraph [ref=f36e106]: "1"
+            - paragraph [ref=f36e107]: This year
+          - generic [ref=f36e109]:
+            - paragraph [ref=f36e110]: Rejected
+            - paragraph [ref=f36e111]: "1"
+            - paragraph [ref=f36e112]: With a recorded reason
+          - generic [ref=f36e114]:
+            - paragraph [ref=f36e115]: Days requested
+            - paragraph [ref=f36e116]: "5"
+            - paragraph [ref=f36e117]: Across all applications
+        - generic [ref=f36e120]:
+          - generic [ref=f36e121]:
+            - heading "Applications" [level=2] [ref=f36e122]
+            - paragraph [ref=f36e123]: 2 records
+          - generic [ref=f36e126]:
+            - searchbox "Search employee, type or reason" [ref=f36e129]
+            - table [ref=f36e131]:
+              - rowgroup [ref=f36e132]:
+                - row [ref=f36e133]:
+                  - columnheader [ref=f36e134]:
+                    - button "Employee" [ref=f36e135]
+                  - columnheader [ref=f36e136]:
+                    - button "Type" [ref=f36e137]
+                  - columnheader [ref=f36e138]:
+                    - button "From" [ref=f36e139]
+                  - columnheader [ref=f36e140]:
+                    - button "To" [ref=f36e141]
+                  - columnheader [ref=f36e142]:
+                    - button "Days" [ref=f36e143]
+                  - columnheader [ref=f36e144]:
+                    - button "Applied" [ref=f36e145]
+                  - columnheader [ref=f36e146]:
+                    - button "Reason" [ref=f36e147]
+                  - columnheader [ref=f36e148]:
+                    - button "Status" [ref=f36e149]
+              - rowgroup [ref=f36e150]:
+                - row [ref=f36e151]:
+                  - cell [ref=f36e152]:
+                    - link "Tanvir Ahmed Topu" [ref=f36e153] [cursor=pointer]:
+                      - /url: /leave/live-lv-spoof-1
+                  - cell "Casual" [ref=f36e154]
+                  - cell "2027-03-01" [ref=f36e155]
+                  - cell "2027-03-02" [ref=f36e156]
+                  - cell "2" [ref=f36e157]
+                  - cell "2026-09-05" [ref=f36e158]
+                  - cell "Live IDOR test" [ref=f36e159]
+                  - cell "approved" [ref=f36e160]
+                - row [ref=f36e164]:
+                  - cell [ref=f36e165]:
+                    - link "Tanvir Ahmed Topu" [ref=f36e166] [cursor=pointer]:
+                      - /url: /leave/lv-e4-1787813580766
+                  - cell "Unpaid" [ref=f36e167]
+                  - cell "2026-08-13" [ref=f36e168]
+                  - cell "2026-08-15" [ref=f36e169]
+                  - cell "3" [ref=f36e170]
+                  - cell "2026-08-27" [ref=f36e171]
+                  - cell "dvfgsrthytdjkuyfkmiyfgfvfd" [ref=f36e172]
+                  - cell "rejected" [ref=f36e173]
+            - generic [ref=f36e177]: 2 of 2 records
+        - generic [ref=f36e181]:
+          - generic [ref=f36e182]:
+            - heading "Leave balances" [level=2] [ref=f36e183]
+            - paragraph [ref=f36e184]: 2026 cycle
+          - table [ref=f36e187]:
+            - rowgroup [ref=f36e188]:
+              - row [ref=f36e189]:
+                - columnheader "Employee" [ref=f36e190]
+                - columnheader "Type" [ref=f36e191]
+                - columnheader "Accrued" [ref=f36e192]
+                - columnheader "Taken" [ref=f36e193]
+                - columnheader "Remaining" [ref=f36e194]
+            - rowgroup [ref=f36e195]:
+              - row [ref=f36e196]:
+                - cell "Tanvir Ahmed Topu" [ref=f36e197]
+                - cell "Sick" [ref=f36e198]
+                - cell "14" [ref=f36e199]
+                - cell "0" [ref=f36e200]
+                - cell "14" [ref=f36e201]
+              - row [ref=f36e202]:
+                - cell "Tanvir Ahmed Topu" [ref=f36e203]
+                - cell "Earned" [ref=f36e204]
+                - cell "18" [ref=f36e205]
+                - cell "0" [ref=f36e206]
+                - cell "18" [ref=f36e207]
+              - row [ref=f36e208]:
+                - cell "Tanvir Ahmed Topu" [ref=f36e209]
+                - cell "Casual" [ref=f36e210]
+                - cell "10" [ref=f36e211]
+                - cell "0" [ref=f36e212]
+                - cell "10" [ref=f36e213]

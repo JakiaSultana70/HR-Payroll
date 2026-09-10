@@ -1,0 +1,165 @@
+- generic [ref=f32e22841]:
+  - navigation "Modules" [ref=f32e22844]:
+    - link "P PayFlow HR & Payroll" [ref=f32e22845] [cursor=pointer]:
+      - /url: /dashboard
+      - generic [ref=f32e22846]: P
+      - generic [ref=f32e22847]:
+        - generic [ref=f32e22848]: PayFlow
+        - generic [ref=f32e22849]: HR & Payroll
+    - link "Employee dashboard" [ref=f32e22850] [cursor=pointer]:
+      - /url: /dashboard
+    - paragraph [ref=f32e22856]: People
+    - link "Change Requests" [ref=f32e22857] [cursor=pointer]:
+      - /url: /change-requests
+    - paragraph [ref=f32e22862]: Time & Attendance
+    - link "Attendance" [ref=f32e22863] [cursor=pointer]:
+      - /url: /attendance
+    - link "Leave" [ref=f32e22869] [cursor=pointer]:
+      - /url: /leave
+    - link "Overtime" [ref=f32e22875] [cursor=pointer]:
+      - /url: /overtime
+    - paragraph [ref=f32e22881]: Payroll
+    - link "Payslips" [ref=f32e22882] [cursor=pointer]:
+      - /url: /payslips
+    - link "Loans & Bonuses" [ref=f32e22888] [cursor=pointer]:
+      - /url: /loans-bonuses
+  - generic [ref=f32e22895]:
+    - banner [ref=f32e22896]:
+      - generic [ref=f32e22897]:
+        - navigation "Breadcrumb" [ref=f32e22898]:
+          - list [ref=f32e22899]:
+            - listitem [ref=f32e22900]:
+              - link "Home" [ref=f32e22901] [cursor=pointer]:
+                - /url: /dashboard
+            - listitem [ref=f32e22902]:
+              - link "Dashboard" [ref=f32e22907] [cursor=pointer]:
+                - /url: /dashboard
+        - searchbox "Find a module" [ref=f32e22909]
+        - link "Notifications" [ref=f32e22910] [cursor=pointer]:
+          - /url: /notifications
+          - generic [ref=f32e22915]: "8"
+        - button "TA Tanvir Ahmed Topu" [ref=f32e22917]:
+          - generic [ref=f32e22918]: TA
+          - generic [ref=f32e22919]: Tanvir Ahmed Topu
+    - main [ref=f32e22923]:
+      - generic [ref=f32e22924]:
+        - generic [ref=f32e22928]:
+          - paragraph [ref=f32e22929]: Employee
+          - heading "Employee dashboard" [level=1] [ref=f32e22930]
+          - paragraph [ref=f32e22931]: Your attendance, leave, overtime and payslips
+        - generic [ref=f32e22932]:
+          - generic [ref=f32e22934]:
+            - paragraph [ref=f32e22935]: Latest net pay
+            - paragraph [ref=f32e22936]: ৳37,300
+            - paragraph [ref=f32e22937]: Most recent payslip
+          - generic [ref=f32e22939]:
+            - paragraph [ref=f32e22940]: Days present
+            - paragraph [ref=f32e22941]: "4"
+            - paragraph [ref=f32e22942]: Current cycle
+          - generic [ref=f32e22944]:
+            - paragraph [ref=f32e22945]: Overtime approved
+            - paragraph [ref=f32e22946]: 0.00 h
+            - paragraph [ref=f32e22947]: Counted in this cycle's pay
+          - generic [ref=f32e22949]:
+            - paragraph [ref=f32e22950]: Leave balance
+            - paragraph [ref=f32e22951]: "42"
+            - paragraph [ref=f32e22952]: Remaining days, all types
+          - generic [ref=f32e22954]:
+            - paragraph [ref=f32e22955]: Loan outstanding
+            - paragraph [ref=f32e22956]: ৳10,000
+            - paragraph [ref=f32e22957]: Active recovery balance
+          - generic [ref=f32e22959]:
+            - paragraph [ref=f32e22960]: Provident fund
+            - paragraph [ref=f32e22961]: ৳3,000
+            - paragraph [ref=f32e22962]: Deducted this cycle
+          - generic [ref=f32e22964]:
+            - paragraph [ref=f32e22965]: My pending requests
+            - paragraph [ref=f32e22966]: "0"
+            - paragraph [ref=f32e22967]: Leave, overtime and change requests
+          - generic [ref=f32e22969]:
+            - paragraph [ref=f32e22970]: Notifications
+            - paragraph [ref=f32e22971]: "8"
+            - paragraph [ref=f32e22972]: Unread
+        - generic [ref=f32e22973]:
+          - generic [ref=f32e22975]:
+            - generic [ref=f32e22976]:
+              - heading "Payroll cycles" [level=2] [ref=f32e22977]
+              - paragraph [ref=f32e22978]: Newest first
+            - list [ref=f32e22980]:
+              - listitem [ref=f32e22981]:
+                - link "PR-2027-02" [ref=f32e22982] [cursor=pointer]:
+                  - /url: /payroll/pb-202702-1788593764507
+                - generic [ref=f32e22983]: February 2027
+                - generic [ref=f32e22984]: calculated
+                - generic [ref=f32e22987]: ৳54,995
+              - listitem [ref=f32e22988]:
+                - link "PR-2027-01" [ref=f32e22989] [cursor=pointer]:
+                  - /url: /payroll/pb-202701-1788181327715
+                - generic [ref=f32e22990]: January 2027
+                - generic [ref=f32e22991]: pending-approval
+                - generic [ref=f32e22994]: ৳3,621
+              - listitem [ref=f32e22995]:
+                - link "PR-2026-12" [ref=f32e22996] [cursor=pointer]:
+                  - /url: /payroll/pb-202612-1788172819704
+                - generic [ref=f32e22997]: December 2026
+                - generic [ref=f32e22998]: paid
+                - generic [ref=f32e23001]: ৳755,437
+              - listitem [ref=f32e23002]:
+                - link "PR-2026-11" [ref=f32e23003] [cursor=pointer]:
+                  - /url: /payroll/pb-202611-1788339665288
+                - generic [ref=f32e23004]: November 2026
+                - generic [ref=f32e23005]: paid
+                - generic [ref=f32e23008]: ৳1,420,248
+              - listitem [ref=f32e23009]:
+                - link "PR-2026-10" [ref=f32e23010] [cursor=pointer]:
+                  - /url: /payroll/pb-202610-1788164196747
+                - generic [ref=f32e23011]: October 2026
+                - generic [ref=f32e23012]: paid
+                - generic [ref=f32e23015]: ৳758,437
+              - listitem [ref=f32e23016]:
+                - link "PR-2026-09" [ref=f32e23017] [cursor=pointer]:
+                  - /url: /payroll/pb-202609-1788162382080
+                - generic [ref=f32e23018]: September 2026
+                - generic [ref=f32e23019]: paid
+                - generic [ref=f32e23022]: ৳760,437
+              - listitem [ref=f32e23023]:
+                - link "PR-2026-08" [ref=f32e23024] [cursor=pointer]:
+                  - /url: /payroll/pb-202608-1788161765190
+                - generic [ref=f32e23025]: August 2026
+                - generic [ref=f32e23026]: paid
+                - generic [ref=f32e23029]: ৳721,137
+              - listitem [ref=f32e23030]:
+                - link "PR-2026-07" [ref=f32e23031] [cursor=pointer]:
+                  - /url: /payroll/pb-202607-1788159085958
+                - generic [ref=f32e23032]: July 2026
+                - generic [ref=f32e23033]: paid
+                - generic [ref=f32e23036]: ৳721,137
+              - listitem [ref=f32e23037]:
+                - link "PR-2026-06" [ref=f32e23038] [cursor=pointer]:
+                  - /url: /payroll/pb-202606-1788160964151
+                - generic [ref=f32e23039]: June 2026
+                - generic [ref=f32e23040]: paid
+                - generic [ref=f32e23043]: ৳760,437
+          - generic [ref=f32e23045]:
+            - heading "My recent payslips" [level=2] [ref=f32e23047]
+            - list [ref=f32e23049]:
+              - listitem [ref=f32e23050]:
+                - link "PR-2026-12" [ref=f32e23051] [cursor=pointer]:
+                  - /url: /payslips/ps-pb-202612-1788172819704-e4
+                - generic [ref=f32e23052]: ৳37,300
+              - listitem [ref=f32e23053]:
+                - link "PR-2026-11" [ref=f32e23054] [cursor=pointer]:
+                  - /url: /payslips/ps-pb-202611-1788339665288-e4
+                - generic [ref=f32e23055]: ৳0
+              - listitem [ref=f32e23056]:
+                - link "PR-2026-10" [ref=f32e23057] [cursor=pointer]:
+                  - /url: /payslips/ps-pb-202610-1788164196747-e4
+                - generic [ref=f32e23058]: ৳37,300
+              - listitem [ref=f32e23059]:
+                - link "PR-2026-09" [ref=f32e23060] [cursor=pointer]:
+                  - /url: /payslips/ps-pb-202609-1788162382080-e4
+                - generic [ref=f32e23061]: ৳39,300
+              - listitem [ref=f32e23062]:
+                - link "PR-2026-06" [ref=f32e23063] [cursor=pointer]:
+                  - /url: /payslips/ps-pb-202606-1788160964151-e4
+                - generic [ref=f32e23064]: ৳39,300

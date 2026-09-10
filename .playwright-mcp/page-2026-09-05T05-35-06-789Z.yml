@@ -1,0 +1,58 @@
+- generic [ref=f14e4]:
+  - navigation "Modules" [ref=f14e7]:
+    - link "P PayFlow HR & Payroll" [ref=f14e8] [cursor=pointer]:
+      - /url: /dashboard
+      - generic [ref=f14e9]: P
+      - generic [ref=f14e10]:
+        - generic [ref=f14e11]: PayFlow
+        - generic [ref=f14e12]: HR & Payroll
+    - link "HR dashboard" [ref=f14e13] [cursor=pointer]:
+      - /url: /dashboard
+    - paragraph [ref=f14e19]: People
+    - link "Employees" [ref=f14e20] [cursor=pointer]:
+      - /url: /employees
+    - link "Organisation" [ref=f14e28] [cursor=pointer]:
+      - /url: /organisation
+    - link "Change Requests" [ref=f14e35] [cursor=pointer]:
+      - /url: /change-requests
+    - paragraph [ref=f14e40]: Time & Attendance
+    - link "Attendance" [ref=f14e41] [cursor=pointer]:
+      - /url: /attendance
+    - link "Leave" [ref=f14e47] [cursor=pointer]:
+      - /url: /leave
+    - link "Overtime" [ref=f14e53] [cursor=pointer]:
+      - /url: /overtime
+    - paragraph [ref=f14e59]: Payroll
+    - link "Payroll Batches" [ref=f14e60] [cursor=pointer]:
+      - /url: /payroll
+    - link "Payslips" [ref=f14e67] [cursor=pointer]:
+      - /url: /payslips
+    - link "Loans & Bonuses" [ref=f14e73] [cursor=pointer]:
+      - /url: /loans-bonuses
+    - link "Final Settlement" [ref=f14e80] [cursor=pointer]:
+      - /url: /settlements
+    - paragraph [ref=f14e86]: Governance
+    - link "Reports" [ref=f14e87] [cursor=pointer]:
+      - /url: /reports
+  - generic [ref=f14e95]:
+    - banner [ref=f14e96]:
+      - generic [ref=f14e97]:
+        - navigation "Breadcrumb" [ref=f14e98]:
+          - list [ref=f14e99]:
+            - listitem [ref=f14e100]:
+              - link "Home" [ref=f14e101] [cursor=pointer]:
+                - /url: /dashboard
+            - listitem [ref=f14e102]:
+              - link "Employees" [ref=f14e107] [cursor=pointer]:
+                - /url: /employees
+            - listitem [ref=f14e108]:
+              - link "te-013" [ref=f14e113] [cursor=pointer]:
+                - /url: /employees/te-013
+        - searchbox "Find a module" [ref=f14e115]
+        - link "Notifications" [ref=f14e116] [cursor=pointer]:
+          - /url: /notifications
+        - button "NA Nasrin Akter" [ref=f14e122]:
+          - generic [ref=f14e123]: NA
+          - generic [ref=f14e124]: Nasrin Akter
+    - main [ref=f14e128]:
+      - generic [ref=f14e129]: Loading employee…

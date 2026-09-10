@@ -1,0 +1,114 @@
+- generic [ref=f37e4]:
+  - navigation "Modules" [ref=f37e7]:
+    - link "P PayFlow HR & Payroll" [ref=f37e27] [cursor=pointer]:
+      - /url: /dashboard
+      - generic [ref=f37e9]: P
+      - generic [ref=f37e10]:
+        - generic [ref=f37e11]: PayFlow
+        - generic [ref=f37e12]: HR & Payroll
+    - link "HR dashboard" [ref=f37e28] [cursor=pointer]:
+      - /url: /dashboard
+    - paragraph [ref=f37e34]: People
+    - link "Employees" [ref=f37e35] [cursor=pointer]:
+      - /url: /employees
+    - link "Organisation" [ref=f37e43] [cursor=pointer]:
+      - /url: /organisation
+    - link "Change Requests" [ref=f37e50] [cursor=pointer]:
+      - /url: /change-requests
+    - paragraph [ref=f37e55]: Time & Attendance
+    - link "Attendance" [ref=f37e56] [cursor=pointer]:
+      - /url: /attendance
+    - link "Leave" [ref=f37e62] [cursor=pointer]:
+      - /url: /leave
+    - link "Overtime" [ref=f37e68] [cursor=pointer]:
+      - /url: /overtime
+    - paragraph [ref=f37e74]: Payroll
+    - link "Payroll Batches" [ref=f37e75] [cursor=pointer]:
+      - /url: /payroll
+    - link "Payslips" [ref=f37e82] [cursor=pointer]:
+      - /url: /payslips
+    - link "Loans & Bonuses" [ref=f37e88] [cursor=pointer]:
+      - /url: /loans-bonuses
+    - link "Final Settlement" [ref=f37e95] [cursor=pointer]:
+      - /url: /settlements
+    - paragraph [ref=f37e101]: Governance
+    - link "Reports" [ref=f37e102] [cursor=pointer]:
+      - /url: /reports
+  - generic [ref=f37e14]:
+    - banner [ref=f37e15]:
+      - generic [ref=f37e16]:
+        - navigation "Breadcrumb" [ref=f37e17]:
+          - list [ref=f37e18]:
+            - listitem [ref=f37e19]:
+              - link "Home" [ref=f37e110] [cursor=pointer]:
+                - /url: /dashboard
+            - listitem [ref=f37e111]:
+              - link "Leave" [ref=f37e116] [cursor=pointer]:
+                - /url: /leave
+            - listitem [ref=f37e486]:
+              - link "lv-e4-1788596104344" [ref=f37e491] [cursor=pointer]:
+                - /url: /leave/lv-e4-1788596104344
+        - searchbox "Find a module" [ref=f37e21]
+        - link "Notifications" [ref=f37e117] [cursor=pointer]:
+          - /url: /notifications
+          - generic [ref=f37e122]: "1"
+        - button "NA Nasrin Akter" [ref=f37e123]:
+          - generic [ref=f37e25]: NA
+          - generic [ref=f37e124]: Nasrin Akter
+    - main [ref=f37e26]:
+      - generic [ref=f37e492]:
+        - generic [ref=f37e494]:
+          - link "Leave" [ref=f37e495] [cursor=pointer]:
+            - /url: /leave
+          - generic [ref=f37e499]:
+            - generic [ref=f37e500]:
+              - paragraph [ref=f37e501]: Time & Attendance
+              - heading "Tanvir Ahmed Topu · Casual leave" [level=1] [ref=f37e502]
+              - paragraph [ref=f37e503]: 2 day(s), 2027-04-05 to 2027-04-06
+            - generic [ref=f37e504]: approved
+        - generic [ref=f37e508]:
+          - generic [ref=f37e511]:
+            - heading "Application" [level=2] [ref=f37e513]
+            - generic [ref=f37e514]:
+              - generic [ref=f37e516]:
+                - generic [ref=f37e517]:
+                  - term [ref=f37e518]: Employee
+                  - definition [ref=f37e519]: Tanvir Ahmed Topu
+                - generic [ref=f37e520]:
+                  - term [ref=f37e521]: Employee code
+                  - definition [ref=f37e522]: DEMO-EMPLOYEE
+                - generic [ref=f37e523]:
+                  - term [ref=f37e524]: Leave type
+                  - definition [ref=f37e525]: Casual
+                - generic [ref=f37e526]:
+                  - term [ref=f37e527]: First day
+                  - definition [ref=f37e528]: 2027-04-05
+                - generic [ref=f37e529]:
+                  - term [ref=f37e530]: Last day
+                  - definition [ref=f37e531]: 2027-04-06
+                - generic [ref=f37e532]:
+                  - term [ref=f37e533]: Days
+                  - definition [ref=f37e534]: "2"
+                - generic [ref=f37e535]:
+                  - term [ref=f37e536]: Applied on
+                  - definition [ref=f37e537]: 2026-09-05
+                - generic [ref=f37e538]:
+                  - term [ref=f37e539]: Decided by
+                  - definition [ref=f37e540]: nasrin.akter
+              - generic [ref=f37e541]:
+                - paragraph [ref=f37e542]: Reason given
+                - paragraph [ref=f37e543]: Family function out of town
+          - generic [ref=f37e560]:
+            - generic [ref=f37e561]:
+              - heading "Balance impact" [level=2] [ref=f37e562]
+              - paragraph [ref=f37e563]: Casual
+            - generic [ref=f37e565]:
+              - generic [ref=f37e566]:
+                - term [ref=f37e567]: Accrued
+                - definition [ref=f37e568]: "10"
+              - generic [ref=f37e569]:
+                - term [ref=f37e570]: Taken
+                - definition [ref=f37e571]: "2"
+              - generic [ref=f37e572]:
+                - term [ref=f37e573]: Remaining
+                - definition [ref=f37e574]: "8"

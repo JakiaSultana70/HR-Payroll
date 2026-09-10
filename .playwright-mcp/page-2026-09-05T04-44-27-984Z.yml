@@ -1,0 +1,381 @@
+- generic [ref=f5e4]:
+  - navigation "Modules" [ref=f5e7]:
+    - link "P PayFlow HR & Payroll" [ref=f5e27] [cursor=pointer]:
+      - /url: /dashboard
+      - generic [ref=f5e9]: P
+      - generic [ref=f5e10]:
+        - generic [ref=f5e11]: PayFlow
+        - generic [ref=f5e12]: HR & Payroll
+    - link "Admin dashboard" [ref=f5e28] [cursor=pointer]:
+      - /url: /dashboard
+    - paragraph [ref=f5e34]: People
+    - link "Employees" [ref=f5e35] [cursor=pointer]:
+      - /url: /employees
+    - link "Organisation" [ref=f5e43] [cursor=pointer]:
+      - /url: /organisation
+    - link "Users & Roles" [ref=f5e50] [cursor=pointer]:
+      - /url: /users
+    - link "Change Requests" [ref=f5e55] [cursor=pointer]:
+      - /url: /change-requests
+    - paragraph [ref=f5e60]: Time & Attendance
+    - link "Attendance" [ref=f5e61] [cursor=pointer]:
+      - /url: /attendance
+    - link "Leave" [ref=f5e67] [cursor=pointer]:
+      - /url: /leave
+    - link "Overtime" [ref=f5e73] [cursor=pointer]:
+      - /url: /overtime
+    - paragraph [ref=f5e79]: Payroll
+    - link "Payroll Batches" [ref=f5e80] [cursor=pointer]:
+      - /url: /payroll
+    - link "Payslips" [ref=f5e87] [cursor=pointer]:
+      - /url: /payslips
+    - link "Salary & Rules" [ref=f5e93] [cursor=pointer]:
+      - /url: /salary-rules
+    - link "Loans & Bonuses" [ref=f5e98] [cursor=pointer]:
+      - /url: /loans-bonuses
+    - link "Final Settlement" [ref=f5e105] [cursor=pointer]:
+      - /url: /settlements
+    - paragraph [ref=f5e111]: Governance
+    - link "Audit Log" [ref=f5e112] [cursor=pointer]:
+      - /url: /audit
+    - link "Reports" [ref=f5e117] [cursor=pointer]:
+      - /url: /reports
+  - generic [ref=f5e14]:
+    - banner [ref=f5e15]:
+      - generic [ref=f5e16]:
+        - navigation "Breadcrumb" [ref=f5e17]:
+          - list [ref=f5e18]:
+            - listitem [ref=f5e19]:
+              - link "Home" [ref=f5e125] [cursor=pointer]:
+                - /url: /dashboard
+            - listitem [ref=f5e126]:
+              - link "Users & Roles" [ref=f5e131] [cursor=pointer]:
+                - /url: /users
+        - searchbox "Find a module" [ref=f5e21]
+        - link "Notifications" [ref=f5e132] [cursor=pointer]:
+          - /url: /notifications
+          - generic [ref=f5e137]: "1"
+        - button "FI Farhana Islam" [ref=f5e138]:
+          - generic [ref=f5e25]: FI
+          - generic [ref=f5e139]: Farhana Islam
+    - main [ref=f5e26]:
+      - generic [ref=f5e143]:
+        - generic "Users & roles" [ref=f5e144]:
+          - generic [ref=f5e146]:
+            - generic [ref=f5e147]:
+              - paragraph [ref=f5e148]: People
+              - heading "Users & roles" [level=1] [ref=f5e149]
+              - paragraph [ref=f5e150]: Accounts, role assignment and what each role may actually do
+            - button "Create user" [active] [ref=f5e152]
+        - generic [ref=f5e501]: "Account \"shahidul.islam\" created. Temporary password: Welcome@6702 — share it securely; they should change it from My profile after first sign-in."
+        - generic [ref=f5e156]:
+          - generic [ref=f5e158]:
+            - paragraph [ref=f5e159]: Accounts
+            - paragraph [ref=f5e160]: "7"
+            - paragraph [ref=f5e161]: Linked to an employee record
+          - generic [ref=f5e163]:
+            - paragraph [ref=f5e164]: Pending activation
+            - paragraph [ref=f5e165]: "3"
+            - paragraph [ref=f5e166]: Draft profiles without a login
+          - generic [ref=f5e168]:
+            - paragraph [ref=f5e169]: Roles
+            - paragraph [ref=f5e170]: "4"
+            - paragraph [ref=f5e171]: Admin, HR, Accountant, Employee
+          - generic [ref=f5e173]:
+            - paragraph [ref=f5e174]: Permissions
+            - paragraph [ref=f5e175]: "10"
+            - paragraph [ref=f5e176]: Module-level grants
+        - generic [ref=f5e177]:
+          - generic [ref=f5e179]:
+            - heading "User accounts" [level=2] [ref=f5e181]
+            - table [ref=f5e183]:
+              - rowgroup [ref=f5e184]:
+                - row [ref=f5e185]:
+                  - columnheader "Username" [ref=f5e186]
+                  - columnheader "Employee" [ref=f5e187]
+                  - columnheader "Email" [ref=f5e188]
+                  - columnheader "Role" [ref=f5e189]
+                  - columnheader "Last login" [ref=f5e190]
+                  - columnheader "Status" [ref=f5e191]
+                  - columnheader "Actions" [ref=f5e192]
+              - rowgroup [ref=f5e193]:
+                - row [ref=f5e194]:
+                  - cell "farhana.islam" [ref=f5e195]
+                  - cell "Farhana Islam" [ref=f5e196]
+                  - cell "farhana.islam@meghna-apparels.com" [ref=f5e197]
+                  - cell "Admin" [ref=f5e198]:
+                    - combobox "Role for farhana.islam" [ref=f5e199]:
+                      - option "Admin" [selected]
+                      - option "HR"
+                      - option "Accountant"
+                      - option "Employee"
+                  - cell "never" [ref=f5e200]
+                  - cell "active" [ref=f5e201]
+                  - cell [ref=f5e205]:
+                    - button "Reset password" [ref=f5e206]
+                    - button "Disable" [ref=f5e207]
+                - row [ref=f5e208]:
+                  - cell "nasrin.akter" [ref=f5e209]
+                  - cell "Nasrin Akter" [ref=f5e210]
+                  - cell "nasrin.akter@meghna-apparels.com" [ref=f5e211]
+                  - cell "HR" [ref=f5e212]:
+                    - combobox "Role for nasrin.akter" [ref=f5e213]:
+                      - option "Admin"
+                      - option "HR" [selected]
+                      - option "Accountant"
+                      - option "Employee"
+                  - cell "never" [ref=f5e214]
+                  - cell "active" [ref=f5e215]
+                  - cell [ref=f5e219]:
+                    - button "Reset password" [ref=f5e220]
+                    - button "Disable" [ref=f5e221]
+                - row [ref=f5e222]:
+                  - cell "rakib.hasan" [ref=f5e223]
+                  - cell "Rakib Hasan" [ref=f5e224]
+                  - cell "rakib.hasan@meghna-apparels.com" [ref=f5e225]
+                  - cell "Accountant" [ref=f5e226]:
+                    - combobox "Role for rakib.hasan" [ref=f5e227]:
+                      - option "Admin"
+                      - option "HR"
+                      - option "Accountant" [selected]
+                      - option "Employee"
+                  - cell "never" [ref=f5e228]
+                  - cell "active" [ref=f5e229]
+                  - cell [ref=f5e233]:
+                    - button "Reset password" [ref=f5e234]
+                    - button "Disable" [ref=f5e235]
+                - row [ref=f5e236]:
+                  - cell "tanvir.ahmed" [ref=f5e237]
+                  - cell "Tanvir Ahmed Topu" [ref=f5e238]
+                  - cell "tanvir.ahmed@meghna-apparels.com" [ref=f5e239]
+                  - cell "Employee" [ref=f5e240]:
+                    - combobox "Role for tanvir.ahmed" [ref=f5e241]:
+                      - option "Admin"
+                      - option "HR"
+                      - option "Accountant"
+                      - option "Employee" [selected]
+                  - cell "never" [ref=f5e242]
+                  - cell "active" [ref=f5e243]
+                  - cell [ref=f5e247]:
+                    - button "Reset password" [ref=f5e248]
+                    - button "Disable" [ref=f5e249]
+                - row [ref=f5e250]:
+                  - cell "mukta" [ref=f5e251]
+                  - cell "mukta" [ref=f5e252]
+                  - cell "mukta@gmail.com" [ref=f5e253]
+                  - cell "HR" [ref=f5e254]:
+                    - combobox "Role for mukta" [ref=f5e255]:
+                      - option "Admin"
+                      - option "HR" [selected]
+                      - option "Accountant"
+                      - option "Employee"
+                  - cell "never" [ref=f5e256]
+                  - cell "active" [ref=f5e257]
+                  - cell [ref=f5e261]:
+                    - button "Reset password" [ref=f5e262]
+                    - button "Disable" [ref=f5e263]
+                - row [ref=f5e264]:
+                  - cell "jahangir.alam" [ref=f5e265]
+                  - cell "Jahangir Alam" [ref=f5e266]
+                  - cell "jahangir@gmail.com" [ref=f5e267]
+                  - cell "Employee" [ref=f5e268]:
+                    - combobox "Role for jahangir.alam" [ref=f5e269]:
+                      - option "Admin"
+                      - option "HR"
+                      - option "Accountant"
+                      - option "Employee" [selected]
+                  - cell "never" [ref=f5e270]
+                  - cell "active" [ref=f5e271]
+                  - cell [ref=f5e275]:
+                    - button "Reset password" [ref=f5e276]
+                    - button "Disable" [ref=f5e277]
+                - row [ref=f5e502]:
+                  - cell "shahidul.islam" [ref=f5e503]
+                  - cell "Shahidul Islam" [ref=f5e504]
+                  - cell "shahidul.islam@example.com" [ref=f5e505]
+                  - cell "Employee" [ref=f5e506]:
+                    - combobox "Role for shahidul.islam" [ref=f5e507]:
+                      - option "Admin"
+                      - option "HR"
+                      - option "Accountant"
+                      - option "Employee" [selected]
+                  - cell "never" [ref=f5e508]
+                  - cell "active" [ref=f5e509]
+                  - cell [ref=f5e513]:
+                    - button "Reset password" [ref=f5e514]
+                    - button "Disable" [ref=f5e515]
+          - generic [ref=f5e279]:
+            - generic [ref=f5e280]:
+              - heading "Roles" [level=2] [ref=f5e281]
+              - paragraph [ref=f5e282]: A role grants permissions; a user holds one role
+            - list [ref=f5e284]:
+              - listitem [ref=f5e285]:
+                - generic [ref=f5e286]:
+                  - generic [ref=f5e287]: Admin
+                  - generic [ref=f5e288]: 8 permission(s)
+                  - generic [ref=f5e289]: 1 user(s)
+                - textbox "Admin description" [ref=f5e291]: Full system access, user provisioning and payroll rule configuration
+              - listitem [ref=f5e292]:
+                - generic [ref=f5e293]:
+                  - generic [ref=f5e294]: HR
+                  - generic [ref=f5e295]: 5 permission(s)
+                  - generic [ref=f5e296]: 2 user(s)
+                - textbox "HR description" [ref=f5e298]: People, time and the payroll run request — cannot approve a batch
+              - listitem [ref=f5e299]:
+                - generic [ref=f5e300]:
+                  - generic [ref=f5e301]: Accountant
+                  - generic [ref=f5e302]: 2 permission(s)
+                  - generic [ref=f5e303]: 1 user(s)
+                - textbox "Accountant description" [ref=f5e305]: Verifies, approves and pays payroll batches; owns salary rules
+              - listitem [ref=f5e306]:
+                - generic [ref=f5e307]:
+                  - generic [ref=f5e308]: Employee
+                  - generic [ref=f5e309]: 1 permission(s)
+                  - generic [ref=f5e310]: 3 user(s)
+                - textbox "Employee description" [ref=f5e312]: "Self service: attendance, leave, overtime and own payslips"
+          - generic [ref=f5e314]:
+            - generic [ref=f5e315]:
+              - heading "Permission matrix" [level=2] [ref=f5e316]
+              - paragraph [ref=f5e317]: Which roles hold each permission — click to grant or revoke
+            - table [ref=f5e320]:
+              - rowgroup [ref=f5e321]:
+                - row [ref=f5e322]:
+                  - columnheader "Module" [ref=f5e323]
+                  - columnheader "Read" [ref=f5e324]
+                  - columnheader "Write" [ref=f5e325]
+                  - columnheader "Approve" [ref=f5e326]
+                  - columnheader "Admin" [ref=f5e327]
+                  - columnheader "HR" [ref=f5e328]
+                  - columnheader "Accountant" [ref=f5e329]
+                  - columnheader "Employee" [ref=f5e330]
+              - rowgroup [ref=f5e331]:
+                - row [ref=f5e332]:
+                  - cell "Employees" [ref=f5e333]
+                  - cell "Yes" [ref=f5e334]
+                  - cell "Yes" [ref=f5e335]
+                  - cell "Yes" [ref=f5e336]
+                  - cell [ref=f5e337]:
+                    - checkbox "Admin holds Employees" [checked] [ref=f5e338]
+                  - cell [ref=f5e339]:
+                    - checkbox "HR holds Employees" [checked] [ref=f5e340]
+                  - cell [ref=f5e341]:
+                    - checkbox "Accountant holds Employees" [ref=f5e342]
+                  - cell [ref=f5e343]:
+                    - checkbox "Employee holds Employees" [ref=f5e344]
+                - row [ref=f5e345]:
+                  - cell "Attendance" [ref=f5e346]
+                  - cell "Yes" [ref=f5e347]
+                  - cell "Yes" [ref=f5e348]
+                  - cell "Yes" [ref=f5e349]
+                  - cell [ref=f5e350]:
+                    - checkbox "Admin holds Attendance" [checked] [ref=f5e351]
+                  - cell [ref=f5e352]:
+                    - checkbox "HR holds Attendance" [checked] [ref=f5e353]
+                  - cell [ref=f5e354]:
+                    - checkbox "Accountant holds Attendance" [ref=f5e355]
+                  - cell [ref=f5e356]:
+                    - checkbox "Employee holds Attendance" [ref=f5e357]
+                - row [ref=f5e358]:
+                  - cell "Leave" [ref=f5e359]
+                  - cell "Yes" [ref=f5e360]
+                  - cell "Yes" [ref=f5e361]
+                  - cell "Yes" [ref=f5e362]
+                  - cell [ref=f5e363]:
+                    - checkbox "Admin holds Leave" [checked] [ref=f5e364]
+                  - cell [ref=f5e365]:
+                    - checkbox "HR holds Leave" [checked] [ref=f5e366]
+                  - cell [ref=f5e367]:
+                    - checkbox "Accountant holds Leave" [ref=f5e368]
+                  - cell [ref=f5e369]:
+                    - checkbox "Employee holds Leave" [ref=f5e370]
+                - row [ref=f5e371]:
+                  - cell "Overtime" [ref=f5e372]
+                  - cell "Yes" [ref=f5e373]
+                  - cell "Yes" [ref=f5e374]
+                  - cell "Yes" [ref=f5e375]
+                  - cell [ref=f5e376]:
+                    - checkbox "Admin holds Overtime" [checked] [ref=f5e377]
+                  - cell [ref=f5e378]:
+                    - checkbox "HR holds Overtime" [checked] [ref=f5e379]
+                  - cell [ref=f5e380]:
+                    - checkbox "Accountant holds Overtime" [ref=f5e381]
+                  - cell [ref=f5e382]:
+                    - checkbox "Employee holds Overtime" [ref=f5e383]
+                - row [ref=f5e384]:
+                  - cell "Payroll" [ref=f5e385]
+                  - cell "Yes" [ref=f5e386]
+                  - cell "Yes" [ref=f5e387]
+                  - cell "Yes" [ref=f5e388]
+                  - cell [ref=f5e389]:
+                    - checkbox "Admin holds Payroll" [checked] [ref=f5e390]
+                  - cell [ref=f5e391]:
+                    - checkbox "HR holds Payroll" [ref=f5e392]
+                  - cell [ref=f5e393]:
+                    - checkbox "Accountant holds Payroll" [checked] [ref=f5e394]
+                  - cell [ref=f5e395]:
+                    - checkbox "Employee holds Payroll" [ref=f5e396]
+                - row [ref=f5e397]:
+                  - cell "Payroll" [ref=f5e398]
+                  - cell "Yes" [ref=f5e399]
+                  - cell "—" [ref=f5e400]
+                  - cell "—" [ref=f5e401]
+                  - cell [ref=f5e402]:
+                    - checkbox "Admin holds Payroll" [ref=f5e403]
+                  - cell [ref=f5e404]:
+                    - checkbox "HR holds Payroll" [checked] [ref=f5e405]
+                  - cell [ref=f5e406]:
+                    - checkbox "Accountant holds Payroll" [ref=f5e407]
+                  - cell [ref=f5e408]:
+                    - checkbox "Employee holds Payroll" [ref=f5e409]
+                - row [ref=f5e410]:
+                  - cell "Salary & Rules" [ref=f5e411]
+                  - cell "Yes" [ref=f5e412]
+                  - cell "Yes" [ref=f5e413]
+                  - cell "Yes" [ref=f5e414]
+                  - cell [ref=f5e415]:
+                    - checkbox "Admin holds Salary & Rules" [checked] [ref=f5e416]
+                  - cell [ref=f5e417]:
+                    - checkbox "HR holds Salary & Rules" [ref=f5e418]
+                  - cell [ref=f5e419]:
+                    - checkbox "Accountant holds Salary & Rules" [checked] [ref=f5e420]
+                  - cell [ref=f5e421]:
+                    - checkbox "Employee holds Salary & Rules" [ref=f5e422]
+                - row [ref=f5e423]:
+                  - cell "Users & Roles" [ref=f5e424]
+                  - cell "Yes" [ref=f5e425]
+                  - cell "Yes" [ref=f5e426]
+                  - cell "Yes" [ref=f5e427]
+                  - cell [ref=f5e428]:
+                    - checkbox "Admin holds Users & Roles" [checked] [ref=f5e429]
+                  - cell [ref=f5e430]:
+                    - checkbox "HR holds Users & Roles" [ref=f5e431]
+                  - cell [ref=f5e432]:
+                    - checkbox "Accountant holds Users & Roles" [ref=f5e433]
+                  - cell [ref=f5e434]:
+                    - checkbox "Employee holds Users & Roles" [ref=f5e435]
+                - row [ref=f5e436]:
+                  - cell "Self service" [ref=f5e437]
+                  - cell "Yes" [ref=f5e438]
+                  - cell "—" [ref=f5e439]
+                  - cell "—" [ref=f5e440]
+                  - cell [ref=f5e441]:
+                    - checkbox "Admin holds Self service" [ref=f5e442]
+                  - cell [ref=f5e443]:
+                    - checkbox "HR holds Self service" [ref=f5e444]
+                  - cell [ref=f5e445]:
+                    - checkbox "Accountant holds Self service" [ref=f5e446]
+                  - cell [ref=f5e447]:
+                    - checkbox "Employee holds Self service" [checked] [ref=f5e448]
+                - row [ref=f5e449]:
+                  - cell "Audit Log" [ref=f5e450]
+                  - cell "Yes" [ref=f5e451]
+                  - cell "—" [ref=f5e452]
+                  - cell "—" [ref=f5e453]
+                  - cell [ref=f5e454]:
+                    - checkbox "Admin holds Audit Log" [checked] [ref=f5e455]
+                  - cell [ref=f5e456]:
+                    - checkbox "HR holds Audit Log" [ref=f5e457]
+                  - cell [ref=f5e458]:
+                    - checkbox "Accountant holds Audit Log" [ref=f5e459]
+                  - cell [ref=f5e460]:
+                    - checkbox "Employee holds Audit Log" [ref=f5e461]

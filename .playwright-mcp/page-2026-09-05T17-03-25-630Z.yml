@@ -1,0 +1,104 @@
+- generic [ref=f82e4]:
+  - navigation "Modules" [ref=f82e7]:
+    - link "P PayFlow HR & Payroll" [ref=f82e8] [cursor=pointer]:
+      - /url: /dashboard
+      - generic [ref=f82e9]: P
+      - generic [ref=f82e10]:
+        - generic [ref=f82e11]: PayFlow
+        - generic [ref=f82e12]: HR & Payroll
+    - link "HR dashboard" [ref=f82e13] [cursor=pointer]:
+      - /url: /dashboard
+    - paragraph [ref=f82e19]: People
+    - link "Employees" [ref=f82e20] [cursor=pointer]:
+      - /url: /employees
+    - link "Organisation" [ref=f82e28] [cursor=pointer]:
+      - /url: /organisation
+    - link "Change Requests" [ref=f82e35] [cursor=pointer]:
+      - /url: /change-requests
+    - paragraph [ref=f82e40]: Time & Attendance
+    - link "Attendance" [ref=f82e41] [cursor=pointer]:
+      - /url: /attendance
+    - link "Leave" [ref=f82e47] [cursor=pointer]:
+      - /url: /leave
+    - link "Overtime" [ref=f82e53] [cursor=pointer]:
+      - /url: /overtime
+    - paragraph [ref=f82e59]: Payroll
+    - link "Payroll Batches" [ref=f82e60] [cursor=pointer]:
+      - /url: /payroll
+    - link "Payslips" [ref=f82e67] [cursor=pointer]:
+      - /url: /payslips
+    - link "Loans & Bonuses" [ref=f82e73] [cursor=pointer]:
+      - /url: /loans-bonuses
+    - link "Final Settlement" [ref=f82e80] [cursor=pointer]:
+      - /url: /settlements
+    - paragraph [ref=f82e86]: Governance
+    - link "Reports" [ref=f82e87] [cursor=pointer]:
+      - /url: /reports
+  - generic [ref=f82e95]:
+    - banner [ref=f82e96]:
+      - generic [ref=f82e97]:
+        - navigation "Breadcrumb" [ref=f82e98]:
+          - list [ref=f82e99]:
+            - listitem [ref=f82e100]:
+              - link "Home" [ref=f82e101] [cursor=pointer]:
+                - /url: /dashboard
+            - listitem [ref=f82e102]:
+              - link "Reports" [ref=f82e107] [cursor=pointer]:
+                - /url: /reports
+        - searchbox "Find a module" [ref=f82e109]
+        - link "Notifications" [ref=f82e110] [cursor=pointer]:
+          - /url: /notifications
+        - button "NA Nasrin Akter" [ref=f82e116]:
+          - generic [ref=f82e117]: NA
+          - generic [ref=f82e118]: Nasrin Akter
+    - main [ref=f82e122]:
+      - generic [ref=f82e123]:
+        - generic "System-wide reports" [ref=f82e124]:
+          - generic [ref=f82e127]:
+            - paragraph [ref=f82e128]: Admin
+            - heading "System-wide reports" [level=1] [ref=f82e129]
+            - paragraph [ref=f82e130]: Headcount, payroll cycles, tax, PF and audit activity across the whole system
+        - generic [ref=f82e131]:
+          - generic [ref=f82e133]:
+            - paragraph [ref=f82e134]: Active employees
+            - paragraph [ref=f82e135]: "0"
+            - paragraph [ref=f82e136]: 0 draft profile(s)
+          - generic [ref=f82e138]:
+            - paragraph [ref=f82e139]: Departments
+            - paragraph [ref=f82e140]: "0"
+            - paragraph [ref=f82e141]: Master data
+          - generic [ref=f82e143]:
+            - paragraph [ref=f82e144]: Leave approval rate
+            - paragraph [ref=f82e145]: —
+            - paragraph [ref=f82e146]: Approved of all decided requests
+          - generic [ref=f82e148]:
+            - paragraph [ref=f82e149]: Net paid to date
+            - paragraph [ref=f82e150]: ৳0
+            - paragraph [ref=f82e151]: Across paid payroll batches
+        - generic [ref=f82e152]:
+          - generic [ref=f82e154]:
+            - heading "Headcount by department" [level=2] [ref=f82e156]
+            - paragraph [ref=f82e167]: No departments yet
+          - generic [ref=f82e169]:
+            - generic [ref=f82e170]:
+              - heading "Audit activity by module" [level=2] [ref=f82e171]
+              - paragraph [ref=f82e172]: All time
+            - paragraph [ref=f82e183]: No audit events yet
+        - generic [ref=f82e186]:
+          - generic [ref=f82e187]:
+            - heading "Payroll cycles" [level=2] [ref=f82e188]
+            - paragraph [ref=f82e189]: Newest first
+          - paragraph [ref=f82e200]: No payroll batches yet
+        - generic [ref=f82e201]:
+          - generic [ref=f82e203]:
+            - paragraph [ref=f82e204]: Leave approved
+            - paragraph [ref=f82e205]: "0"
+          - generic [ref=f82e207]:
+            - paragraph [ref=f82e208]: Leave rejected
+            - paragraph [ref=f82e209]: "0"
+          - generic [ref=f82e211]:
+            - paragraph [ref=f82e212]: Overtime approved
+            - paragraph [ref=f82e213]: "0"
+          - generic [ref=f82e215]:
+            - paragraph [ref=f82e216]: Overtime rejected
+            - paragraph [ref=f82e217]: "0"

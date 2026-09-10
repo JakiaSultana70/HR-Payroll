@@ -1,0 +1,410 @@
+- generic [ref=f1e4]:
+  - navigation "Modules" [ref=f1e7]:
+    - link "P PayFlow HR & Payroll" [ref=f1e8] [cursor=pointer]:
+      - /url: /dashboard
+      - generic [ref=f1e9]: P
+      - generic [ref=f1e10]:
+        - generic [ref=f1e11]: PayFlow
+        - generic [ref=f1e12]: HR & Payroll
+    - link "Admin dashboard" [ref=f1e13] [cursor=pointer]:
+      - /url: /dashboard
+    - paragraph [ref=f1e19]: People
+    - link "Employees" [ref=f1e20] [cursor=pointer]:
+      - /url: /employees
+    - link "Organisation" [ref=f1e28] [cursor=pointer]:
+      - /url: /organisation
+    - link "Users & Roles" [ref=f1e35] [cursor=pointer]:
+      - /url: /users
+    - link "Change Requests" [ref=f1e40] [cursor=pointer]:
+      - /url: /change-requests
+    - paragraph [ref=f1e45]: Time & Attendance
+    - link "Attendance" [ref=f1e46] [cursor=pointer]:
+      - /url: /attendance
+    - link "Leave" [ref=f1e52] [cursor=pointer]:
+      - /url: /leave
+    - link "Overtime" [ref=f1e58] [cursor=pointer]:
+      - /url: /overtime
+    - paragraph [ref=f1e64]: Payroll
+    - link "Payroll Batches" [ref=f1e65] [cursor=pointer]:
+      - /url: /payroll
+    - link "Payslips" [ref=f1e72] [cursor=pointer]:
+      - /url: /payslips
+    - link "Salary & Rules" [ref=f1e78] [cursor=pointer]:
+      - /url: /salary-rules
+    - link "Loans & Bonuses" [ref=f1e83] [cursor=pointer]:
+      - /url: /loans-bonuses
+    - link "Final Settlement" [ref=f1e90] [cursor=pointer]:
+      - /url: /settlements
+    - paragraph [ref=f1e96]: Governance
+    - link "Audit Log" [ref=f1e97] [cursor=pointer]:
+      - /url: /audit
+    - link "Reports" [ref=f1e102] [cursor=pointer]:
+      - /url: /reports
+  - generic [ref=f1e110]:
+    - banner [ref=f1e111]:
+      - generic [ref=f1e112]:
+        - navigation "Breadcrumb" [ref=f1e113]:
+          - list [ref=f1e114]:
+            - listitem [ref=f1e115]:
+              - link "Home" [ref=f1e116] [cursor=pointer]:
+                - /url: /dashboard
+            - listitem [ref=f1e117]:
+              - link "Employees" [ref=f1e122] [cursor=pointer]:
+                - /url: /employees
+        - searchbox "Find a module" [ref=f1e124]
+        - link "Notifications" [ref=f1e125] [cursor=pointer]:
+          - /url: /notifications
+          - generic [ref=f1e130]: "1"
+        - button "FI Farhana Islam" [ref=f1e132]:
+          - generic [ref=f1e133]: FI
+          - generic [ref=f1e134]: Farhana Islam
+    - main [ref=f1e138]:
+      - generic [ref=f1e139]:
+        - generic "Employees" [ref=f1e140]:
+          - generic [ref=f1e142]:
+            - generic [ref=f1e143]:
+              - paragraph [ref=f1e144]: People
+              - heading "Employees" [level=1] [ref=f1e145]
+              - paragraph [ref=f1e146]: Onboarding, profiles, employment status and separation
+            - button "Add employee" [active] [ref=f1e148]
+        - generic [ref=f1e152]:
+          - generic [ref=f1e154]:
+            - paragraph [ref=f1e155]: Headcount
+            - paragraph [ref=f1e156]: "20"
+            - paragraph [ref=f1e157]: Active employees
+          - generic [ref=f1e159]:
+            - paragraph [ref=f1e160]: Pending activation
+            - paragraph [ref=f1e161]: "4"
+            - paragraph [ref=f1e162]: Draft profiles awaiting an account
+          - generic [ref=f1e164]:
+            - paragraph [ref=f1e165]: On probation
+            - paragraph [ref=f1e166]: "2"
+            - paragraph [ref=f1e167]: Not yet confirmed
+          - generic [ref=f1e169]:
+            - paragraph [ref=f1e170]: Separated
+            - paragraph [ref=f1e171]: "1"
+            - paragraph [ref=f1e172]: Final settlement due
+        - generic [ref=f1e175]:
+          - generic [ref=f1e176]:
+            - heading "Employee register" [level=2] [ref=f1e177]
+            - paragraph [ref=f1e178]: 27 records
+          - generic [ref=f1e181]:
+            - searchbox "Search name, code or department" [ref=f1e184]
+            - table [ref=f1e186]:
+              - rowgroup [ref=f1e187]:
+                - row [ref=f1e188]:
+                  - columnheader [ref=f1e189]:
+                    - button "Code" [ref=f1e190]
+                  - columnheader [ref=f1e191]:
+                    - button "Name" [ref=f1e192]
+                  - columnheader [ref=f1e193]:
+                    - button "Department" [ref=f1e194]
+                  - columnheader [ref=f1e195]:
+                    - button "Designation" [ref=f1e196]
+                  - columnheader [ref=f1e197]:
+                    - button "Grade" [ref=f1e198]
+                  - columnheader [ref=f1e199]:
+                    - button "Type" [ref=f1e200]
+                  - columnheader [ref=f1e201]:
+                    - button "Joined" [ref=f1e202]
+                  - columnheader [ref=f1e203]:
+                    - button "Status" [ref=f1e204]
+              - rowgroup [ref=f1e205]:
+                - row [ref=f1e206]:
+                  - cell [ref=f1e207]:
+                    - link "4324" [ref=f1e208] [cursor=pointer]:
+                      - /url: /employees/e-1788326717223
+                  - cell "mukta" [ref=f1e209]
+                  - cell "Human Resources" [ref=f1e210]
+                  - cell "General Manager" [ref=f1e211]
+                  - cell "G1" [ref=f1e212]
+                  - cell "permanent" [ref=f1e213]
+                  - cell "2026-08-30" [ref=f1e214]
+                  - cell "Active" [ref=f1e215]
+                - row [ref=f1e219]:
+                  - cell [ref=f1e220]:
+                    - link "DEMO-ACCOUNTANT" [ref=f1e221] [cursor=pointer]:
+                      - /url: /employees/e2
+                  - cell "Rakib Hasan" [ref=f1e222]
+                  - cell "Demo Accounts" [ref=f1e223]
+                  - cell "Demo Role" [ref=f1e224]
+                  - cell "D1" [ref=f1e225]
+                  - cell "permanent" [ref=f1e226]
+                  - cell "2019-01-01" [ref=f1e227]
+                  - cell "Active" [ref=f1e228]
+                - row [ref=f1e232]:
+                  - cell [ref=f1e233]:
+                    - link "DEMO-ADMIN" [ref=f1e234] [cursor=pointer]:
+                      - /url: /employees/e7
+                  - cell "Farhana Islam" [ref=f1e235]
+                  - cell "Demo Accounts" [ref=f1e236]
+                  - cell "Demo Role" [ref=f1e237]
+                  - cell "D1" [ref=f1e238]
+                  - cell "permanent" [ref=f1e239]
+                  - cell "2019-01-01" [ref=f1e240]
+                  - cell "Active" [ref=f1e241]
+                - row [ref=f1e245]:
+                  - cell [ref=f1e246]:
+                    - link "DEMO-EMPLOYEE" [ref=f1e247] [cursor=pointer]:
+                      - /url: /employees/e4
+                  - cell "Tanvir Ahmed Topu" [ref=f1e248]
+                  - cell "Demo Accounts" [ref=f1e249]
+                  - cell "Demo Role" [ref=f1e250]
+                  - cell "D1" [ref=f1e251]
+                  - cell "permanent" [ref=f1e252]
+                  - cell "2020-01-01" [ref=f1e253]
+                  - cell "Active" [ref=f1e254]
+                - row [ref=f1e258]:
+                  - cell [ref=f1e259]:
+                    - link "DEMO-HR" [ref=f1e260] [cursor=pointer]:
+                      - /url: /employees/e1
+                  - cell "Nasrin Akter" [ref=f1e261]
+                  - cell "Demo Accounts" [ref=f1e262]
+                  - cell "Demo Role" [ref=f1e263]
+                  - cell "D1" [ref=f1e264]
+                  - cell "permanent" [ref=f1e265]
+                  - cell "2019-01-01" [ref=f1e266]
+                  - cell "Active" [ref=f1e267]
+                - row [ref=f1e271]:
+                  - cell [ref=f1e272]:
+                    - link "EMP-1001" [ref=f1e273] [cursor=pointer]:
+                      - /url: /employees/e-1787546658330
+                  - cell "Nasrin Akter" [ref=f1e274]
+                  - cell "Human Resources" [ref=f1e275]
+                  - cell "Manager" [ref=f1e276]
+                  - cell "M2" [ref=f1e277]
+                  - cell "permanent" [ref=f1e278]
+                  - cell "2019-01-04" [ref=f1e279]
+                  - cell "Active" [ref=f1e280]
+                - row [ref=f1e284]:
+                  - cell [ref=f1e285]:
+                    - link "EMP-1002" [ref=f1e286] [cursor=pointer]:
+                      - /url: /employees/e-1787546896361
+                  - cell "Rakib Hasan" [ref=f1e287]
+                  - cell "Finance & Accounts" [ref=f1e288]
+                  - cell "Manager" [ref=f1e289]
+                  - cell "M2" [ref=f1e290]
+                  - cell "permanent" [ref=f1e291]
+                  - cell "2018-09-15" [ref=f1e292]
+                  - cell "Active" [ref=f1e293]
+                - row [ref=f1e297]:
+                  - cell [ref=f1e298]:
+                    - link "EMP-1003" [ref=f1e299] [cursor=pointer]:
+                      - /url: /employees/e-1787547254530
+                  - cell "Shahidul Islam" [ref=f1e300]
+                  - cell "Production" [ref=f1e301]
+                  - cell "General Manager" [ref=f1e302]
+                  - cell "M1" [ref=f1e303]
+                  - cell "permanent" [ref=f1e304]
+                  - cell "2016-01-10" [ref=f1e305]
+                  - cell "Active" [ref=f1e306]
+                - row [ref=f1e310]:
+                  - cell [ref=f1e311]:
+                    - link "EMP-1004" [ref=f1e312] [cursor=pointer]:
+                      - /url: /employees/e-1787547655357
+                  - cell "Tanvir Ahmed" [ref=f1e313]
+                  - cell "Production" [ref=f1e314]
+                  - cell "Senior Operator" [ref=f1e315]
+                  - cell "W1" [ref=f1e316]
+                  - cell "permanent" [ref=f1e317]
+                  - cell "2021-06-20" [ref=f1e318]
+                  - cell "Active" [ref=f1e319]
+                - row [ref=f1e323]:
+                  - cell [ref=f1e324]:
+                    - link "EMP-1005" [ref=f1e325] [cursor=pointer]:
+                      - /url: /employees/e-1787547833901
+                  - cell "Sultana Razia" [ref=f1e326]
+                  - cell "Production" [ref=f1e327]
+                  - cell "Operator" [ref=f1e328]
+                  - cell "W2" [ref=f1e329]
+                  - cell "permanent" [ref=f1e330]
+                  - cell "2022-02-14" [ref=f1e331]
+                  - cell "Separated" [ref=f1e332]
+                - row [ref=f1e336]:
+                  - cell [ref=f1e337]:
+                    - link "EMP-1006" [ref=f1e338] [cursor=pointer]:
+                      - /url: /employees/e-1787547994953
+                  - cell "Jahangir Alam" [ref=f1e339]
+                  - cell "Production" [ref=f1e340]
+                  - cell "Operator" [ref=f1e341]
+                  - cell "W2" [ref=f1e342]
+                  - cell "permanent" [ref=f1e343]
+                  - cell "2022-01-08" [ref=f1e344]
+                  - cell "Active" [ref=f1e345]
+                - row [ref=f1e349]:
+                  - cell [ref=f1e350]:
+                    - link "EMP-1007" [ref=f1e351] [cursor=pointer]:
+                      - /url: /employees/e-1787548160729
+                  - cell "Farhana Islam" [ref=f1e352]
+                  - cell "Quality Assurence" [ref=f1e353]
+                  - cell "Assistant Manager" [ref=f1e354]
+                  - cell "M3" [ref=f1e355]
+                  - cell "permanent" [ref=f1e356]
+                  - cell "2020-05-11" [ref=f1e357]
+                  - cell "Active" [ref=f1e358]
+                - row [ref=f1e362]:
+                  - cell [ref=f1e363]:
+                    - link "EMP-1008" [ref=f1e364] [cursor=pointer]:
+                      - /url: /employees/e-1787548325913
+                  - cell "Kamrul Hasan" [ref=f1e365]
+                  - cell "Quality Assurence" [ref=f1e366]
+                  - cell "Executive" [ref=f1e367]
+                  - cell "E1" [ref=f1e368]
+                  - cell "permanent" [ref=f1e369]
+                  - cell "2023-03-12" [ref=f1e370]
+                  - cell "Active" [ref=f1e371]
+                - row [ref=f1e375]:
+                  - cell [ref=f1e376]:
+                    - link "EMP-1009" [ref=f1e377] [cursor=pointer]:
+                      - /url: /employees/e-1787548627005
+                  - cell "Ruma Begum" [ref=f1e378]
+                  - cell "Production" [ref=f1e379]
+                  - cell "Helper" [ref=f1e380]
+                  - cell "W3" [ref=f1e381]
+                  - cell "probation" [ref=f1e382]
+                  - cell "2024-01-08" [ref=f1e383]
+                  - cell "Active" [ref=f1e384]
+                - row [ref=f1e388]:
+                  - cell [ref=f1e389]:
+                    - link "EMP-1010" [ref=f1e390] [cursor=pointer]:
+                      - /url: /employees/e-1787550703199
+                  - cell "Abdul Karim" [ref=f1e391]
+                  - cell "Store & Inventory" [ref=f1e392]
+                  - cell "Assistant Manager" [ref=f1e393]
+                  - cell "M3" [ref=f1e394]
+                  - cell "permanent" [ref=f1e395]
+                  - cell "2019-07-22" [ref=f1e396]
+                  - cell "Active" [ref=f1e397]
+                - row [ref=f1e401]:
+                  - cell [ref=f1e402]:
+                    - link "EMP-1011" [ref=f1e403] [cursor=pointer]:
+                      - /url: /employees/e-1787550848183
+                  - cell "Nusrat Jahan" [ref=f1e404]
+                  - cell "Finance & Accounts" [ref=f1e405]
+                  - cell "Executive" [ref=f1e406]
+                  - cell "E1" [ref=f1e407]
+                  - cell "permanent" [ref=f1e408]
+                  - cell "2023-01-09" [ref=f1e409]
+                  - cell "Active" [ref=f1e410]
+                - row [ref=f1e414]:
+                  - cell [ref=f1e415]:
+                    - link "EMP-1012" [ref=f1e416] [cursor=pointer]:
+                      - /url: /employees/e-1787550971280
+                  - cell "Mizanur Rahaman" [ref=f1e417]
+                  - cell "Administration" [ref=f1e418]
+                  - cell "Manager" [ref=f1e419]
+                  - cell "M2" [ref=f1e420]
+                  - cell "permanent" [ref=f1e421]
+                  - cell "2017-05-30" [ref=f1e422]
+                  - cell "Active" [ref=f1e423]
+                - row [ref=f1e427]:
+                  - cell [ref=f1e428]:
+                    - link "EMP-1013" [ref=f1e429] [cursor=pointer]:
+                      - /url: /employees/e-1787551861192
+                  - cell "Shirin Sultana" [ref=f1e430]
+                  - cell "Production" [ref=f1e431]
+                  - cell "Operator" [ref=f1e432]
+                  - cell "W2" [ref=f1e433]
+                  - cell "contract" [ref=f1e434]
+                  - cell "2023-11-19" [ref=f1e435]
+                  - cell "Active" [ref=f1e436]
+                - row [ref=f1e440]:
+                  - cell [ref=f1e441]:
+                    - link "EMP-1014" [ref=f1e442] [cursor=pointer]:
+                      - /url: /employees/e-1787552065744
+                  - cell "Habibur Rahaman" [ref=f1e443]
+                  - cell "Production" [ref=f1e444]
+                  - cell "Operator" [ref=f1e445]
+                  - cell "W2" [ref=f1e446]
+                  - cell "permanent" [ref=f1e447]
+                  - cell "2025-03-02" [ref=f1e448]
+                  - cell "Draft" [ref=f1e449]
+                - row [ref=f1e453]:
+                  - cell [ref=f1e454]:
+                    - link "EMP-1015" [ref=f1e455] [cursor=pointer]:
+                      - /url: /employees/e-1787552175864
+                  - cell "Mahmuda Khatun" [ref=f1e456]
+                  - cell "Quality Assurence" [ref=f1e457]
+                  - cell "Executive" [ref=f1e458]
+                  - cell "E1" [ref=f1e459]
+                  - cell "probation" [ref=f1e460]
+                  - cell "2025-07-20" [ref=f1e461]
+                  - cell "Draft" [ref=f1e462]
+                - row [ref=f1e466]:
+                  - cell [ref=f1e467]:
+                    - link "EMP-1016" [ref=f1e468] [cursor=pointer]:
+                      - /url: /employees/e-1787565052396
+                  - cell "jakia mukta" [ref=f1e469]
+                  - cell "Human Resources" [ref=f1e470]
+                  - cell "General Manager" [ref=f1e471]
+                  - cell "M1" [ref=f1e472]
+                  - cell "permanent" [ref=f1e473]
+                  - cell "2026-01-02" [ref=f1e474]
+                  - cell "Draft" [ref=f1e475]
+                - row [ref=f1e479]:
+                  - cell [ref=f1e480]:
+                    - link "EMP-1030" [ref=f1e481] [cursor=pointer]:
+                      - /url: /employees/e-1787565628460
+                  - cell "fdfd" [ref=f1e482]
+                  - cell "Finance & Accounts" [ref=f1e483]
+                  - cell "Manager" [ref=f1e484]
+                  - cell "M2" [ref=f1e485]
+                  - cell "permanent" [ref=f1e486]
+                  - cell "2026-01-12" [ref=f1e487]
+                  - cell "Active" [ref=f1e488]
+                - row [ref=f1e774]:
+                  - cell [ref=f1e775]:
+                    - link "EMP-PWTEST01" [ref=f1e776] [cursor=pointer]:
+                      - /url: /employees/e-1788581953125
+                  - cell "Playwright Test User" [ref=f1e777]
+                  - cell "Human Resources" [ref=f1e778]
+                  - cell "Operator" [ref=f1e779]
+                  - cell "W2" [ref=f1e780]
+                  - cell "permanent" [ref=f1e781]
+                  - cell "2026-09-05" [ref=f1e782]
+                  - cell "Draft" [ref=f1e783]
+                - row [ref=f1e492]:
+                  - cell [ref=f1e493]:
+                    - link "FIN" [ref=f1e494] [cursor=pointer]:
+                      - /url: /employees/e-1787485951926
+                  - cell "Mahin" [ref=f1e495]
+                  - cell "Finance & Accounts" [ref=f1e496]
+                  - cell "Assistant Manager" [ref=f1e497]
+                  - cell "M3" [ref=f1e498]
+                  - cell "permanent" [ref=f1e499]
+                  - cell "2026-01-05" [ref=f1e500]
+                  - cell "Deactivated" [ref=f1e501]
+                - row [ref=f1e505]:
+                  - cell [ref=f1e506]:
+                    - link "HRM" [ref=f1e507] [cursor=pointer]:
+                      - /url: /employees/e-1787484348870
+                  - cell "Araf" [ref=f1e508]
+                  - cell "Human Resources" [ref=f1e509]
+                  - cell "Manager" [ref=f1e510]
+                  - cell "M2" [ref=f1e511]
+                  - cell "permanent" [ref=f1e512]
+                  - cell "2025-02-12" [ref=f1e513]
+                  - cell "Deactivated" [ref=f1e514]
+                - row [ref=f1e518]:
+                  - cell [ref=f1e519]:
+                    - link "M3" [ref=f1e520] [cursor=pointer]:
+                      - /url: /employees/e-1787485645545
+                  - cell "Atiq" [ref=f1e521]
+                  - cell "Human Resources" [ref=f1e522]
+                  - cell "Executive" [ref=f1e523]
+                  - cell "E1" [ref=f1e524]
+                  - cell "permanent" [ref=f1e525]
+                  - cell "2025-05-04" [ref=f1e526]
+                  - cell "Active" [ref=f1e527]
+                - row [ref=f1e531]:
+                  - cell [ref=f1e532]:
+                    - link "PRD" [ref=f1e533] [cursor=pointer]:
+                      - /url: /employees/e-1787485459999
+                  - cell "Mohammad Ali" [ref=f1e534]
+                  - cell "Production" [ref=f1e535]
+                  - cell "General Manager" [ref=f1e536]
+                  - cell "M1" [ref=f1e537]
+                  - cell "permanent" [ref=f1e538]
+                  - cell "2026-02-02" [ref=f1e539]
+                  - cell "Active" [ref=f1e540]
+            - generic [ref=f1e544]: 27 of 27 records

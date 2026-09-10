@@ -1,0 +1,141 @@
+- generic [ref=f40e4]:
+  - navigation "Modules" [ref=f40e7]:
+    - link "P PayFlow HR & Payroll" [ref=f40e27] [cursor=pointer]:
+      - /url: /dashboard
+      - generic [ref=f40e9]: P
+      - generic [ref=f40e10]:
+        - generic [ref=f40e11]: PayFlow
+        - generic [ref=f40e12]: HR & Payroll
+    - link "HR dashboard" [ref=f40e28] [cursor=pointer]:
+      - /url: /dashboard
+    - paragraph [ref=f40e34]: People
+    - link "Employees" [ref=f40e35] [cursor=pointer]:
+      - /url: /employees
+    - link "Organisation" [ref=f40e43] [cursor=pointer]:
+      - /url: /organisation
+    - link "Change Requests" [ref=f40e50] [cursor=pointer]:
+      - /url: /change-requests
+    - paragraph [ref=f40e55]: Time & Attendance
+    - link "Attendance" [ref=f40e56] [cursor=pointer]:
+      - /url: /attendance
+    - link "Leave" [ref=f40e62] [cursor=pointer]:
+      - /url: /leave
+    - link "Overtime" [ref=f40e68] [cursor=pointer]:
+      - /url: /overtime
+    - paragraph [ref=f40e74]: Payroll
+    - link "Payroll Batches" [ref=f40e75] [cursor=pointer]:
+      - /url: /payroll
+    - link "Payslips" [ref=f40e82] [cursor=pointer]:
+      - /url: /payslips
+    - link "Loans & Bonuses" [ref=f40e88] [cursor=pointer]:
+      - /url: /loans-bonuses
+    - link "Final Settlement" [ref=f40e95] [cursor=pointer]:
+      - /url: /settlements
+    - paragraph [ref=f40e101]: Governance
+    - link "Reports" [ref=f40e102] [cursor=pointer]:
+      - /url: /reports
+  - generic [ref=f40e14]:
+    - banner [ref=f40e15]:
+      - generic [ref=f40e16]:
+        - navigation "Breadcrumb" [ref=f40e17]:
+          - list [ref=f40e18]:
+            - listitem [ref=f40e19]:
+              - link "Home" [ref=f40e110] [cursor=pointer]:
+                - /url: /dashboard
+            - listitem [ref=f40e111]:
+              - link "Overtime" [ref=f40e116] [cursor=pointer]:
+                - /url: /overtime
+            - listitem [ref=f40e263]:
+              - link "live-ot-playwright" [ref=f40e268] [cursor=pointer]:
+                - /url: /overtime/live-ot-playwright
+        - searchbox "Find a module" [ref=f40e21]
+        - link "Notifications" [ref=f40e117] [cursor=pointer]:
+          - /url: /notifications
+          - generic [ref=f40e122]: "1"
+        - button "NA Nasrin Akter" [ref=f40e123]:
+          - generic [ref=f40e25]: NA
+          - generic [ref=f40e124]: Nasrin Akter
+    - main [ref=f40e26]:
+      - generic [ref=f40e269]:
+        - generic [ref=f40e271]:
+          - link "Overtime" [ref=f40e272] [cursor=pointer]:
+            - /url: /overtime
+          - generic [ref=f40e276]:
+            - generic [ref=f40e277]:
+              - paragraph [ref=f40e278]: Time & Attendance
+              - heading "Sultana Alam · overtime" [level=1] [ref=f40e279]
+              - paragraph [ref=f40e280]: EMP-2034 · 3h overtime on 2027-07-01
+            - generic [ref=f40e281]:
+              - generic [ref=f40e282]: Auto Calculated
+              - generic [ref=f40e285]: Not included
+              - button "Correct" [ref=f40e288]
+        - generic [ref=f40e292]:
+          - generic [ref=f40e293]:
+            - paragraph [ref=f40e294]: This overtime record was calculated automatically from attendance check-out, capped against the weekly working-hour limit. It only counts in payroll once HR verifies it. Correcting it here is only for exceptional cases — a missed check-out or attendance fixed after the fact — and always needs a reason.
+            - generic [ref=f40e296]:
+              - heading "Record" [level=2] [ref=f40e298]
+              - generic [ref=f40e301]:
+                - generic [ref=f40e302]:
+                  - term [ref=f40e303]: Employee
+                  - definition [ref=f40e304]: Sultana Alam
+                - generic [ref=f40e305]:
+                  - term [ref=f40e306]: Employee code
+                  - definition [ref=f40e307]: EMP-2034
+                - generic [ref=f40e308]:
+                  - term [ref=f40e309]: Date worked
+                  - definition [ref=f40e310]: 2027-07-01
+                - generic [ref=f40e311]:
+                  - term [ref=f40e312]: Check-in
+                  - definition [ref=f40e313]: —
+                - generic [ref=f40e314]:
+                  - term [ref=f40e315]: Check-out
+                  - definition [ref=f40e316]: —
+                - generic [ref=f40e317]:
+                  - term [ref=f40e318]: Scheduled hours
+                  - definition [ref=f40e319]: 1.47h
+                - generic [ref=f40e320]:
+                  - term [ref=f40e321]: Actual worked hours
+                  - definition [ref=f40e322]: —
+                - generic [ref=f40e323]:
+                  - term [ref=f40e324]: Calculated overtime hours
+                  - definition [ref=f40e325]: 3h
+                - generic [ref=f40e326]:
+                  - term [ref=f40e327]: Hourly rate
+                  - definition [ref=f40e328]: ৳150
+                - generic [ref=f40e329]:
+                  - term [ref=f40e330]: Claim value
+                  - definition [ref=f40e331]: ৳450
+                - generic [ref=f40e332]:
+                  - term [ref=f40e333]: Decided by
+                  - definition [ref=f40e334]: —
+                - generic [ref=f40e335]:
+                  - term [ref=f40e336]: Corrected by
+                  - definition [ref=f40e337]: —
+            - generic [ref=f40e339]:
+              - generic [ref=f40e340]:
+                - heading "Decision" [level=2] [ref=f40e341]
+                - paragraph [ref=f40e342]: Verifying includes the hours in payroll
+              - generic [ref=f40e343]:
+                - generic [ref=f40e345]:
+                  - generic [ref=f40e346]: Rejection reason
+                  - textbox "Rejection reason" [ref=f40e348]
+                  - paragraph [ref=f40e349]: Required only if you reject the record.
+                - generic [ref=f40e350]:
+                  - button "Verify record" [ref=f40e351]
+                  - button "Reject record" [ref=f40e352]
+          - generic [ref=f40e354]:
+            - generic [ref=f40e355]:
+              - heading "Weekly ceiling" [level=2] [ref=f40e356]
+              - paragraph [ref=f40e357]: Week of 2027-07-01
+            - generic [ref=f40e358]:
+              - generic [ref=f40e359]:
+                - generic [ref=f40e360]:
+                  - term [ref=f40e361]: Committed hours
+                  - definition [ref=f40e362]: "3"
+                - generic [ref=f40e363]:
+                  - term [ref=f40e364]: Ceiling
+                  - definition [ref=f40e365]: "12"
+                - generic [ref=f40e366]:
+                  - term [ref=f40e367]: Headroom
+                  - definition [ref=f40e368]: "9"
+              - paragraph [ref=f40e369]: 48 regular + 12 overtime = 60 total hours/week. Pending and approved claims count towards the ceiling; rejected ones do not.

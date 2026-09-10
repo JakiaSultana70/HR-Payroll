@@ -1,0 +1,119 @@
+- generic [ref=f1e4]:
+  - navigation "Modules" [ref=f1e7]:
+    - link "P PayFlow HR & Payroll" [ref=f1e8] [cursor=pointer]:
+      - /url: /dashboard
+      - generic [ref=f1e9]: P
+      - generic [ref=f1e10]:
+        - generic [ref=f1e11]: PayFlow
+        - generic [ref=f1e12]: HR & Payroll
+    - link "Admin dashboard" [ref=f1e13] [cursor=pointer]:
+      - /url: /dashboard
+    - paragraph [ref=f1e19]: People
+    - link "Employees" [ref=f1e20] [cursor=pointer]:
+      - /url: /employees
+    - link "Organisation" [ref=f1e28] [cursor=pointer]:
+      - /url: /organisation
+    - link "Users & Roles" [ref=f1e35] [cursor=pointer]:
+      - /url: /users
+    - link "Change Requests" [ref=f1e40] [cursor=pointer]:
+      - /url: /change-requests
+    - link "Registration Requests" [ref=f1e45] [cursor=pointer]:
+      - /url: /registration-requests
+    - paragraph [ref=f1e53]: Time & Attendance
+    - link "Attendance" [ref=f1e54] [cursor=pointer]:
+      - /url: /attendance
+    - link "Leave" [ref=f1e60] [cursor=pointer]:
+      - /url: /leave
+    - link "Overtime" [ref=f1e66] [cursor=pointer]:
+      - /url: /overtime
+    - paragraph [ref=f1e72]: Payroll
+    - link "Payroll Batches" [ref=f1e73] [cursor=pointer]:
+      - /url: /payroll
+    - link "Payslips" [ref=f1e80] [cursor=pointer]:
+      - /url: /payslips
+    - link "Salary & Rules" [ref=f1e86] [cursor=pointer]:
+      - /url: /salary-rules
+    - link "Loans & Bonuses" [ref=f1e91] [cursor=pointer]:
+      - /url: /loans-bonuses
+    - link "Final Settlement" [ref=f1e98] [cursor=pointer]:
+      - /url: /settlements
+    - paragraph [ref=f1e104]: Governance
+    - link "Audit Log" [ref=f1e105] [cursor=pointer]:
+      - /url: /audit
+    - link "Reports" [ref=f1e110] [cursor=pointer]:
+      - /url: /reports
+  - generic [ref=f1e118]:
+    - banner [ref=f1e119]:
+      - generic [ref=f1e120]:
+        - navigation "Breadcrumb" [ref=f1e121]:
+          - list [ref=f1e122]:
+            - listitem [ref=f1e123]:
+              - link "Home" [ref=f1e124] [cursor=pointer]:
+                - /url: /dashboard
+            - listitem [ref=f1e125]:
+              - link "Organisation" [ref=f1e130] [cursor=pointer]:
+                - /url: /organisation
+        - searchbox "Find a module" [ref=f1e132]
+        - link "Notifications" [ref=f1e133] [cursor=pointer]:
+          - /url: /notifications
+          - generic [ref=f1e138]: "1"
+        - button "FI Farhana Islam" [ref=f1e140]:
+          - generic [ref=f1e141]: FI
+          - generic [ref=f1e142]: Farhana Islam
+    - main [ref=f1e146]:
+      - generic [ref=f1e147]:
+        - generic "Organisation" [ref=f1e148]:
+          - generic [ref=f1e151]:
+            - paragraph [ref=f1e152]: People
+            - heading "Organisation" [level=1] [ref=f1e153]
+            - paragraph [ref=f1e154]: Departments, designations, shifts and the holiday calendar
+        - generic [ref=f1e155]:
+          - generic [ref=f1e157]:
+            - paragraph [ref=f1e158]: Departments
+            - paragraph [ref=f1e159]: "7"
+            - paragraph [ref=f1e160]: With a nominated head
+          - generic [ref=f1e162]:
+            - paragraph [ref=f1e163]: Designations
+            - paragraph [ref=f1e164]: "8"
+            - paragraph [ref=f1e165]: Across seven grades
+          - generic [ref=f1e167]:
+            - paragraph [ref=f1e168]: Shifts
+            - paragraph [ref=f1e169]: "4"
+            - paragraph [ref=f1e170]: Day and evening lines
+          - generic [ref=f1e172]:
+            - paragraph [ref=f1e173]: Holidays
+            - paragraph [ref=f1e174]: "3"
+            - paragraph [ref=f1e175]: 2026 calendar
+        - tablist [ref=f1e176]:
+          - tab "Departments" [ref=f1e177]
+          - tab "Designations" [ref=f1e178]
+          - tab "Shifts" [ref=f1e179]
+          - tab "Holidays" [ref=f1e180]
+          - tab "Company" [active] [selected] [ref=f1e181]
+        - generic [ref=f1e259]:
+          - generic [ref=f1e260]:
+            - heading "Company" [level=2] [ref=f1e261]
+            - paragraph [ref=f1e262]: One organisation profile — used on the sign-in screen and payslips
+          - generic [ref=f1e264]:
+            - generic [ref=f1e266]:
+              - generic [ref=f1e267]: Name *
+              - textbox "Name" [ref=f1e269]: Meghna Apparels Ltd.
+            - generic [ref=f1e271]:
+              - generic [ref=f1e272]: Currency *
+              - textbox "Currency" [ref=f1e274]: BDT
+            - generic [ref=f1e277]:
+              - generic [ref=f1e278]: Address *
+              - textbox "Address" [ref=f1e280]: Plot 44, Gazipur Sadar, Gazipur 1700
+            - generic [ref=f1e282]:
+              - generic [ref=f1e283]: Timezone *
+              - textbox "Timezone" [ref=f1e285]: Asia/Dhaka
+            - generic [ref=f1e287]:
+              - generic [ref=f1e288]: Weekly off day
+              - combobox "Weekly off day" [ref=f1e290]:
+                - option "Sunday" [selected]
+                - option "Monday"
+                - option "Tuesday"
+                - option "Wednesday"
+                - option "Thursday"
+                - option "Friday"
+                - option "Saturday"

@@ -1,0 +1,211 @@
+- generic [ref=f49e810]:
+  - navigation "Modules" [ref=f49e813]:
+    - link "P PayFlow HR & Payroll" [ref=f49e814] [cursor=pointer]:
+      - /url: /dashboard
+      - generic [ref=f49e815]: P
+      - generic [ref=f49e816]:
+        - generic [ref=f49e817]: PayFlow
+        - generic [ref=f49e818]: HR & Payroll
+    - link "Admin dashboard" [ref=f49e819] [cursor=pointer]:
+      - /url: /dashboard
+    - paragraph [ref=f49e825]: People
+    - link "Employees" [ref=f49e826] [cursor=pointer]:
+      - /url: /employees
+    - link "Organisation" [ref=f49e834] [cursor=pointer]:
+      - /url: /organisation
+    - link "Users & Roles" [ref=f49e841] [cursor=pointer]:
+      - /url: /users
+    - link "Change Requests" [ref=f49e846] [cursor=pointer]:
+      - /url: /change-requests
+    - paragraph [ref=f49e851]: Time & Attendance
+    - link "Attendance" [ref=f49e852] [cursor=pointer]:
+      - /url: /attendance
+    - link "Leave" [ref=f49e858] [cursor=pointer]:
+      - /url: /leave
+    - link "Overtime" [ref=f49e864] [cursor=pointer]:
+      - /url: /overtime
+    - paragraph [ref=f49e870]: Payroll
+    - link "Payroll Batches" [ref=f49e871] [cursor=pointer]:
+      - /url: /payroll
+    - link "Payslips" [ref=f49e878] [cursor=pointer]:
+      - /url: /payslips
+    - link "Salary & Rules" [ref=f49e884] [cursor=pointer]:
+      - /url: /salary-rules
+    - link "Loans & Bonuses" [ref=f49e889] [cursor=pointer]:
+      - /url: /loans-bonuses
+    - link "Final Settlement" [ref=f49e896] [cursor=pointer]:
+      - /url: /settlements
+    - paragraph [ref=f49e902]: Governance
+    - link "Audit Log" [ref=f49e903] [cursor=pointer]:
+      - /url: /audit
+    - link "Reports" [ref=f49e908] [cursor=pointer]:
+      - /url: /reports
+  - generic [ref=f49e916]:
+    - banner [ref=f49e917]:
+      - generic [ref=f49e918]:
+        - navigation "Breadcrumb" [ref=f49e919]:
+          - list [ref=f49e920]:
+            - listitem [ref=f49e921]:
+              - link "Home" [ref=f49e922] [cursor=pointer]:
+                - /url: /dashboard
+            - listitem [ref=f49e923]:
+              - link "Dashboard" [ref=f49e928] [cursor=pointer]:
+                - /url: /dashboard
+        - searchbox "Find a module" [ref=f49e930]
+        - link "Notifications" [ref=f49e931] [cursor=pointer]:
+          - /url: /notifications
+          - generic [ref=f49e936]: "1"
+        - button "FI Farhana Islam" [ref=f49e938]:
+          - generic [ref=f49e939]: FI
+          - generic [ref=f49e940]: Farhana Islam
+    - main [ref=f49e944]:
+      - generic [ref=f49e945]:
+        - generic [ref=f49e949]:
+          - paragraph [ref=f49e950]: Admin
+          - heading "Admin dashboard" [level=1] [ref=f49e951]
+          - paragraph [ref=f49e952]: "System-wide view: people, approvals and payroll health"
+        - generic [ref=f49e953]:
+          - generic [ref=f49e955]:
+            - paragraph [ref=f49e956]: Total employees
+            - paragraph [ref=f49e957]: "66"
+            - paragraph [ref=f49e958]: 5 draft profile(s)
+          - generic [ref=f49e960]:
+            - paragraph [ref=f49e961]: Payroll cost
+            - paragraph [ref=f49e962]: ৳21,971
+            - paragraph [ref=f49e963]: January 2027
+          - generic [ref=f49e965]:
+            - paragraph [ref=f49e966]: Pending approvals
+            - paragraph [ref=f49e967]: "1"
+            - paragraph [ref=f49e968]: Leave and overtime
+          - generic [ref=f49e970]:
+            - paragraph [ref=f49e971]: Change requests
+            - paragraph [ref=f49e972]: "2"
+            - paragraph [ref=f49e973]: Awaiting your decision
+          - generic [ref=f49e975]:
+            - paragraph [ref=f49e976]: Present today
+            - paragraph [ref=f49e977]: 2 / 66
+            - paragraph [ref=f49e978]: Attendance summary
+          - generic [ref=f49e980]:
+            - paragraph [ref=f49e981]: Payroll status
+            - paragraph [ref=f49e982]: pending-approval
+            - paragraph [ref=f49e983]: PR-2027-01
+        - generic [ref=f49e984]:
+          - generic [ref=f49e986]:
+            - generic [ref=f49e987]:
+              - heading "Payroll cycles" [level=2] [ref=f49e988]
+              - paragraph [ref=f49e989]: Newest first
+            - list [ref=f49e991]:
+              - listitem [ref=f49e992]:
+                - link "PR-2027-02" [ref=f49e993] [cursor=pointer]:
+                  - /url: /payroll/pb-202702-1788593764507
+                - generic [ref=f49e994]: February 2027
+                - generic [ref=f49e995]: calculated
+                - generic [ref=f49e998]: ৳54,995
+              - listitem [ref=f49e999]:
+                - link "PR-2027-01" [ref=f49e1000] [cursor=pointer]:
+                  - /url: /payroll/pb-202701-1788181327715
+                - generic [ref=f49e1001]: January 2027
+                - generic [ref=f49e1002]: pending-approval
+                - generic [ref=f49e1005]: ৳3,621
+              - listitem [ref=f49e1006]:
+                - link "PR-2026-12" [ref=f49e1007] [cursor=pointer]:
+                  - /url: /payroll/pb-202612-1788172819704
+                - generic [ref=f49e1008]: December 2026
+                - generic [ref=f49e1009]: paid
+                - generic [ref=f49e1012]: ৳755,437
+              - listitem [ref=f49e1013]:
+                - link "PR-2026-11" [ref=f49e1014] [cursor=pointer]:
+                  - /url: /payroll/pb-202611-1788339665288
+                - generic [ref=f49e1015]: November 2026
+                - generic [ref=f49e1016]: paid
+                - generic [ref=f49e1019]: ৳1,420,248
+              - listitem [ref=f49e1020]:
+                - link "PR-2026-10" [ref=f49e1021] [cursor=pointer]:
+                  - /url: /payroll/pb-202610-1788164196747
+                - generic [ref=f49e1022]: October 2026
+                - generic [ref=f49e1023]: paid
+                - generic [ref=f49e1026]: ৳758,437
+              - listitem [ref=f49e1027]:
+                - link "PR-2026-09" [ref=f49e1028] [cursor=pointer]:
+                  - /url: /payroll/pb-202609-1788162382080
+                - generic [ref=f49e1029]: September 2026
+                - generic [ref=f49e1030]: paid
+                - generic [ref=f49e1033]: ৳760,437
+              - listitem [ref=f49e1034]:
+                - link "PR-2026-08" [ref=f49e1035] [cursor=pointer]:
+                  - /url: /payroll/pb-202608-1788161765190
+                - generic [ref=f49e1036]: August 2026
+                - generic [ref=f49e1037]: paid
+                - generic [ref=f49e1040]: ৳721,137
+              - listitem [ref=f49e1041]:
+                - link "PR-2026-07" [ref=f49e1042] [cursor=pointer]:
+                  - /url: /payroll/pb-202607-1788159085958
+                - generic [ref=f49e1043]: July 2026
+                - generic [ref=f49e1044]: paid
+                - generic [ref=f49e1047]: ৳721,137
+              - listitem [ref=f49e1048]:
+                - link "PR-2026-06" [ref=f49e1049] [cursor=pointer]:
+                  - /url: /payroll/pb-202606-1788160964151
+                - generic [ref=f49e1050]: June 2026
+                - generic [ref=f49e1051]: paid
+                - generic [ref=f49e1054]: ৳760,437
+          - generic [ref=f49e1056]:
+            - generic [ref=f49e1057]:
+              - heading "Approval queue" [level=2] [ref=f49e1058]
+              - paragraph [ref=f49e1059]: Oldest first
+            - list [ref=f49e1061]:
+              - listitem [ref=f49e1062]:
+                - generic [ref=f49e1063]: Nurul Hossain
+                - generic [ref=f49e1064]: Casual leave, 1 day(s) from 2026-11-25
+                - generic [ref=f49e1065]: pending
+                - link "Open" [ref=f49e1068] [cursor=pointer]:
+                  - /url: /leave
+              - listitem [ref=f49e1069]:
+                - generic [ref=f49e1070]: Rakib Hasan
+                - generic [ref=f49e1071]: "Change request: email"
+                - generic [ref=f49e1072]: pending
+                - link "Open" [ref=f49e1075] [cursor=pointer]:
+                  - /url: /change-requests
+              - listitem [ref=f49e1076]:
+                - generic [ref=f49e1077]: Nasrin Akter
+                - generic [ref=f49e1078]: "Change request: phone"
+                - generic [ref=f49e1079]: pending
+                - link "Open" [ref=f49e1082] [cursor=pointer]:
+                  - /url: /change-requests
+        - generic [ref=f49e1085]:
+          - generic [ref=f49e1086]:
+            - heading "Recent activity" [level=2] [ref=f49e1087]
+            - paragraph [ref=f49e1088]: Newest first
+          - list [ref=f49e1090]:
+            - listitem [ref=f49e1091]:
+              - generic [ref=f49e1092]: rakib.hasan
+              - generic [ref=f49e1093]: Approved bonus request · Loans & Bonuses
+              - generic [ref=f49e1094]: 2026-09-05 09:38
+            - listitem [ref=f49e1095]:
+              - generic [ref=f49e1096]: rakib.hasan
+              - generic [ref=f49e1097]: Signed in · Authentication
+              - generic [ref=f49e1098]: 2026-09-05 09:37
+            - listitem [ref=f49e1099]:
+              - generic [ref=f49e1100]: nasrin.akter
+              - generic [ref=f49e1101]: Submitted bonus request · Loans & Bonuses
+              - generic [ref=f49e1102]: 2026-09-05 09:36
+            - listitem [ref=f49e1103]:
+              - generic [ref=f49e1104]: nasrin.akter
+              - generic [ref=f49e1105]: Approved loan request — recovery active · Loans & Bonuses
+              - generic [ref=f49e1106]: 2026-09-05 09:35
+            - listitem [ref=f49e1107]:
+              - generic [ref=f49e1108]: nasrin.akter
+              - generic [ref=f49e1109]: Submitted loan request · Loans & Bonuses
+              - generic [ref=f49e1110]: 2026-09-05 09:34
+            - listitem [ref=f49e1111]:
+              - generic [ref=f49e1112]: nasrin.akter
+              - generic [ref=f49e1113]: Approved overtime claim · Overtime
+              - generic [ref=f49e1114]: 2026-09-05 08:39
+            - listitem [ref=f49e1115]:
+              - generic [ref=f49e1116]: nasrin.akter
+              - generic [ref=f49e1117]: Approved leave request · Leave
+              - generic [ref=f49e1118]: 2026-09-05 08:16
+            - listitem [ref=f49e1119]:
+              - generic [ref=f49e1120]: nasrin.akter
+              - generic [ref=f49e1121]: Signed in · Authentication
+              - generic [ref=f49e1122]: 2026-09-05 08:16

@@ -1,0 +1,168 @@
+- generic [ref=f99e68]:
+  - navigation "Modules" [ref=f99e71]:
+    - link "P PayFlow HR & Payroll" [ref=f99e72] [cursor=pointer]:
+      - /url: /dashboard
+      - generic [ref=f99e73]: P
+      - generic [ref=f99e74]:
+        - generic [ref=f99e75]: PayFlow
+        - generic [ref=f99e76]: HR & Payroll
+    - link "Accountant dashboard" [ref=f99e77] [cursor=pointer]:
+      - /url: /dashboard
+    - paragraph [ref=f99e83]: People
+    - link "Change Requests" [ref=f99e84] [cursor=pointer]:
+      - /url: /change-requests
+    - paragraph [ref=f99e89]: Time & Attendance
+    - link "Attendance" [ref=f99e90] [cursor=pointer]:
+      - /url: /attendance
+    - link "Leave" [ref=f99e96] [cursor=pointer]:
+      - /url: /leave
+    - link "Overtime" [ref=f99e102] [cursor=pointer]:
+      - /url: /overtime
+    - paragraph [ref=f99e108]: Payroll
+    - link "Payroll Batches" [ref=f99e109] [cursor=pointer]:
+      - /url: /payroll
+    - link "Payslips" [ref=f99e116] [cursor=pointer]:
+      - /url: /payslips
+    - link "Salary & Rules" [ref=f99e122] [cursor=pointer]:
+      - /url: /salary-rules
+    - link "Loans & Bonuses" [ref=f99e127] [cursor=pointer]:
+      - /url: /loans-bonuses
+    - link "Final Settlement" [ref=f99e134] [cursor=pointer]:
+      - /url: /settlements
+    - paragraph [ref=f99e140]: Governance
+    - link "Reports" [ref=f99e141] [cursor=pointer]:
+      - /url: /reports
+  - generic [ref=f99e149]:
+    - banner [ref=f99e150]:
+      - generic [ref=f99e151]:
+        - navigation "Breadcrumb" [ref=f99e152]:
+          - list [ref=f99e153]:
+            - listitem [ref=f99e154]:
+              - link "Home" [ref=f99e155] [cursor=pointer]:
+                - /url: /dashboard
+            - listitem [ref=f99e156]:
+              - link "Dashboard" [ref=f99e161] [cursor=pointer]:
+                - /url: /dashboard
+        - searchbox "Find a module" [ref=f99e163]
+        - link "Notifications" [ref=f99e164] [cursor=pointer]:
+          - /url: /notifications
+        - button "RH Rakib Hasan" [ref=f99e170]:
+          - generic [ref=f99e171]: RH
+          - generic [ref=f99e172]: Rakib Hasan
+    - main [ref=f99e176]:
+      - generic [ref=f99e177]:
+        - generic [ref=f99e180]:
+          - generic [ref=f99e181]:
+            - paragraph [ref=f99e182]: Accountant
+            - heading "Accountant dashboard" [level=1] [ref=f99e183]
+            - paragraph [ref=f99e184]: Verify, approve and pay the payroll batches
+          - link "Verify pending batch" [ref=f99e186] [cursor=pointer]:
+            - /url: /payroll
+        - generic [ref=f99e187]:
+          - generic [ref=f99e189]:
+            - paragraph [ref=f99e190]: Monthly payroll
+            - paragraph [ref=f99e191]: ৳1,004,703
+            - paragraph [ref=f99e192]: Gross, current cycle
+          - generic [ref=f99e194]:
+            - paragraph [ref=f99e195]: Net salary
+            - paragraph [ref=f99e196]: ৳21,971
+            - paragraph [ref=f99e197]: Net, current cycle
+          - generic [ref=f99e199]:
+            - paragraph [ref=f99e200]: Total deductions
+            - paragraph [ref=f99e201]: ৳1,070,798
+            - paragraph [ref=f99e202]: Tax, PF and loan recovery
+          - generic [ref=f99e204]:
+            - paragraph [ref=f99e205]: Income tax
+            - paragraph [ref=f99e206]: ৳164,621
+            - paragraph [ref=f99e207]: Current cycle
+          - generic [ref=f99e209]:
+            - paragraph [ref=f99e210]: Provident fund
+            - paragraph [ref=f99e211]: ৳79,645
+            - paragraph [ref=f99e212]: Employee + employer, current cycle
+          - generic [ref=f99e214]:
+            - paragraph [ref=f99e215]: Overtime paid
+            - paragraph [ref=f99e216]: ৳0
+            - paragraph [ref=f99e217]: Current cycle
+          - generic [ref=f99e219]:
+            - paragraph [ref=f99e220]: Bonus paid
+            - paragraph [ref=f99e221]: ৳6,000
+            - paragraph [ref=f99e222]: Current cycle
+          - generic [ref=f99e224]:
+            - paragraph [ref=f99e225]: Bonuses pending
+            - paragraph [ref=f99e226]: "2"
+            - paragraph [ref=f99e227]: Awaiting your decision
+          - generic [ref=f99e229]:
+            - paragraph [ref=f99e230]: Payroll status
+            - paragraph [ref=f99e231]: pending-approval
+            - paragraph [ref=f99e232]: PR-2027-01
+        - generic [ref=f99e233]:
+          - generic [ref=f99e235]:
+            - generic [ref=f99e236]:
+              - heading "Payroll cycles" [level=2] [ref=f99e237]
+              - paragraph [ref=f99e238]: Newest first
+            - list [ref=f99e240]:
+              - listitem [ref=f99e241]:
+                - link "PR-2027-02" [ref=f99e242] [cursor=pointer]:
+                  - /url: /payroll/pb-202702-1788593764507
+                - generic [ref=f99e243]: February 2027
+                - generic [ref=f99e244]: calculated
+                - generic [ref=f99e247]: ৳54,995
+              - listitem [ref=f99e248]:
+                - link "PR-2027-01" [ref=f99e249] [cursor=pointer]:
+                  - /url: /payroll/pb-202701-1788181327715
+                - generic [ref=f99e250]: January 2027
+                - generic [ref=f99e251]: pending-approval
+                - generic [ref=f99e254]: ৳3,621
+              - listitem [ref=f99e255]:
+                - link "PR-2026-12" [ref=f99e256] [cursor=pointer]:
+                  - /url: /payroll/pb-202612-1788172819704
+                - generic [ref=f99e257]: December 2026
+                - generic [ref=f99e258]: paid
+                - generic [ref=f99e261]: ৳755,437
+              - listitem [ref=f99e262]:
+                - link "PR-2026-11" [ref=f99e263] [cursor=pointer]:
+                  - /url: /payroll/pb-202611-1788339665288
+                - generic [ref=f99e264]: November 2026
+                - generic [ref=f99e265]: paid
+                - generic [ref=f99e268]: ৳1,420,248
+              - listitem [ref=f99e269]:
+                - link "PR-2026-10" [ref=f99e270] [cursor=pointer]:
+                  - /url: /payroll/pb-202610-1788164196747
+                - generic [ref=f99e271]: October 2026
+                - generic [ref=f99e272]: paid
+                - generic [ref=f99e275]: ৳758,437
+              - listitem [ref=f99e276]:
+                - link "PR-2026-09" [ref=f99e277] [cursor=pointer]:
+                  - /url: /payroll/pb-202609-1788162382080
+                - generic [ref=f99e278]: September 2026
+                - generic [ref=f99e279]: paid
+                - generic [ref=f99e282]: ৳760,437
+              - listitem [ref=f99e283]:
+                - link "PR-2026-08" [ref=f99e284] [cursor=pointer]:
+                  - /url: /payroll/pb-202608-1788161765190
+                - generic [ref=f99e285]: August 2026
+                - generic [ref=f99e286]: paid
+                - generic [ref=f99e289]: ৳721,137
+              - listitem [ref=f99e290]:
+                - link "PR-2026-07" [ref=f99e291] [cursor=pointer]:
+                  - /url: /payroll/pb-202607-1788159085958
+                - generic [ref=f99e292]: July 2026
+                - generic [ref=f99e293]: paid
+                - generic [ref=f99e296]: ৳721,137
+              - listitem [ref=f99e297]:
+                - link "PR-2026-06" [ref=f99e298] [cursor=pointer]:
+                  - /url: /payroll/pb-202606-1788160964151
+                - generic [ref=f99e299]: June 2026
+                - generic [ref=f99e300]: paid
+                - generic [ref=f99e303]: ৳760,437
+          - generic [ref=f99e305]:
+            - generic [ref=f99e306]:
+              - heading "Batches to verify" [level=2] [ref=f99e307]
+              - paragraph [ref=f99e308]: Oldest first
+            - list [ref=f99e310]:
+              - listitem [ref=f99e311]:
+                - generic [ref=f99e312]: PR-2027-01
+                - generic [ref=f99e313]: January 2027
+                - generic [ref=f99e314]: ৳3,621
+                - link "Open" [ref=f99e315] [cursor=pointer]:
+                  - /url: /payroll/pb-202701-1788181327715

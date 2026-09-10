@@ -1,0 +1,210 @@
+- generic [ref=f28e4]:
+  - navigation "Modules" [ref=f28e7]:
+    - link "P PayFlow HR & Payroll" [ref=f28e8] [cursor=pointer]:
+      - /url: /dashboard
+      - generic [ref=f28e9]: P
+      - generic [ref=f28e10]:
+        - generic [ref=f28e11]: PayFlow
+        - generic [ref=f28e12]: HR & Payroll
+    - link "Admin dashboard" [ref=f28e13] [cursor=pointer]:
+      - /url: /dashboard
+    - paragraph [ref=f28e19]: People
+    - link "Employees" [ref=f28e20] [cursor=pointer]:
+      - /url: /employees
+    - link "Organisation" [ref=f28e28] [cursor=pointer]:
+      - /url: /organisation
+    - link "Users & Roles" [ref=f28e35] [cursor=pointer]:
+      - /url: /users
+    - link "Change Requests" [ref=f28e40] [cursor=pointer]:
+      - /url: /change-requests
+    - paragraph [ref=f28e45]: Time & Attendance
+    - link "Attendance" [ref=f28e46] [cursor=pointer]:
+      - /url: /attendance
+    - link "Leave" [ref=f28e52] [cursor=pointer]:
+      - /url: /leave
+    - link "Overtime" [ref=f28e58] [cursor=pointer]:
+      - /url: /overtime
+    - paragraph [ref=f28e64]: Payroll
+    - link "Payroll Batches" [ref=f28e65] [cursor=pointer]:
+      - /url: /payroll
+    - link "Payslips" [ref=f28e72] [cursor=pointer]:
+      - /url: /payslips
+    - link "Salary & Rules" [ref=f28e78] [cursor=pointer]:
+      - /url: /salary-rules
+    - link "Loans & Bonuses" [ref=f28e83] [cursor=pointer]:
+      - /url: /loans-bonuses
+    - link "Final Settlement" [ref=f28e90] [cursor=pointer]:
+      - /url: /settlements
+    - paragraph [ref=f28e96]: Governance
+    - link "Audit Log" [ref=f28e97] [cursor=pointer]:
+      - /url: /audit
+    - link "Reports" [ref=f28e102] [cursor=pointer]:
+      - /url: /reports
+  - generic [ref=f28e110]:
+    - banner [ref=f28e111]:
+      - generic [ref=f28e112]:
+        - navigation "Breadcrumb" [ref=f28e113]:
+          - list [ref=f28e114]:
+            - listitem [ref=f28e115]:
+              - link "Home" [ref=f28e116] [cursor=pointer]:
+                - /url: /dashboard
+            - listitem [ref=f28e117]:
+              - link "Payroll Batches" [ref=f28e122] [cursor=pointer]:
+                - /url: /payroll
+        - searchbox "Find a module" [ref=f28e124]
+        - link "Notifications" [ref=f28e125] [cursor=pointer]:
+          - /url: /notifications
+          - generic [ref=f28e130]: "1"
+        - button "FI Farhana Islam" [ref=f28e132]:
+          - generic [ref=f28e133]: FI
+          - generic [ref=f28e134]: Farhana Islam
+    - main [ref=f28e138]:
+      - generic [ref=f28e139]:
+        - generic "Payroll batches" [ref=f28e140]:
+          - generic [ref=f28e142]:
+            - generic [ref=f28e143]:
+              - paragraph [ref=f28e144]: Payroll
+              - heading "Payroll batches" [level=1] [ref=f28e145]
+              - paragraph [ref=f28e146]: Request the run, calculate, verify, approve and pay
+            - button "Create payroll batch" [active] [ref=f28e148]
+        - generic [ref=f28e149]:
+          - generic [ref=f28e151]:
+            - paragraph [ref=f28e152]: Cycles on record
+            - paragraph [ref=f28e153]: "9"
+            - paragraph [ref=f28e154]: Newest first
+          - generic [ref=f28e156]:
+            - paragraph [ref=f28e157]: Awaiting verification
+            - paragraph [ref=f28e158]: "1"
+            - paragraph [ref=f28e159]: With the accountant
+          - generic [ref=f28e161]:
+            - paragraph [ref=f28e162]: Paid to date
+            - paragraph [ref=f28e163]: ৳5,897,270
+            - paragraph [ref=f28e164]: Net disbursed
+          - generic [ref=f28e166]:
+            - paragraph [ref=f28e167]: Open net payable
+            - paragraph [ref=f28e168]: ৳3,621
+            - paragraph [ref=f28e169]: Not yet disbursed
+        - generic [ref=f28e172]:
+          - heading "Cycles" [level=2] [ref=f28e174]
+          - generic [ref=f28e177]:
+            - searchbox "Search batch reference or month" [ref=f28e180]
+            - table [ref=f28e182]:
+              - rowgroup [ref=f28e183]:
+                - row [ref=f28e184]:
+                  - columnheader [ref=f28e185]:
+                    - button "Batch" [ref=f28e186]
+                  - columnheader [ref=f28e187]:
+                    - button "Month" [ref=f28e188]
+                  - columnheader [ref=f28e189]:
+                    - button "Cycle" [ref=f28e190]
+                  - columnheader [ref=f28e191]:
+                    - button "Staff" [ref=f28e192]
+                  - columnheader [ref=f28e193]:
+                    - button "Gross" [ref=f28e194]
+                  - columnheader [ref=f28e195]:
+                    - button "Deductions" [ref=f28e196]
+                  - columnheader [ref=f28e197]:
+                    - button "Net" [ref=f28e198]
+                  - columnheader [ref=f28e199]:
+                    - button "Status" [ref=f28e200]
+              - rowgroup [ref=f28e201]:
+                - row [ref=f28e331]:
+                  - cell [ref=f28e332]:
+                    - link "PR-2027-02" [ref=f28e333] [cursor=pointer]:
+                      - /url: /payroll/pb-202702-1788593764507
+                  - cell "February 2027" [ref=f28e334]
+                  - cell "2027-02-01 → 2027-02-28" [ref=f28e335]
+                  - cell "0" [ref=f28e336]
+                  - cell "৳0" [ref=f28e337]
+                  - cell "৳0" [ref=f28e338]
+                  - cell "৳0" [ref=f28e339]
+                  - cell "draft" [ref=f28e340]
+                - row [ref=f28e202]:
+                  - cell [ref=f28e203]:
+                    - link "PR-2027-01" [ref=f28e204] [cursor=pointer]:
+                      - /url: /payroll/pb-202701-1788181327715
+                  - cell "January 2027" [ref=f28e205]
+                  - cell "2027-01-01 → 2027-01-31" [ref=f28e206]
+                  - cell "9" [ref=f28e207]
+                  - cell "৳987,903" [ref=f28e208]
+                  - cell "৳1,066,348" [ref=f28e209]
+                  - cell "৳3,621" [ref=f28e210]
+                  - cell "pending-approval" [ref=f28e211]
+                - row [ref=f28e215]:
+                  - cell [ref=f28e216]:
+                    - link "PR-2026-12" [ref=f28e217] [cursor=pointer]:
+                      - /url: /payroll/pb-202612-1788172819704
+                  - cell "December 2026" [ref=f28e218]
+                  - cell "2026-12-01 → 2026-12-31" [ref=f28e219]
+                  - cell "10" [ref=f28e220]
+                  - cell "৳1,004,703" [ref=f28e221]
+                  - cell "৳249,266" [ref=f28e222]
+                  - cell "৳755,437" [ref=f28e223]
+                  - cell "paid" [ref=f28e224]
+                - row [ref=f28e228]:
+                  - cell [ref=f28e229]:
+                    - link "PR-2026-11" [ref=f28e230] [cursor=pointer]:
+                      - /url: /payroll/pb-202611-1788339665288
+                  - cell "November 2026" [ref=f28e231]
+                  - cell "2026-11-01 → 2026-11-30" [ref=f28e232]
+                  - cell "55" [ref=f28e233]
+                  - cell "৳2,656,328" [ref=f28e234]
+                  - cell "৳1,342,133" [ref=f28e235]
+                  - cell "৳1,420,248" [ref=f28e236]
+                  - cell "paid" [ref=f28e237]
+                - row [ref=f28e241]:
+                  - cell [ref=f28e242]:
+                    - link "PR-2026-10" [ref=f28e243] [cursor=pointer]:
+                      - /url: /payroll/pb-202610-1788164196747
+                  - cell "October 2026" [ref=f28e244]
+                  - cell "2026-10-01 → 2026-10-31" [ref=f28e245]
+                  - cell "10" [ref=f28e246]
+                  - cell "৳1,004,703" [ref=f28e247]
+                  - cell "৳246,266" [ref=f28e248]
+                  - cell "৳758,437" [ref=f28e249]
+                  - cell "paid" [ref=f28e250]
+                - row [ref=f28e254]:
+                  - cell [ref=f28e255]:
+                    - link "PR-2026-09" [ref=f28e256] [cursor=pointer]:
+                      - /url: /payroll/pb-202609-1788162382080
+                  - cell "September 2026" [ref=f28e257]
+                  - cell "2026-09-01 → 2026-09-30" [ref=f28e258]
+                  - cell "10" [ref=f28e259]
+                  - cell "৳1,004,703" [ref=f28e260]
+                  - cell "৳244,266" [ref=f28e261]
+                  - cell "৳760,437" [ref=f28e262]
+                  - cell "paid" [ref=f28e263]
+                - row [ref=f28e267]:
+                  - cell [ref=f28e268]:
+                    - link "PR-2026-08" [ref=f28e269] [cursor=pointer]:
+                      - /url: /payroll/pb-202608-1788161765190
+                  - cell "August 2026" [ref=f28e270]
+                  - cell "2026-08-01 → 2026-08-31" [ref=f28e271]
+                  - cell "9" [ref=f28e272]
+                  - cell "৳957,703" [ref=f28e273]
+                  - cell "৳236,566" [ref=f28e274]
+                  - cell "৳721,137" [ref=f28e275]
+                  - cell "paid" [ref=f28e276]
+                - row [ref=f28e280]:
+                  - cell [ref=f28e281]:
+                    - link "PR-2026-07" [ref=f28e282] [cursor=pointer]:
+                      - /url: /payroll/pb-202607-1788159085958
+                  - cell "July 2026" [ref=f28e283]
+                  - cell "2026-07-01 → 2026-07-31" [ref=f28e284]
+                  - cell "9" [ref=f28e285]
+                  - cell "৳957,703" [ref=f28e286]
+                  - cell "৳236,566" [ref=f28e287]
+                  - cell "৳721,137" [ref=f28e288]
+                  - cell "paid" [ref=f28e289]
+                - row [ref=f28e293]:
+                  - cell [ref=f28e294]:
+                    - link "PR-2026-06" [ref=f28e295] [cursor=pointer]:
+                      - /url: /payroll/pb-202606-1788160964151
+                  - cell "June 2026" [ref=f28e296]
+                  - cell "2026-06-01 → 2026-06-30" [ref=f28e297]
+                  - cell "10" [ref=f28e298]
+                  - cell "৳1,004,703" [ref=f28e299]
+                  - cell "৳244,266" [ref=f28e300]
+                  - cell "৳760,437" [ref=f28e301]
+                  - cell "paid" [ref=f28e302]
+            - generic [ref=f28e306]: 9 of 9 records

@@ -1,0 +1,127 @@
+- generic [ref=f116e68]:
+  - navigation "Modules" [ref=f116e71]:
+    - link "P PayFlow HR & Payroll" [ref=f116e72] [cursor=pointer]:
+      - /url: /dashboard
+      - generic [ref=f116e73]: P
+      - generic [ref=f116e74]:
+        - generic [ref=f116e75]: PayFlow
+        - generic [ref=f116e76]: HR & Payroll
+    - link "Employee dashboard" [ref=f116e77] [cursor=pointer]:
+      - /url: /dashboard
+    - paragraph [ref=f116e83]: People
+    - link "Change Requests" [ref=f116e84] [cursor=pointer]:
+      - /url: /change-requests
+    - paragraph [ref=f116e89]: Time & Attendance
+    - link "Attendance" [ref=f116e90] [cursor=pointer]:
+      - /url: /attendance
+    - link "Leave" [ref=f116e96] [cursor=pointer]:
+      - /url: /leave
+    - link "Overtime" [ref=f116e102] [cursor=pointer]:
+      - /url: /overtime
+    - paragraph [ref=f116e108]: Payroll
+    - link "Payslips" [ref=f116e109] [cursor=pointer]:
+      - /url: /payslips
+    - link "Loans & Bonuses" [ref=f116e115] [cursor=pointer]:
+      - /url: /loans-bonuses
+  - generic [ref=f116e122]:
+    - banner [ref=f116e123]:
+      - generic [ref=f116e124]:
+        - navigation "Breadcrumb" [ref=f116e125]:
+          - list [ref=f116e126]:
+            - listitem [ref=f116e127]:
+              - link "Home" [ref=f116e128] [cursor=pointer]:
+                - /url: /dashboard
+            - listitem [ref=f116e129]:
+              - link "Dashboard" [ref=f116e134] [cursor=pointer]:
+                - /url: /dashboard
+        - searchbox "Find a module" [ref=f116e136]
+        - link "Notifications" [ref=f116e137] [cursor=pointer]:
+          - /url: /notifications
+          - generic [ref=f116e142]: "8"
+        - button "TA Tanvir Ahmed Topu" [ref=f116e144]:
+          - generic [ref=f116e145]: TA
+          - generic [ref=f116e146]: Tanvir Ahmed Topu
+    - main [ref=f116e150]:
+      - generic [ref=f116e151]:
+        - generic [ref=f116e155]:
+          - paragraph [ref=f116e156]: Employee
+          - heading "Employee dashboard" [level=1] [ref=f116e157]
+          - paragraph [ref=f116e158]: Your attendance, leave, overtime and payslips
+        - generic [ref=f116e159]:
+          - generic [ref=f116e161]:
+            - paragraph [ref=f116e162]: Latest net pay
+            - paragraph [ref=f116e163]: ৳37,300
+            - paragraph [ref=f116e164]: Most recent payslip
+          - generic [ref=f116e166]:
+            - paragraph [ref=f116e167]: Days present
+            - paragraph [ref=f116e168]: "5"
+            - paragraph [ref=f116e169]: Current cycle
+          - generic [ref=f116e171]:
+            - paragraph [ref=f116e172]: Overtime approved
+            - paragraph [ref=f116e173]: 0.00 h
+            - paragraph [ref=f116e174]: Counted in this cycle's pay
+          - generic [ref=f116e176]:
+            - paragraph [ref=f116e177]: Leave balance
+            - paragraph [ref=f116e178]: "40"
+            - paragraph [ref=f116e179]: Remaining days, all types
+          - generic [ref=f116e181]:
+            - paragraph [ref=f116e182]: Loan outstanding
+            - paragraph [ref=f116e183]: ৳7,206
+            - paragraph [ref=f116e184]: Active recovery balance
+          - generic [ref=f116e186]:
+            - paragraph [ref=f116e187]: Provident fund
+            - paragraph [ref=f116e188]: ৳3,000
+            - paragraph [ref=f116e189]: Deducted this cycle
+          - generic [ref=f116e191]:
+            - paragraph [ref=f116e192]: My pending requests
+            - paragraph [ref=f116e193]: "0"
+            - paragraph [ref=f116e194]: Leave, overtime and change requests
+          - generic [ref=f116e196]:
+            - paragraph [ref=f116e197]: Notifications
+            - paragraph [ref=f116e198]: "8"
+            - paragraph [ref=f116e199]: Unread
+        - generic [ref=f116e202]:
+          - generic [ref=f116e203]:
+            - heading "My payroll cycle" [level=2] [ref=f116e204]
+            - paragraph [ref=f116e205]: Newest first — your own payslips only
+          - list [ref=f116e207]:
+            - listitem [ref=f116e208]:
+              - generic [ref=f116e209]: December 2026
+              - generic [ref=f116e210]: paid
+              - generic [ref=f116e213]: Gross ৳47,000
+              - generic [ref=f116e214]: Deductions ৳9,700
+              - generic [ref=f116e215]: Net ৳37,300
+              - link "View payslip" [ref=f116e216] [cursor=pointer]:
+                - /url: /payslips/ps-pb-202612-1788172819704-e4
+            - listitem [ref=f116e217]:
+              - generic [ref=f116e218]: November 2026
+              - generic [ref=f116e219]: paid
+              - generic [ref=f116e222]: Gross ৳47,000
+              - generic [ref=f116e223]: Deductions ৳48,433
+              - generic [ref=f116e224]: Net ৳0
+              - link "View payslip" [ref=f116e225] [cursor=pointer]:
+                - /url: /payslips/ps-pb-202611-1788339665288-e4
+            - listitem [ref=f116e226]:
+              - generic [ref=f116e227]: October 2026
+              - generic [ref=f116e228]: paid
+              - generic [ref=f116e231]: Gross ৳47,000
+              - generic [ref=f116e232]: Deductions ৳9,700
+              - generic [ref=f116e233]: Net ৳37,300
+              - link "View payslip" [ref=f116e234] [cursor=pointer]:
+                - /url: /payslips/ps-pb-202610-1788164196747-e4
+            - listitem [ref=f116e235]:
+              - generic [ref=f116e236]: September 2026
+              - generic [ref=f116e237]: paid
+              - generic [ref=f116e240]: Gross ৳47,000
+              - generic [ref=f116e241]: Deductions ৳7,700
+              - generic [ref=f116e242]: Net ৳39,300
+              - link "View payslip" [ref=f116e243] [cursor=pointer]:
+                - /url: /payslips/ps-pb-202609-1788162382080-e4
+            - listitem [ref=f116e244]:
+              - generic [ref=f116e245]: June 2026
+              - generic [ref=f116e246]: paid
+              - generic [ref=f116e249]: Gross ৳47,000
+              - generic [ref=f116e250]: Deductions ৳7,700
+              - generic [ref=f116e251]: Net ৳39,300
+              - link "View payslip" [ref=f116e252] [cursor=pointer]:
+                - /url: /payslips/ps-pb-202606-1788160964151-e4

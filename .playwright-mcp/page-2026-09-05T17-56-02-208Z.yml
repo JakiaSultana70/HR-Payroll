@@ -1,0 +1,17 @@
+- generic [ref=f118e4]:
+  - navigation "Modules" [ref=f118e7]:
+    - generic [ref=f118e8]:
+      - generic [ref=f118e9]: P
+      - generic [ref=f118e10]:
+        - generic [ref=f118e11]: PayFlow
+        - generic [ref=f118e12]: HR & Payroll
+  - generic [ref=f118e14]:
+    - banner [ref=f118e15]:
+      - generic [ref=f118e16]:
+        - navigation "Breadcrumb" [ref=f118e17]:
+          - list [ref=f118e18]:
+            - listitem [ref=f118e19]: Home
+        - searchbox "Find a module" [ref=f118e21]
+        - generic "Notifications" [ref=f118e22]
+        - button [ref=f118e24]
+    - main [ref=f118e26]

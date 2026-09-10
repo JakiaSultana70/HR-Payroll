@@ -1,0 +1,105 @@
+- generic [ref=f49e4]:
+  - navigation "Modules" [ref=f49e7]:
+    - link "P PayFlow HR & Payroll" [ref=f49e8] [cursor=pointer]:
+      - /url: /dashboard
+      - generic [ref=f49e9]: P
+      - generic [ref=f49e10]:
+        - generic [ref=f49e11]: PayFlow
+        - generic [ref=f49e12]: HR & Payroll
+    - link "Accountant dashboard" [ref=f49e13] [cursor=pointer]:
+      - /url: /dashboard
+    - paragraph [ref=f49e19]: People
+    - link "Change Requests" [ref=f49e20] [cursor=pointer]:
+      - /url: /change-requests
+    - paragraph [ref=f49e25]: Time & Attendance
+    - link "Attendance" [ref=f49e26] [cursor=pointer]:
+      - /url: /attendance
+    - link "Leave" [ref=f49e32] [cursor=pointer]:
+      - /url: /leave
+    - link "Overtime" [ref=f49e38] [cursor=pointer]:
+      - /url: /overtime
+    - paragraph [ref=f49e44]: Payroll
+    - link "Payroll Batches" [ref=f49e45] [cursor=pointer]:
+      - /url: /payroll
+    - link "Payslips" [ref=f49e52] [cursor=pointer]:
+      - /url: /payslips
+    - link "Salary & Rules" [ref=f49e58] [cursor=pointer]:
+      - /url: /salary-rules
+    - link "Loans & Bonuses" [ref=f49e63] [cursor=pointer]:
+      - /url: /loans-bonuses
+    - link "Final Settlement" [ref=f49e70] [cursor=pointer]:
+      - /url: /settlements
+    - paragraph [ref=f49e76]: Governance
+    - link "Reports" [ref=f49e77] [cursor=pointer]:
+      - /url: /reports
+  - generic [ref=f49e85]:
+    - banner [ref=f49e86]:
+      - generic [ref=f49e87]:
+        - navigation "Breadcrumb" [ref=f49e88]:
+          - list [ref=f49e89]:
+            - listitem [ref=f49e90]:
+              - link "Home" [ref=f49e91] [cursor=pointer]:
+                - /url: /dashboard
+            - listitem [ref=f49e92]:
+              - link "Salary & Rules" [ref=f49e97] [cursor=pointer]:
+                - /url: /salary-rules
+        - searchbox "Find a module" [ref=f49e99]
+        - link "Notifications" [ref=f49e100] [cursor=pointer]:
+          - /url: /notifications
+        - generic [ref=f49e105]:
+          - button "RH Rakib Hasan" [expanded] [active] [ref=f49e106]:
+            - generic [ref=f49e107]: RH
+            - generic [ref=f49e108]: Rakib Hasan
+          - generic [ref=f49e734]:
+            - generic [ref=f49e735]:
+              - paragraph [ref=f49e736]: Rakib Hasan
+              - paragraph [ref=f49e737]: rakib.hasan
+              - paragraph [ref=f49e738]: Signed in as Accountant
+            - link "My profile" [ref=f49e739] [cursor=pointer]:
+              - /url: /profile
+            - button "Sign out" [ref=f49e740]
+    - main [ref=f49e112]:
+      - generic [ref=f49e113]:
+        - generic "Salary & rules" [ref=f49e114]:
+          - generic [ref=f49e117]:
+            - paragraph [ref=f49e118]: Payroll
+            - heading "Salary & rules" [level=1] [ref=f49e119]
+            - paragraph [ref=f49e120]: What the engine reads before it calculates anything
+        - generic [ref=f49e121]:
+          - generic [ref=f49e123]:
+            - paragraph [ref=f49e124]: Structures
+            - paragraph [ref=f49e125]: "61"
+            - paragraph [ref=f49e126]: One per employee
+          - generic [ref=f49e128]:
+            - paragraph [ref=f49e129]: Monthly gross
+            - paragraph [ref=f49e130]: ৳2,769,703
+            - paragraph [ref=f49e131]: All active structures
+          - generic [ref=f49e133]:
+            - paragraph [ref=f49e134]: Tax slabs
+            - paragraph [ref=f49e135]: "5"
+            - paragraph [ref=f49e136]: Annual income bands
+          - generic [ref=f49e138]:
+            - paragraph [ref=f49e139]: PF contribution
+            - paragraph [ref=f49e140]: 10% / 10%
+            - paragraph [ref=f49e141]: Employee / employer share
+        - tablist [ref=f49e142]:
+          - tab "Salary structures" [ref=f49e143]
+          - tab "Tax slabs" [ref=f49e144]
+          - tab "Provident fund" [selected] [ref=f49e145]
+        - generic [ref=f49e715]:
+          - generic [ref=f49e716]:
+            - heading "Provident fund" [level=2] [ref=f49e717]
+            - paragraph [ref=f49e718]: Applies to permanent staff only
+          - generic [ref=f49e721]:
+            - generic [ref=f49e722]:
+              - term [ref=f49e723]: Scheme
+              - definition [ref=f49e724]: Standerd Provident Fund
+            - generic [ref=f49e725]:
+              - term [ref=f49e726]: Employee contribution
+              - definition [ref=f49e727]: 10% of basic
+            - generic [ref=f49e728]:
+              - term [ref=f49e729]: Employer contribution
+              - definition [ref=f49e730]: 10% of basic
+            - generic [ref=f49e731]:
+              - term [ref=f49e732]: Effective from
+              - definition [ref=f49e733]: 2026-01-01

@@ -1,0 +1,109 @@
+- generic [ref=f1e4]:
+  - navigation "Modules" [ref=f1e7]:
+    - link "P PayFlow HR & Payroll" [ref=f1e8] [cursor=pointer]:
+      - /url: /dashboard
+      - generic [ref=f1e9]: P
+      - generic [ref=f1e10]:
+        - generic [ref=f1e11]: PayFlow
+        - generic [ref=f1e12]: HR & Payroll
+    - link "Admin dashboard" [ref=f1e13] [cursor=pointer]:
+      - /url: /dashboard
+    - paragraph [ref=f1e19]: People
+    - link "Employees" [ref=f1e20] [cursor=pointer]:
+      - /url: /employees
+    - link "Organisation" [ref=f1e28] [cursor=pointer]:
+      - /url: /organisation
+    - link "Users & Roles" [ref=f1e35] [cursor=pointer]:
+      - /url: /users
+    - link "Change Requests" [ref=f1e40] [cursor=pointer]:
+      - /url: /change-requests
+    - paragraph [ref=f1e45]: Time & Attendance
+    - link "Attendance" [ref=f1e46] [cursor=pointer]:
+      - /url: /attendance
+    - link "Leave" [ref=f1e52] [cursor=pointer]:
+      - /url: /leave
+    - link "Overtime" [ref=f1e58] [cursor=pointer]:
+      - /url: /overtime
+    - paragraph [ref=f1e64]: Payroll
+    - link "Payroll Batches" [ref=f1e65] [cursor=pointer]:
+      - /url: /payroll
+    - link "Payslips" [ref=f1e72] [cursor=pointer]:
+      - /url: /payslips
+    - link "Salary & Rules" [ref=f1e78] [cursor=pointer]:
+      - /url: /salary-rules
+    - link "Loans & Bonuses" [ref=f1e83] [cursor=pointer]:
+      - /url: /loans-bonuses
+    - link "Final Settlement" [ref=f1e90] [cursor=pointer]:
+      - /url: /settlements
+    - paragraph [ref=f1e96]: Governance
+    - link "Audit Log" [ref=f1e97] [cursor=pointer]:
+      - /url: /audit
+    - link "Reports" [ref=f1e102] [cursor=pointer]:
+      - /url: /reports
+  - generic [ref=f1e110]:
+    - banner [ref=f1e111]:
+      - generic [ref=f1e112]:
+        - navigation "Breadcrumb" [ref=f1e113]:
+          - list [ref=f1e114]:
+            - listitem [ref=f1e115]:
+              - link "Home" [ref=f1e116] [cursor=pointer]:
+                - /url: /dashboard
+            - listitem [ref=f1e117]:
+              - link "Dashboard" [ref=f1e122] [cursor=pointer]:
+                - /url: /dashboard
+        - searchbox "Find a module" [ref=f1e124]
+        - link "Notifications" [ref=f1e125] [cursor=pointer]:
+          - /url: /notifications
+        - button "FI Farhana Islam" [ref=f1e131]:
+          - generic [ref=f1e132]: FI
+          - generic [ref=f1e133]: Farhana Islam
+    - main [ref=f1e137]:
+      - generic [ref=f1e138]:
+        - generic [ref=f1e142]:
+          - paragraph [ref=f1e143]: Admin
+          - heading "Admin dashboard" [level=1] [ref=f1e144]
+          - paragraph [ref=f1e145]: "System-wide view: people, approvals and payroll health"
+        - generic [ref=f1e146]:
+          - generic [ref=f1e148]:
+            - paragraph [ref=f1e149]: Total employees
+            - paragraph [ref=f1e150]: "0"
+            - paragraph [ref=f1e151]: 0 draft profile(s)
+          - generic [ref=f1e153]:
+            - paragraph [ref=f1e154]: Payroll cost
+            - paragraph [ref=f1e155]: ৳0
+            - paragraph [ref=f1e156]: Latest cycle
+          - generic [ref=f1e158]:
+            - paragraph [ref=f1e159]: Pending approvals
+            - paragraph [ref=f1e160]: "0"
+            - paragraph [ref=f1e161]: Leave and overtime
+          - generic [ref=f1e163]:
+            - paragraph [ref=f1e164]: Change requests
+            - paragraph [ref=f1e165]: "0"
+            - paragraph [ref=f1e166]: Awaiting your decision
+          - generic [ref=f1e168]:
+            - paragraph [ref=f1e169]: Present today
+            - paragraph [ref=f1e170]: 0 / 0
+            - paragraph [ref=f1e171]: Attendance summary
+          - generic [ref=f1e173]:
+            - paragraph [ref=f1e174]: Payroll status
+            - paragraph [ref=f1e175]: —
+            - paragraph [ref=f1e176]: No open cycle
+        - generic [ref=f1e177]:
+          - generic [ref=f1e179]:
+            - generic [ref=f1e180]:
+              - heading "Payroll cycles" [level=2] [ref=f1e181]
+              - paragraph [ref=f1e182]: Newest first
+            - list [ref=f1e184]:
+              - listitem [ref=f1e185]: No payroll cycle yet.
+          - generic [ref=f1e187]:
+            - generic [ref=f1e188]:
+              - heading "Approval queue" [level=2] [ref=f1e189]
+              - paragraph [ref=f1e190]: Oldest first
+            - list [ref=f1e192]:
+              - listitem [ref=f1e193]: Nothing waiting on you.
+        - generic [ref=f1e196]:
+          - generic [ref=f1e197]:
+            - heading "Recent activity" [level=2] [ref=f1e198]
+            - paragraph [ref=f1e199]: Newest first
+          - list [ref=f1e201]:
+            - listitem [ref=f1e202]: No activity recorded yet.

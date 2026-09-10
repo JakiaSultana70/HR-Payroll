@@ -1,0 +1,143 @@
+- generic [ref=f86e4]:
+  - navigation "Modules" [ref=f86e7]:
+    - link "P PayFlow HR & Payroll" [ref=f86e8] [cursor=pointer]:
+      - /url: /dashboard
+      - generic [ref=f86e9]: P
+      - generic [ref=f86e10]:
+        - generic [ref=f86e11]: PayFlow
+        - generic [ref=f86e12]: HR & Payroll
+    - link "Admin dashboard" [ref=f86e13] [cursor=pointer]:
+      - /url: /dashboard
+    - paragraph [ref=f86e19]: People
+    - link "Employees" [ref=f86e20] [cursor=pointer]:
+      - /url: /employees
+    - link "Organisation" [ref=f86e28] [cursor=pointer]:
+      - /url: /organisation
+    - link "Users & Roles" [ref=f86e35] [cursor=pointer]:
+      - /url: /users
+    - link "Change Requests" [ref=f86e40] [cursor=pointer]:
+      - /url: /change-requests
+    - paragraph [ref=f86e45]: Time & Attendance
+    - link "Attendance" [ref=f86e46] [cursor=pointer]:
+      - /url: /attendance
+    - link "Leave" [ref=f86e52] [cursor=pointer]:
+      - /url: /leave
+    - link "Overtime" [ref=f86e58] [cursor=pointer]:
+      - /url: /overtime
+    - paragraph [ref=f86e64]: Payroll
+    - link "Payroll Batches" [ref=f86e65] [cursor=pointer]:
+      - /url: /payroll
+    - link "Payslips" [ref=f86e72] [cursor=pointer]:
+      - /url: /payslips
+    - link "Salary & Rules" [ref=f86e78] [cursor=pointer]:
+      - /url: /salary-rules
+    - link "Loans & Bonuses" [ref=f86e83] [cursor=pointer]:
+      - /url: /loans-bonuses
+    - link "Final Settlement" [ref=f86e90] [cursor=pointer]:
+      - /url: /settlements
+    - paragraph [ref=f86e96]: Governance
+    - link "Audit Log" [ref=f86e97] [cursor=pointer]:
+      - /url: /audit
+    - link "Reports" [ref=f86e102] [cursor=pointer]:
+      - /url: /reports
+  - generic [ref=f86e110]:
+    - banner [ref=f86e111]:
+      - generic [ref=f86e112]:
+        - navigation "Breadcrumb" [ref=f86e113]:
+          - list [ref=f86e114]:
+            - listitem [ref=f86e115]:
+              - link "Home" [ref=f86e116] [cursor=pointer]:
+                - /url: /dashboard
+            - listitem [ref=f86e117]:
+              - link "Reports" [ref=f86e122] [cursor=pointer]:
+                - /url: /reports
+        - searchbox "Find a module" [ref=f86e124]
+        - link "Notifications" [ref=f86e125] [cursor=pointer]:
+          - /url: /notifications
+        - button "FI Farhana Islam" [ref=f86e131]:
+          - generic [ref=f86e132]: FI
+          - generic [ref=f86e133]: Farhana Islam
+    - main [ref=f86e137]:
+      - generic [ref=f86e138]:
+        - generic "System-wide reports" [ref=f86e139]:
+          - generic [ref=f86e142]:
+            - paragraph [ref=f86e143]: Admin
+            - heading "System-wide reports" [level=1] [ref=f86e144]
+            - paragraph [ref=f86e145]: Headcount, payroll cycles, tax, PF and audit activity across the whole system
+        - generic [ref=f86e146]:
+          - generic [ref=f86e148]:
+            - paragraph [ref=f86e149]: Active employees
+            - paragraph [ref=f86e150]: "0"
+            - paragraph [ref=f86e151]: 0 draft profile(s)
+          - generic [ref=f86e153]:
+            - paragraph [ref=f86e154]: Departments
+            - paragraph [ref=f86e155]: "0"
+            - paragraph [ref=f86e156]: Master data
+          - generic [ref=f86e158]:
+            - paragraph [ref=f86e159]: Leave approval rate
+            - paragraph [ref=f86e160]: —
+            - paragraph [ref=f86e161]: Approved of all decided requests
+          - generic [ref=f86e163]:
+            - paragraph [ref=f86e164]: Net paid to date
+            - paragraph [ref=f86e165]: ৳0
+            - paragraph [ref=f86e166]: Across paid payroll batches
+        - generic [ref=f86e167]:
+          - generic [ref=f86e169]:
+            - heading "Headcount by department" [level=2] [ref=f86e171]
+            - paragraph [ref=f86e182]: No departments yet
+          - generic [ref=f86e184]:
+            - generic [ref=f86e185]:
+              - heading "Audit activity by module" [level=2] [ref=f86e186]
+              - paragraph [ref=f86e187]: All time
+            - paragraph [ref=f86e198]: No audit events yet
+        - generic [ref=f86e201]:
+          - generic [ref=f86e202]:
+            - heading "Payroll cycles" [level=2] [ref=f86e203]
+            - paragraph [ref=f86e204]: Newest first
+          - paragraph [ref=f86e215]: No payroll batches yet
+        - generic [ref=f86e216]:
+          - generic [ref=f86e218]:
+            - paragraph [ref=f86e219]: Leave approved
+            - paragraph [ref=f86e220]: "0"
+          - generic [ref=f86e222]:
+            - paragraph [ref=f86e223]: Leave rejected
+            - paragraph [ref=f86e224]: "0"
+          - generic [ref=f86e226]:
+            - paragraph [ref=f86e227]: Overtime approved
+            - paragraph [ref=f86e228]: "0"
+          - generic [ref=f86e230]:
+            - paragraph [ref=f86e231]: Overtime rejected
+            - paragraph [ref=f86e232]: "0"
+        - generic [ref=f86e233]:
+          - generic [ref=f86e235]:
+            - paragraph [ref=f86e236]: Tax collected to date
+            - paragraph [ref=f86e237]: ৳0
+            - paragraph [ref=f86e238]: Across every paid payroll cycle
+          - generic [ref=f86e240]:
+            - paragraph [ref=f86e241]: PF contribution to date
+            - paragraph [ref=f86e242]: ৳0
+            - paragraph [ref=f86e243]: Employee ৳0 + Employer ৳0
+        - generic [ref=f86e246]:
+          - generic [ref=f86e247]:
+            - heading "Tax report" [level=2] [ref=f86e248]
+            - paragraph [ref=f86e249]: Per pay-period totals
+          - paragraph [ref=f86e260]: No payslips yet
+        - generic [ref=f86e263]:
+          - generic [ref=f86e264]:
+            - heading "Tax report — employee detail" [level=2] [ref=f86e265]
+            - paragraph [ref=f86e266]: Every payslip, newest cycle first
+          - generic [ref=f86e269]:
+            - searchbox "Search employee, code or batch" [ref=f86e272]
+            - paragraph [ref=f86e280]: No payslips yet
+        - generic [ref=f86e283]:
+          - generic [ref=f86e284]:
+            - heading "PF report" [level=2] [ref=f86e285]
+            - paragraph [ref=f86e286]: No PF rule configured
+          - paragraph [ref=f86e297]: No payslips yet
+        - generic [ref=f86e300]:
+          - generic [ref=f86e301]:
+            - heading "PF report — employee detail" [level=2] [ref=f86e302]
+            - paragraph [ref=f86e303]: Every payslip, newest cycle first
+          - generic [ref=f86e306]:
+            - searchbox "Search employee, code or batch" [ref=f86e309]
+            - paragraph [ref=f86e317]: No payslips yet

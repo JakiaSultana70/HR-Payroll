@@ -1,0 +1,116 @@
+- generic [ref=f104e4]:
+  - navigation "Modules" [ref=f104e7]:
+    - link "P PayFlow HR & Payroll" [ref=f104e27] [cursor=pointer]:
+      - /url: /dashboard
+      - generic [ref=f104e9]: P
+      - generic [ref=f104e10]:
+        - generic [ref=f104e11]: PayFlow
+        - generic [ref=f104e12]: HR & Payroll
+    - link "Employee dashboard" [ref=f104e28] [cursor=pointer]:
+      - /url: /dashboard
+    - paragraph [ref=f104e34]: People
+    - link "Change Requests" [ref=f104e35] [cursor=pointer]:
+      - /url: /change-requests
+    - paragraph [ref=f104e40]: Time & Attendance
+    - link "Attendance" [ref=f104e41] [cursor=pointer]:
+      - /url: /attendance
+    - link "Leave" [ref=f104e47] [cursor=pointer]:
+      - /url: /leave
+    - link "Overtime" [ref=f104e53] [cursor=pointer]:
+      - /url: /overtime
+    - paragraph [ref=f104e59]: Payroll
+    - link "Payslips" [ref=f104e60] [cursor=pointer]:
+      - /url: /payslips
+    - link "Loans & Bonuses" [ref=f104e66] [cursor=pointer]:
+      - /url: /loans-bonuses
+  - generic [ref=f104e14]:
+    - banner [ref=f104e15]:
+      - generic [ref=f104e16]:
+        - navigation "Breadcrumb" [ref=f104e17]:
+          - list [ref=f104e18]:
+            - listitem [ref=f104e19]:
+              - link "Home" [ref=f104e73] [cursor=pointer]:
+                - /url: /dashboard
+            - listitem [ref=f104e204]:
+              - link "Profile" [ref=f104e209] [cursor=pointer]:
+                - /url: /profile
+        - searchbox "Find a module" [ref=f104e21]
+        - link "Notifications" [ref=f104e80] [cursor=pointer]:
+          - /url: /notifications
+          - generic [ref=f104e85]: "9"
+        - button "TA Tanvir Ahmed Topu" [ref=f104e86]:
+          - generic [ref=f104e25]: TA
+          - generic [ref=f104e87]: Tanvir Ahmed Topu
+    - main [ref=f104e26]:
+      - generic [ref=f104e210]:
+        - generic "My profile" [ref=f104e211]:
+          - generic [ref=f104e214]:
+            - paragraph [ref=f104e215]: Account
+            - heading "My profile" [level=1] [ref=f104e216]
+            - paragraph [ref=f104e217]: View your record, update your contact details and manage your password.
+        - generic [ref=f104e219]:
+          - heading "Photo" [level=2] [ref=f104e221]
+          - generic [ref=f104e223]:
+            - generic [ref=f104e224]: TA
+            - generic [ref=f104e226]:
+              - generic [ref=f104e227] [cursor=pointer]: Change photo
+              - button "Change photo" [ref=f104e232]
+              - paragraph [ref=f104e233]: JPG or PNG, up to 1.5 MB.
+        - generic [ref=f104e236]:
+          - generic [ref=f104e237]:
+            - heading "Profile" [level=2] [ref=f104e238]
+            - paragraph [ref=f104e239]: Managed by HR — contact HR to change these
+          - generic [ref=f104e242]:
+            - generic [ref=f104e243]:
+              - term [ref=f104e244]: Employee code
+              - definition [ref=f104e245]: DEMO-EMPLOYEE
+            - generic [ref=f104e246]:
+              - term [ref=f104e247]: Department
+              - definition [ref=f104e248]: Demo Accounts
+            - generic [ref=f104e249]:
+              - term [ref=f104e250]: Designation
+              - definition [ref=f104e251]: Demo Role
+            - generic [ref=f104e252]:
+              - term [ref=f104e253]: Shift
+              - definition [ref=f104e254]: Demo Day
+            - generic [ref=f104e255]:
+              - term [ref=f104e256]: Employment type
+              - definition [ref=f104e257]: permanent
+            - generic [ref=f104e258]:
+              - term [ref=f104e259]: Joining date
+              - definition [ref=f104e260]: 2020-01-01
+        - generic [ref=f104e263]:
+          - heading "Contact details" [level=2] [ref=f104e265]
+          - generic [ref=f104e266]:
+            - generic [ref=f104e268]:
+              - generic [ref=f104e269]:
+                - term [ref=f104e270]: Phone
+                - definition [ref=f104e271]: "01900001111"
+              - generic [ref=f104e272]:
+                - term [ref=f104e273]: Email
+                - definition [ref=f104e274]: demo.tanvir.ahmed@example.com
+              - generic [ref=f104e275]:
+                - term [ref=f104e276]: Address
+                - definition [ref=f104e277]: Dhaka
+              - generic [ref=f104e278]:
+                - term [ref=f104e279]: Emergency contact
+                - definition [ref=f104e280]: Not set
+              - generic [ref=f104e281]:
+                - term [ref=f104e282]: Emergency phone
+                - definition [ref=f104e283]: Not set
+            - button "Edit contact details" [ref=f104e284]
+        - generic [ref=f104e287]:
+          - heading "Change password" [level=2] [ref=f104e289]
+          - generic [ref=f104e291]:
+            - generic [ref=f104e293]:
+              - generic [ref=f104e294]: Current password *
+              - textbox "Current password" [ref=f104e296]
+            - generic [ref=f104e297]:
+              - generic [ref=f104e299]:
+                - generic [ref=f104e300]: New password *
+                - textbox "New password" [ref=f104e302]
+                - paragraph [ref=f104e303]: At least 8 characters.
+              - generic [ref=f104e305]:
+                - generic [ref=f104e306]: Confirm new password *
+                - textbox "Confirm new password" [ref=f104e308]
+            - button "Update password" [ref=f104e309]

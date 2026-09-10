@@ -1,0 +1,149 @@
+- generic [ref=f55e4]:
+  - navigation "Modules" [ref=f55e7]:
+    - link "P PayFlow HR & Payroll" [ref=f55e27] [cursor=pointer]:
+      - /url: /dashboard
+      - generic [ref=f55e9]: P
+      - generic [ref=f55e10]:
+        - generic [ref=f55e11]: PayFlow
+        - generic [ref=f55e12]: HR & Payroll
+    - link "Admin dashboard" [ref=f55e28] [cursor=pointer]:
+      - /url: /dashboard
+    - paragraph [ref=f55e34]: People
+    - link "Employees" [ref=f55e35] [cursor=pointer]:
+      - /url: /employees
+    - link "Organisation" [ref=f55e43] [cursor=pointer]:
+      - /url: /organisation
+    - link "Users & Roles" [ref=f55e50] [cursor=pointer]:
+      - /url: /users
+    - link "Change Requests" [ref=f55e55] [cursor=pointer]:
+      - /url: /change-requests
+    - paragraph [ref=f55e60]: Time & Attendance
+    - link "Attendance" [ref=f55e61] [cursor=pointer]:
+      - /url: /attendance
+    - link "Leave" [ref=f55e67] [cursor=pointer]:
+      - /url: /leave
+    - link "Overtime" [ref=f55e73] [cursor=pointer]:
+      - /url: /overtime
+    - paragraph [ref=f55e79]: Payroll
+    - link "Payroll Batches" [ref=f55e80] [cursor=pointer]:
+      - /url: /payroll
+    - link "Payslips" [ref=f55e87] [cursor=pointer]:
+      - /url: /payslips
+    - link "Salary & Rules" [ref=f55e93] [cursor=pointer]:
+      - /url: /salary-rules
+    - link "Loans & Bonuses" [ref=f55e98] [cursor=pointer]:
+      - /url: /loans-bonuses
+    - link "Final Settlement" [ref=f55e105] [cursor=pointer]:
+      - /url: /settlements
+    - paragraph [ref=f55e111]: Governance
+    - link "Audit Log" [ref=f55e112] [cursor=pointer]:
+      - /url: /audit
+    - link "Reports" [ref=f55e117] [cursor=pointer]:
+      - /url: /reports
+  - generic [ref=f55e14]:
+    - banner [ref=f55e15]:
+      - generic [ref=f55e16]:
+        - navigation "Breadcrumb" [ref=f55e17]:
+          - list [ref=f55e18]:
+            - listitem [ref=f55e19]:
+              - link "Home" [ref=f55e125] [cursor=pointer]:
+                - /url: /dashboard
+            - listitem [ref=f55e126]:
+              - link "Salary & Rules" [ref=f55e131] [cursor=pointer]:
+                - /url: /salary-rules
+        - searchbox "Find a module" [ref=f55e21]
+        - link "Notifications" [ref=f55e132] [cursor=pointer]:
+          - /url: /notifications
+          - generic [ref=f55e137]: "1"
+        - button "FI Farhana Islam" [ref=f55e138]:
+          - generic [ref=f55e25]: FI
+          - generic [ref=f55e139]: Farhana Islam
+    - main [ref=f55e26]:
+      - generic [ref=f55e143]:
+        - generic "Salary & rules" [ref=f55e144]:
+          - generic [ref=f55e147]:
+            - paragraph [ref=f55e148]: Payroll
+            - heading "Salary & rules" [level=1] [ref=f55e149]
+            - paragraph [ref=f55e150]: What the engine reads before it calculates anything
+        - generic [ref=f55e151]:
+          - generic [ref=f55e153]:
+            - paragraph [ref=f55e154]: Structures
+            - paragraph [ref=f55e155]: "61"
+            - paragraph [ref=f55e156]: One per employee
+          - generic [ref=f55e158]:
+            - paragraph [ref=f55e159]: Monthly gross
+            - paragraph [ref=f55e160]: ৳2,769,703
+            - paragraph [ref=f55e161]: All active structures
+          - generic [ref=f55e163]:
+            - paragraph [ref=f55e164]: Tax slabs
+            - paragraph [ref=f55e165]: "5"
+            - paragraph [ref=f55e166]: Annual income bands
+          - generic [ref=f55e168]:
+            - paragraph [ref=f55e169]: PF contribution
+            - paragraph [ref=f55e170]: 10% / 10%
+            - paragraph [ref=f55e171]: Employee / employer share
+        - tablist [ref=f55e172]:
+          - tab "Salary structures" [ref=f55e173]
+          - tab "Tax slabs" [active] [selected] [ref=f55e174]
+          - tab "Provident fund" [ref=f55e175]
+        - generic [ref=f55e997]:
+          - generic [ref=f55e998]:
+            - heading "Income tax slabs" [level=2] [ref=f55e999]
+            - paragraph [ref=f55e1000]: Applied to annualised gross
+          - generic [ref=f55e1001]:
+            - button "Add slab" [ref=f55e1003]
+            - table [ref=f55e1007]:
+              - rowgroup [ref=f55e1008]:
+                - row [ref=f55e1009]:
+                  - columnheader "Slab" [ref=f55e1010]
+                  - columnheader "From" [ref=f55e1011]
+                  - columnheader "To" [ref=f55e1012]
+                  - columnheader "Rate" [ref=f55e1013]
+                  - columnheader "Effective from" [ref=f55e1014]
+                  - columnheader "Actions" [ref=f55e1015]
+              - rowgroup [ref=f55e1016]:
+                - row [ref=f55e1017]:
+                  - cell "Exempt" [ref=f55e1018]
+                  - cell "৳0" [ref=f55e1019]
+                  - cell "৳350,000" [ref=f55e1020]
+                  - cell "0%" [ref=f55e1021]
+                  - cell "2026-01-07" [ref=f55e1022]
+                  - cell [ref=f55e1023]:
+                    - button "Edit" [ref=f55e1024]
+                    - button "Delete" [ref=f55e1025]
+                - row [ref=f55e1026]:
+                  - cell "Slab 1" [ref=f55e1027]
+                  - cell "৳350,001" [ref=f55e1028]
+                  - cell "৳450,000" [ref=f55e1029]
+                  - cell "5%" [ref=f55e1030]
+                  - cell "2026-01-07" [ref=f55e1031]
+                  - cell [ref=f55e1032]:
+                    - button "Edit" [ref=f55e1033]
+                    - button "Delete" [ref=f55e1034]
+                - row [ref=f55e1035]:
+                  - cell "Slab 2" [ref=f55e1036]
+                  - cell "৳450,001" [ref=f55e1037]
+                  - cell "৳750,000" [ref=f55e1038]
+                  - cell "10%" [ref=f55e1039]
+                  - cell "2026-01-07" [ref=f55e1040]
+                  - cell [ref=f55e1041]:
+                    - button "Edit" [ref=f55e1042]
+                    - button "Delete" [ref=f55e1043]
+                - row [ref=f55e1044]:
+                  - cell "Slab 3" [ref=f55e1045]
+                  - cell "৳750,001" [ref=f55e1046]
+                  - cell "৳1,150,000" [ref=f55e1047]
+                  - cell "15%" [ref=f55e1048]
+                  - cell "2026-01-07" [ref=f55e1049]
+                  - cell [ref=f55e1050]:
+                    - button "Edit" [ref=f55e1051]
+                    - button "Delete" [ref=f55e1052]
+                - row [ref=f55e1053]:
+                  - cell "Slab 4" [ref=f55e1054]
+                  - cell "৳1,150,001" [ref=f55e1055]
+                  - cell "৳99,999,999" [ref=f55e1056]
+                  - cell "20%" [ref=f55e1057]
+                  - cell "2026-01-07" [ref=f55e1058]
+                  - cell [ref=f55e1059]:
+                    - button "Edit" [ref=f55e1060]
+                    - button "Delete" [ref=f55e1061]

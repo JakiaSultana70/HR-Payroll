@@ -1,0 +1,167 @@
+- generic [ref=f33e4]:
+  - navigation "Modules" [ref=f33e7]:
+    - link "P PayFlow HR & Payroll" [ref=f33e27] [cursor=pointer]:
+      - /url: /dashboard
+      - generic [ref=f33e9]: P
+      - generic [ref=f33e10]:
+        - generic [ref=f33e11]: PayFlow
+        - generic [ref=f33e12]: HR & Payroll
+    - link "Employee dashboard" [ref=f33e28] [cursor=pointer]:
+      - /url: /dashboard
+    - paragraph [ref=f33e34]: People
+    - link "Change Requests" [ref=f33e35] [cursor=pointer]:
+      - /url: /change-requests
+    - paragraph [ref=f33e40]: Time & Attendance
+    - link "Attendance" [ref=f33e41] [cursor=pointer]:
+      - /url: /attendance
+    - link "Leave" [ref=f33e47] [cursor=pointer]:
+      - /url: /leave
+    - link "Overtime" [ref=f33e53] [cursor=pointer]:
+      - /url: /overtime
+    - paragraph [ref=f33e59]: Payroll
+    - link "Payslips" [ref=f33e60] [cursor=pointer]:
+      - /url: /payslips
+    - link "Loans & Bonuses" [ref=f33e66] [cursor=pointer]:
+      - /url: /loans-bonuses
+  - generic [ref=f33e14]:
+    - banner [ref=f33e15]:
+      - generic [ref=f33e16]:
+        - navigation "Breadcrumb" [ref=f33e17]:
+          - list [ref=f33e18]:
+            - listitem [ref=f33e19]:
+              - link "Home" [ref=f33e73] [cursor=pointer]:
+                - /url: /dashboard
+            - listitem [ref=f33e74]:
+              - link "Attendance" [ref=f33e79] [cursor=pointer]:
+                - /url: /attendance
+        - searchbox "Find a module" [ref=f33e21]
+        - link "Notifications" [ref=f33e80] [cursor=pointer]:
+          - /url: /notifications
+          - generic [ref=f33e85]: "8"
+        - button "TA Tanvir Ahmed Topu" [ref=f33e86]:
+          - generic [ref=f33e25]: TA
+          - generic [ref=f33e87]: Tanvir Ahmed Topu
+    - main [ref=f33e26]:
+      - generic [ref=f33e91]:
+        - generic [ref=f33e95]:
+          - paragraph [ref=f33e96]: Time & Attendance
+          - heading "My attendance" [level=1] [ref=f33e97]
+          - paragraph [ref=f33e98]: Raw punches are never edited — corrections are recorded with a reason
+        - generic [ref=f33e100]:
+          - generic [ref=f33e101]:
+            - heading "Today" [level=2] [ref=f33e102]
+            - paragraph [ref=f33e103]: Saturday 5 September
+          - generic [ref=f33e105]:
+            - generic [ref=f33e106]: Check in:13:58:00
+            - generic [ref=f33e107]: Check out:—
+            - generic [ref=f33e250]: late
+            - button "Check out" [ref=f33e253]
+        - generic [ref=f33e114]:
+          - generic [ref=f33e116]:
+            - paragraph [ref=f33e117]: Present
+            - paragraph [ref=f33e118]: "5"
+            - paragraph [ref=f33e119]: Days recorded
+          - generic [ref=f33e121]:
+            - paragraph [ref=f33e122]: Absent
+            - paragraph [ref=f33e123]: "0"
+            - paragraph [ref=f33e124]: Unapproved absence
+          - generic [ref=f33e126]:
+            - paragraph [ref=f33e127]: Late arrivals
+            - paragraph [ref=f33e128]: "3"
+            - paragraph [ref=f33e129]: Beyond the shift grace period
+          - generic [ref=f33e131]:
+            - paragraph [ref=f33e132]: Early leave
+            - paragraph [ref=f33e133]: "0"
+            - paragraph [ref=f33e134]: Left before shift end
+          - generic [ref=f33e136]:
+            - paragraph [ref=f33e137]: Working hours
+            - paragraph [ref=f33e138]: 12.02 h
+            - paragraph [ref=f33e139]: Net of break time
+          - generic [ref=f33e141]:
+            - paragraph [ref=f33e142]: Overtime
+            - paragraph [ref=f33e143]: 0.00 h
+            - paragraph [ref=f33e144]: Approved + pending, this view
+        - generic [ref=f33e147]:
+          - generic [ref=f33e148]:
+            - heading "Daily register" [level=2] [ref=f33e149]
+            - paragraph [ref=f33e150]: 1 corrected entr(ies)
+          - table [ref=f33e152]:
+            - rowgroup [ref=f33e153]:
+              - row [ref=f33e154]:
+                - columnheader "Date" [ref=f33e155]
+                - columnheader "Check in" [ref=f33e156]
+                - columnheader "Check out" [ref=f33e157]
+                - columnheader "Hours" [ref=f33e158]
+                - columnheader "Late" [ref=f33e159]
+                - columnheader "Early leave" [ref=f33e160]
+                - columnheader "Status" [ref=f33e161]
+                - columnheader "Correction" [ref=f33e162]
+            - rowgroup [ref=f33e163]:
+              - row [ref=f33e258]:
+                - cell "2026-09-05" [ref=f33e259]
+                - cell "13:58:00" [ref=f33e260]
+                - cell "—" [ref=f33e261]
+                - cell "—" [ref=f33e262]
+                - cell "late" [ref=f33e263]
+                - cell "—" [ref=f33e267]
+                - cell "present" [ref=f33e268]
+                - cell "—" [ref=f33e272]
+              - row [ref=f33e164]:
+                - cell "2026-09-02" [ref=f33e165]
+                - cell "18:11:00" [ref=f33e166]
+                - cell "—" [ref=f33e167]
+                - cell "—" [ref=f33e168]
+                - cell "late" [ref=f33e169]
+                - cell "—" [ref=f33e173]
+                - cell "present" [ref=f33e174]
+                - cell "—" [ref=f33e178]
+              - row [ref=f33e179]:
+                - cell "2026-08-27" [ref=f33e180]
+                - cell "12:50:00" [ref=f33e181]
+                - cell "—" [ref=f33e182]
+                - cell "—" [ref=f33e183]
+                - cell "late" [ref=f33e184]
+                - cell "—" [ref=f33e188]
+                - cell "present" [ref=f33e189]
+                - cell "—" [ref=f33e193]
+              - row [ref=f33e194]:
+                - cell "2026-08-26" [ref=f33e195]
+                - cell "01:20:00" [ref=f33e196]
+                - cell "—" [ref=f33e197]
+                - cell "—" [ref=f33e198]
+                - cell "on time" [ref=f33e199]
+                - cell "—" [ref=f33e203]
+                - cell "present" [ref=f33e204]
+                - cell "—" [ref=f33e208]
+              - row [ref=f33e209]:
+                - cell "2026-08-25" [ref=f33e210]
+                - cell "07:08:00" [ref=f33e211]
+                - cell "19:09:00" [ref=f33e212]
+                - cell "12.02" [ref=f33e213]
+                - cell "on time" [ref=f33e214]
+                - cell "—" [ref=f33e218]
+                - cell "present" [ref=f33e219]
+                - cell "forgot to check out" [ref=f33e223]
+        - generic [ref=f33e226]:
+          - heading "Monthly summary" [level=2] [ref=f33e228]
+          - generic [ref=f33e229]:
+            - generic [ref=f33e230]:
+              - button "2026-09" [ref=f33e231]
+              - button "2026-08" [ref=f33e232]
+            - table [ref=f33e233]:
+              - rowgroup [ref=f33e234]:
+                - row [ref=f33e235]:
+                  - columnheader "Present" [ref=f33e236]
+                  - columnheader "Absent" [ref=f33e237]
+                  - columnheader "Late" [ref=f33e238]
+                  - columnheader "Early leave" [ref=f33e239]
+                  - columnheader "Working hours" [ref=f33e240]
+                  - columnheader "Overtime" [ref=f33e241]
+              - rowgroup [ref=f33e242]:
+                - row [ref=f33e273]:
+                  - cell "2" [ref=f33e274]
+                  - cell "0" [ref=f33e245]
+                  - cell "2" [ref=f33e275]
+                  - cell "0" [ref=f33e247]
+                  - cell "0.00 h" [ref=f33e248]
+                  - cell "0.00 h" [ref=f33e249]

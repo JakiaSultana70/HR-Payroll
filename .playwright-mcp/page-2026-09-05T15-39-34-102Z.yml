@@ -1,0 +1,288 @@
+- generic [ref=f60e4]:
+  - navigation "Modules" [ref=f60e7]:
+    - link "P PayFlow HR & Payroll" [ref=f60e27] [cursor=pointer]:
+      - /url: /dashboard
+      - generic [ref=f60e9]: P
+      - generic [ref=f60e10]:
+        - generic [ref=f60e11]: PayFlow
+        - generic [ref=f60e12]: HR & Payroll
+    - link "Admin dashboard" [ref=f60e28] [cursor=pointer]:
+      - /url: /dashboard
+    - paragraph [ref=f60e34]: People
+    - link "Employees" [ref=f60e35] [cursor=pointer]:
+      - /url: /employees
+    - link "Organisation" [ref=f60e43] [cursor=pointer]:
+      - /url: /organisation
+    - link "Users & Roles" [ref=f60e50] [cursor=pointer]:
+      - /url: /users
+    - link "Change Requests" [ref=f60e55] [cursor=pointer]:
+      - /url: /change-requests
+    - paragraph [ref=f60e60]: Time & Attendance
+    - link "Attendance" [ref=f60e61] [cursor=pointer]:
+      - /url: /attendance
+    - link "Leave" [ref=f60e67] [cursor=pointer]:
+      - /url: /leave
+    - link "Overtime" [ref=f60e73] [cursor=pointer]:
+      - /url: /overtime
+    - paragraph [ref=f60e79]: Payroll
+    - link "Payroll Batches" [ref=f60e80] [cursor=pointer]:
+      - /url: /payroll
+    - link "Payslips" [ref=f60e87] [cursor=pointer]:
+      - /url: /payslips
+    - link "Salary & Rules" [ref=f60e93] [cursor=pointer]:
+      - /url: /salary-rules
+    - link "Loans & Bonuses" [ref=f60e98] [cursor=pointer]:
+      - /url: /loans-bonuses
+    - link "Final Settlement" [ref=f60e105] [cursor=pointer]:
+      - /url: /settlements
+    - paragraph [ref=f60e111]: Governance
+    - link "Audit Log" [ref=f60e112] [cursor=pointer]:
+      - /url: /audit
+    - link "Reports" [ref=f60e117] [cursor=pointer]:
+      - /url: /reports
+  - generic [ref=f60e14]:
+    - banner [ref=f60e15]:
+      - generic [ref=f60e16]:
+        - navigation "Breadcrumb" [ref=f60e17]:
+          - list [ref=f60e18]:
+            - listitem [ref=f60e19]:
+              - link "Home" [ref=f60e125] [cursor=pointer]:
+                - /url: /dashboard
+            - listitem [ref=f60e126]:
+              - link "Payroll Batches" [ref=f60e131] [cursor=pointer]:
+                - /url: /payroll
+            - listitem [ref=f60e325]:
+              - link "pb-202608-1788161765190" [ref=f60e330] [cursor=pointer]:
+                - /url: /payroll/pb-202608-1788161765190
+        - searchbox "Find a module" [ref=f60e21]
+        - link "Notifications" [ref=f60e132] [cursor=pointer]:
+          - /url: /notifications
+          - generic [ref=f60e137]: "1"
+        - button "FI Farhana Islam" [ref=f60e138]:
+          - generic [ref=f60e25]: FI
+          - generic [ref=f60e139]: Farhana Islam
+    - main [ref=f60e26]:
+      - generic [ref=f60e331]:
+        - generic [ref=f60e333]:
+          - link "Payroll batches" [ref=f60e334] [cursor=pointer]:
+            - /url: /payroll
+          - generic [ref=f60e338]:
+            - generic [ref=f60e339]:
+              - paragraph [ref=f60e340]: Payroll
+              - heading "PR-2026-08" [level=1] [ref=f60e341]
+              - paragraph [ref=f60e342]: August 2026 · 2026-08-01 → 2026-08-31
+            - generic [ref=f60e343]: paid
+        - generic [ref=f60e347]:
+          - generic [ref=f60e349]:
+            - heading "Batch summary" [level=2] [ref=f60e351]
+            - generic [ref=f60e354]:
+              - generic [ref=f60e355]:
+                - term [ref=f60e356]: Cycle
+                - definition [ref=f60e357]: 2026-08-01 → 2026-08-31
+              - generic [ref=f60e358]:
+                - term [ref=f60e359]: Attendance locked
+                - definition [ref=f60e360]: "Yes"
+              - generic [ref=f60e361]:
+                - term [ref=f60e362]: Employees
+                - definition [ref=f60e363]: "9"
+              - generic [ref=f60e364]:
+                - term [ref=f60e365]: Gross total
+                - definition [ref=f60e366]: ৳957,703
+              - generic [ref=f60e367]:
+                - term [ref=f60e368]: Deductions
+                - definition [ref=f60e369]: ৳236,566
+              - generic [ref=f60e370]:
+                - term [ref=f60e371]: Net payable
+                - definition [ref=f60e372]: ৳721,137
+              - generic [ref=f60e373]:
+                - term [ref=f60e374]: Requested by
+                - definition [ref=f60e375]: nasrin.akter
+              - generic [ref=f60e376]:
+                - term [ref=f60e377]: Approved by
+                - definition [ref=f60e378]: rakib.hasan
+          - generic [ref=f60e380]:
+            - generic [ref=f60e381]:
+              - heading "Engine steps" [level=2] [ref=f60e382]
+              - paragraph [ref=f60e383]: In order
+            - list [ref=f60e385]:
+              - listitem [ref=f60e386]:
+                - generic [ref=f60e388]: Lock attendance and leave data
+              - listitem [ref=f60e389]:
+                - generic [ref=f60e391]: Calculate working hours, late and overtime
+              - listitem [ref=f60e392]:
+                - generic [ref=f60e394]: Calculate gross salary
+              - listitem [ref=f60e395]:
+                - generic [ref=f60e397]: Calculate tax, PF, loan and bonus
+              - listitem [ref=f60e398]:
+                - generic [ref=f60e400]: Calculate net salary and generate payslips
+              - listitem [ref=f60e401]:
+                - generic [ref=f60e403]: Accountant verifies the batch
+              - listitem [ref=f60e404]:
+                - generic [ref=f60e406]: Process payment via bank
+        - generic [ref=f60e409]:
+          - generic [ref=f60e410]:
+            - heading "Payslips" [level=2] [ref=f60e411]
+            - paragraph [ref=f60e412]: 9 employees in this cycle
+          - table [ref=f60e415]:
+            - rowgroup [ref=f60e416]:
+              - row [ref=f60e417]:
+                - columnheader "Code" [ref=f60e418]
+                - columnheader "Employee" [ref=f60e419]
+                - columnheader "Hours" [ref=f60e420]
+                - columnheader "OT" [ref=f60e421]
+                - columnheader "Gross" [ref=f60e422]
+                - columnheader "Tax" [ref=f60e423]
+                - columnheader "PF" [ref=f60e424]
+                - columnheader "Loan" [ref=f60e425]
+                - columnheader "Absence" [ref=f60e426]
+                - columnheader "Bonus" [ref=f60e427]
+                - columnheader "Net" [ref=f60e428]
+            - rowgroup [ref=f60e429]:
+              - row [ref=f60e430]:
+                - cell "EMP-1001" [ref=f60e431]
+                - cell [ref=f60e432]:
+                  - link "Nasrin Akter" [ref=f60e433] [cursor=pointer]:
+                    - /url: /payslips/ps-pb-202608-1788161765190-e-1787546658330
+                - cell "0.0" [ref=f60e434]
+                - cell "0.0" [ref=f60e435]
+                - cell "৳95,800" [ref=f60e436]
+                - cell "৳14,370" [ref=f60e437]
+                - cell "৳6,200" [ref=f60e438]
+                - cell "৳0" [ref=f60e439]
+                - cell "৳0" [ref=f60e440]
+                - cell "৳0" [ref=f60e441]
+                - cell "৳75,230" [ref=f60e442]
+              - row [ref=f60e443]:
+                - cell "EMP-1002" [ref=f60e444]
+                - cell [ref=f60e445]:
+                  - link "Rakib Hasan" [ref=f60e446] [cursor=pointer]:
+                    - /url: /payslips/ps-pb-202608-1788161765190-e-1787546896361
+                - cell "0.0" [ref=f60e447]
+                - cell "0.0" [ref=f60e448]
+                - cell "৳95,800" [ref=f60e449]
+                - cell "৳14,370" [ref=f60e450]
+                - cell "৳6,200" [ref=f60e451]
+                - cell "৳0" [ref=f60e452]
+                - cell "৳0" [ref=f60e453]
+                - cell "৳0" [ref=f60e454]
+                - cell "৳75,230" [ref=f60e455]
+              - row [ref=f60e456]:
+                - cell "EMP-1003" [ref=f60e457]
+                - cell [ref=f60e458]:
+                  - link "Shahidul Islam" [ref=f60e459] [cursor=pointer]:
+                    - /url: /payslips/ps-pb-202608-1788161765190-e-1787547254530
+                - cell "0.0" [ref=f60e460]
+                - cell "0.0" [ref=f60e461]
+                - cell "৳131,000" [ref=f60e462]
+                - cell "৳26,200" [ref=f60e463]
+                - cell "৳8,500" [ref=f60e464]
+                - cell "৳0" [ref=f60e465]
+                - cell "৳0" [ref=f60e466]
+                - cell "৳0" [ref=f60e467]
+                - cell "৳96,300" [ref=f60e468]
+              - row [ref=f60e469]:
+                - cell "EMP-1004" [ref=f60e470]
+                - cell [ref=f60e471]:
+                  - link "Tanvir Ahmed" [ref=f60e472] [cursor=pointer]:
+                    - /url: /payslips/ps-pb-202608-1788161765190-e-1787547655357
+                - cell "0.0" [ref=f60e473]
+                - cell "0.0" [ref=f60e474]
+                - cell "৳29,600" [ref=f60e475]
+                - cell "৳1,480" [ref=f60e476]
+                - cell "৳1,900" [ref=f60e477]
+                - cell "৳0" [ref=f60e478]
+                - cell "৳0" [ref=f60e479]
+                - cell "৳0" [ref=f60e480]
+                - cell "৳26,220" [ref=f60e481]
+              - row [ref=f60e482]:
+                - cell "EMP-1005" [ref=f60e483]
+                - cell [ref=f60e484]:
+                  - link "Sultana Razia" [ref=f60e485] [cursor=pointer]:
+                    - /url: /payslips/ps-pb-202608-1788161765190-e-1787547833901
+                - cell "0.0" [ref=f60e486]
+                - cell "0.0" [ref=f60e487]
+                - cell "৳22,800" [ref=f60e488]
+                - cell "৳0" [ref=f60e489]
+                - cell "৳1,450" [ref=f60e490]
+                - cell "৳0" [ref=f60e491]
+                - cell "৳0" [ref=f60e492]
+                - cell "৳0" [ref=f60e493]
+                - cell "৳21,350" [ref=f60e494]
+              - row [ref=f60e495]:
+                - cell "EMP-1006" [ref=f60e496]
+                - cell [ref=f60e497]:
+                  - link "Jahangir Alam" [ref=f60e498] [cursor=pointer]:
+                    - /url: /payslips/ps-pb-202608-1788161765190-e-1787547994953
+                - cell "0.0" [ref=f60e499]
+                - cell "0.0" [ref=f60e500]
+                - cell "৳22,800" [ref=f60e501]
+                - cell "৳0" [ref=f60e502]
+                - cell "৳1,450" [ref=f60e503]
+                - cell "৳0" [ref=f60e504]
+                - cell "৳0" [ref=f60e505]
+                - cell "৳0" [ref=f60e506]
+                - cell "৳21,350" [ref=f60e507]
+              - row [ref=f60e508]:
+                - cell "EMP-1007" [ref=f60e509]
+                - cell [ref=f60e510]:
+                  - link "Farhana Islam" [ref=f60e511] [cursor=pointer]:
+                    - /url: /payslips/ps-pb-202608-1788161765190-e-1787548160729
+                - cell "0.0" [ref=f60e512]
+                - cell "0.0" [ref=f60e513]
+                - cell "৳70,000" [ref=f60e514]
+                - cell "৳10,500" [ref=f60e515]
+                - cell "৳4,500" [ref=f60e516]
+                - cell "৳0" [ref=f60e517]
+                - cell "৳0" [ref=f60e518]
+                - cell "৳0" [ref=f60e519]
+                - cell "৳55,000" [ref=f60e520]
+              - row [ref=f60e521]:
+                - cell "EMP-1008" [ref=f60e522]
+                - cell [ref=f60e523]:
+                  - link "Kamrul Hasan" [ref=f60e524] [cursor=pointer]:
+                    - /url: /payslips/ps-pb-202608-1788161765190-e-1787548325913
+                - cell "0.0" [ref=f60e525]
+                - cell "0.0" [ref=f60e526]
+                - cell "৳49,800" [ref=f60e527]
+                - cell "৳4,980" [ref=f60e528]
+                - cell "৳3,200" [ref=f60e529]
+                - cell "৳0" [ref=f60e530]
+                - cell "৳0" [ref=f60e531]
+                - cell "৳0" [ref=f60e532]
+                - cell "৳41,620" [ref=f60e533]
+              - row [ref=f60e534]:
+                - cell "EMP-1009" [ref=f60e535]
+                - cell [ref=f60e536]:
+                  - link "Ruma Begum" [ref=f60e537] [cursor=pointer]:
+                    - /url: /payslips/ps-pb-202608-1788161765190-e-1787548627005
+                - cell "0.0" [ref=f60e538]
+                - cell "0.0" [ref=f60e539]
+                - cell "৳440,103" [ref=f60e540]
+                - cell "৳88,021" [ref=f60e541]
+                - cell "৳43,245" [ref=f60e542]
+                - cell "৳0" [ref=f60e543]
+                - cell "৳0" [ref=f60e544]
+                - cell "৳0" [ref=f60e545]
+                - cell "৳308,837" [ref=f60e546]
+            - rowgroup [ref=f60e547]:
+              - row [ref=f60e548]:
+                - cell "Totals" [ref=f60e549]
+                - cell "৳957,703" [ref=f60e550]
+                - cell "৳236,566" [ref=f60e551]
+                - cell [ref=f60e552]
+                - cell "৳721,137" [ref=f60e553]
+        - generic [ref=f60e556]:
+          - heading "Bank payment" [level=2] [ref=f60e558]
+          - generic [ref=f60e561]:
+            - generic [ref=f60e562]:
+              - term [ref=f60e563]: Bank file reference
+              - definition [ref=f60e564]: BRAC-BEFTN-20260831-PB-202608-1788161765190
+            - generic [ref=f60e565]:
+              - term [ref=f60e566]: Payment date
+              - definition [ref=f60e567]: 2026-08-31
+            - generic [ref=f60e568]:
+              - term [ref=f60e569]: Amount
+              - definition [ref=f60e570]: ৳721,137
+            - generic [ref=f60e571]:
+              - term [ref=f60e572]: Status
+              - definition [ref=f60e573]: processed

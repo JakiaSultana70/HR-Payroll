@@ -1,0 +1,57 @@
+- generic [ref=f110e4]:
+  - navigation "Modules" [ref=f110e7]:
+    - link "P PayFlow HR & Payroll" [ref=f110e8] [cursor=pointer]:
+      - /url: /dashboard
+      - generic [ref=f110e9]: P
+      - generic [ref=f110e10]:
+        - generic [ref=f110e11]: PayFlow
+        - generic [ref=f110e12]: HR & Payroll
+    - link "Employee dashboard" [ref=f110e13] [cursor=pointer]:
+      - /url: /dashboard
+    - paragraph [ref=f110e19]: People
+    - link "Change Requests" [ref=f110e20] [cursor=pointer]:
+      - /url: /change-requests
+    - paragraph [ref=f110e25]: Time & Attendance
+    - link "Attendance" [ref=f110e26] [cursor=pointer]:
+      - /url: /attendance
+    - link "Leave" [ref=f110e32] [cursor=pointer]:
+      - /url: /leave
+    - link "Overtime" [ref=f110e38] [cursor=pointer]:
+      - /url: /overtime
+    - paragraph [ref=f110e44]: Payroll
+    - link "Payslips" [ref=f110e45] [cursor=pointer]:
+      - /url: /payslips
+    - link "Loans & Bonuses" [ref=f110e51] [cursor=pointer]:
+      - /url: /loans-bonuses
+  - generic [ref=f110e58]:
+    - banner [ref=f110e59]:
+      - generic [ref=f110e60]:
+        - navigation "Breadcrumb" [ref=f110e61]:
+          - list [ref=f110e62]:
+            - listitem [ref=f110e63]:
+              - link "Home" [ref=f110e64] [cursor=pointer]:
+                - /url: /dashboard
+            - listitem [ref=f110e65]:
+              - link "Notifications" [ref=f110e70] [cursor=pointer]:
+                - /url: /notifications
+        - searchbox "Find a module" [ref=f110e72]
+        - link "Notifications" [ref=f110e73] [cursor=pointer]:
+          - /url: /notifications
+        - button "TA Tanvir Ahmed Topu" [ref=f110e79]:
+          - generic [ref=f110e80]: TA
+          - generic [ref=f110e81]: Tanvir Ahmed Topu
+    - main [ref=f110e85]:
+      - generic [ref=f110e86]:
+        - generic "Notifications" [ref=f110e87]:
+          - generic [ref=f110e90]:
+            - paragraph [ref=f110e91]: Account
+            - heading "Notifications" [level=1] [ref=f110e92]
+            - paragraph [ref=f110e93]: Updates on requests and payroll that concern you
+        - generic [ref=f110e95]:
+          - generic [ref=f110e96]:
+            - heading "Inbox" [level=2] [ref=f110e97]
+            - paragraph [ref=f110e98]: 0 unread
+          - generic "No notifications yet" [ref=f110e100]:
+            - generic [ref=f110e101]:
+              - paragraph [ref=f110e107]: No notifications yet
+              - paragraph [ref=f110e108]: Updates on your requests and payroll will show up here.

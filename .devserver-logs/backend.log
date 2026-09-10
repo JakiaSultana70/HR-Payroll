@@ -1,0 +1,704 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.1.1)
+
+2026-09-08T23:35:42.874+06:00  INFO 25904 --- [payroll-automation-backend] [           main] .p.a.PayrollAutomationBackendApplication : Starting PayrollAutomationBackendApplication using Java 25.0.3 with PID 25904 (C:\Users\Hp\Desktop\Project_HRPayroll\payroll-automation-backend\target\classes started by Hp in C:\Users\Hp\Desktop\Project_HRPayroll\payroll-automation-backend)
+2026-09-08T23:35:42.878+06:00  INFO 25904 --- [payroll-automation-backend] [           main] .p.a.PayrollAutomationBackendApplication : The following 1 profile is active: "dev"
+2026-09-08T23:35:43.965+06:00  INFO 25904 --- [payroll-automation-backend] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-08T23:35:44.174+06:00  INFO 25904 --- [payroll-automation-backend] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 198 ms. Found 27 JPA repository interfaces.
+2026-09-08T23:35:44.908+06:00  INFO 25904 --- [payroll-automation-backend] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-09-08T23:35:44.929+06:00  INFO 25904 --- [payroll-automation-backend] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-08T23:35:44.930+06:00  INFO 25904 --- [payroll-automation-backend] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-08T23:35:45.001+06:00  INFO 25904 --- [payroll-automation-backend] [           main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2045 ms
+2026-09-08T23:35:45.326+06:00  INFO 25904 --- [payroll-automation-backend] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-09-08T23:35:45.565+06:00  INFO 25904 --- [payroll-automation-backend] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@448c92fc
+2026-09-08T23:35:45.567+06:00  INFO 25904 --- [payroll-automation-backend] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-09-08T23:35:45.592+06:00  INFO 25904 --- [payroll-automation-backend] [           main] org.flywaydb.core.FlywayExecutor         : Database: jdbc:postgresql://localhost:5432/payroll_db (PostgreSQL 16.14)
+2026-09-08T23:35:45.749+06:00  INFO 25904 --- [payroll-automation-backend] [           main] o.f.core.internal.command.DbValidate     : Successfully validated 39 migrations (execution time 00:00.087s)
+2026-09-08T23:35:45.770+06:00  INFO 25904 --- [payroll-automation-backend] [           main] o.f.core.internal.command.DbMigrate      : Current version of schema "public": 39
+2026-09-08T23:35:45.774+06:00  INFO 25904 --- [payroll-automation-backend] [           main] o.f.core.internal.command.DbMigrate      : Schema "public" is up to date. No migration necessary.
+2026-09-08T23:35:45.915+06:00  INFO 25904 --- [payroll-automation-backend] [           main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-09-08T23:35:45.982+06:00  INFO 25904 --- [payroll-automation-backend] [           main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.5.Final
+2026-09-08T23:35:46.504+06:00  INFO 25904 --- [payroll-automation-backend] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-08T23:35:46.592+06:00  INFO 25904 --- [payroll-automation-backend] [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/payroll_db]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.14
+	Default catalog/schema: payroll_db/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-08T23:35:47.943+06:00  INFO 25904 --- [payroll-automation-backend] [           main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-08T23:35:48.014+06:00  INFO 25904 --- [payroll-automation-backend] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-08T23:35:48.073+06:00  INFO 25904 --- [payroll-automation-backend] [           main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-09-08T23:35:48.664+06:00  WARN 25904 --- [payroll-automation-backend] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-09-08T23:35:48.738+06:00  INFO 25904 --- [payroll-automation-backend] [           main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name appUserDetailsService
+2026-09-08T23:35:49.155+06:00  INFO 25904 --- [payroll-automation-backend] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-09-08T23:35:49.160+06:00  INFO 25904 --- [payroll-automation-backend] [           main] .p.a.PayrollAutomationBackendApplication : Started PayrollAutomationBackendApplication in 6.819 seconds (process running for 7.367)
+2026-09-08T23:35:51.180+06:00  INFO 25904 --- [payroll-automation-backend] [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-08T23:35:51.181+06:00  INFO 25904 --- [payroll-automation-backend] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-09-08T23:35:51.183+06:00  INFO 25904 --- [payroll-automation-backend] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+Hibernate: 
+    select
+        au1_0.id,
+        au1_0.active,
+        au1_0.email,
+        au1_0.employee_id,
+        au1_0.password_hash,
+        au1_0.role_id,
+        au1_0.username 
+    from
+        app_user au1_0 
+    where
+        au1_0.username=?
+Hibernate: 
+    select
+        ar1_0.id,
+        ar1_0.description,
+        ar1_0.name,
+        p1_0.role_id,
+        p1_1.id,
+        p1_1.can_approve,
+        p1_1.module_name,
+        p1_1.read,
+        p1_1.write 
+    from
+        app_role ar1_0 
+    left join
+        app_role_permission p1_0 
+            on ar1_0.id=p1_0.role_id 
+    left join
+        permission p1_1 
+            on p1_1.id=p1_0.permission_id 
+    where
+        ar1_0.id=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.address,
+        e1_0.bank_account_number,
+        e1_0.bank_name,
+        e1_0.bank_routing_number,
+        e1_0.dept_id,
+        e1_0.designation_id,
+        e1_0.dob,
+        e1_0.email,
+        e1_0.emergency_contact_name,
+        e1_0.emergency_contact_phone,
+        e1_0.employee_code,
+        e1_0.employment_type,
+        e1_0.gender,
+        e1_0.joining_date,
+        e1_0.last_working_day,
+        e1_0.name,
+        e1_0.national_id,
+        e1_0.overtime_eligible,
+        e1_0.phone,
+        e1_0.photo_url,
+        e1_0.salary_grade,
+        e1_0.shift_id,
+        e1_0.status 
+    from
+        employee e1_0 
+    where
+        e1_0.id=?
+Hibernate: 
+    select
+        au1_0.id,
+        au1_0.active,
+        au1_0.email,
+        au1_0.employee_id,
+        au1_0.password_hash,
+        au1_0.role_id,
+        au1_0.username 
+    from
+        app_user au1_0 
+    where
+        au1_0.username=?
+Hibernate: 
+    select
+        ar1_0.id,
+        ar1_0.description,
+        ar1_0.name,
+        p1_0.role_id,
+        p1_1.id,
+        p1_1.can_approve,
+        p1_1.module_name,
+        p1_1.read,
+        p1_1.write 
+    from
+        app_role ar1_0 
+    left join
+        app_role_permission p1_0 
+            on ar1_0.id=p1_0.role_id 
+    left join
+        permission p1_1 
+            on p1_1.id=p1_0.permission_id 
+    where
+        ar1_0.id=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.address,
+        e1_0.bank_account_number,
+        e1_0.bank_name,
+        e1_0.bank_routing_number,
+        e1_0.dept_id,
+        e1_0.designation_id,
+        e1_0.dob,
+        e1_0.email,
+        e1_0.emergency_contact_name,
+        e1_0.emergency_contact_phone,
+        e1_0.employee_code,
+        e1_0.employment_type,
+        e1_0.gender,
+        e1_0.joining_date,
+        e1_0.last_working_day,
+        e1_0.name,
+        e1_0.national_id,
+        e1_0.overtime_eligible,
+        e1_0.phone,
+        e1_0.photo_url,
+        e1_0.salary_grade,
+        e1_0.shift_id,
+        e1_0.status 
+    from
+        employee e1_0 
+    where
+        e1_0.id=?
+Hibernate: 
+    select
+        au1_0.id,
+        au1_0.active,
+        au1_0.email,
+        au1_0.employee_id,
+        au1_0.password_hash,
+        au1_0.role_id,
+        au1_0.username 
+    from
+        app_user au1_0 
+    where
+        au1_0.username=?
+Hibernate: 
+    select
+        ar1_0.id,
+        ar1_0.description,
+        ar1_0.name,
+        p1_0.role_id,
+        p1_1.id,
+        p1_1.can_approve,
+        p1_1.module_name,
+        p1_1.read,
+        p1_1.write 
+    from
+        app_role ar1_0 
+    left join
+        app_role_permission p1_0 
+            on ar1_0.id=p1_0.role_id 
+    left join
+        permission p1_1 
+            on p1_1.id=p1_0.permission_id 
+    where
+        ar1_0.id=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.address,
+        e1_0.bank_account_number,
+        e1_0.bank_name,
+        e1_0.bank_routing_number,
+        e1_0.dept_id,
+        e1_0.designation_id,
+        e1_0.dob,
+        e1_0.email,
+        e1_0.emergency_contact_name,
+        e1_0.emergency_contact_phone,
+        e1_0.employee_code,
+        e1_0.employment_type,
+        e1_0.gender,
+        e1_0.joining_date,
+        e1_0.last_working_day,
+        e1_0.name,
+        e1_0.national_id,
+        e1_0.overtime_eligible,
+        e1_0.phone,
+        e1_0.photo_url,
+        e1_0.salary_grade,
+        e1_0.shift_id,
+        e1_0.status 
+    from
+        employee e1_0 
+    where
+        e1_0.id=?
+Hibernate: 
+    select
+        au1_0.id,
+        au1_0.active,
+        au1_0.email,
+        au1_0.employee_id,
+        au1_0.password_hash,
+        au1_0.role_id,
+        au1_0.username 
+    from
+        app_user au1_0 
+    where
+        au1_0.username=?
+Hibernate: 
+    select
+        ar1_0.id,
+        ar1_0.description,
+        ar1_0.name,
+        p1_0.role_id,
+        p1_1.id,
+        p1_1.can_approve,
+        p1_1.module_name,
+        p1_1.read,
+        p1_1.write 
+    from
+        app_role ar1_0 
+    left join
+        app_role_permission p1_0 
+            on ar1_0.id=p1_0.role_id 
+    left join
+        permission p1_1 
+            on p1_1.id=p1_0.permission_id 
+    where
+        ar1_0.id=?
+Hibernate: 
+    select
+        tr1_0.id,
+        tr1_0.category,
+        tr1_0.effective_from,
+        tr1_0.max_income,
+        tr1_0.min_income,
+        tr1_0.rate,
+        tr1_0.slab_name 
+    from
+        tax_rule tr1_0
+Hibernate: 
+    select
+        au1_0.id,
+        au1_0.active,
+        au1_0.email,
+        au1_0.employee_id,
+        au1_0.password_hash,
+        au1_0.role_id,
+        au1_0.username 
+    from
+        app_user au1_0 
+    where
+        au1_0.username=?
+Hibernate: 
+    select
+        ar1_0.id,
+        ar1_0.description,
+        ar1_0.name,
+        p1_0.role_id,
+        p1_1.id,
+        p1_1.can_approve,
+        p1_1.module_name,
+        p1_1.read,
+        p1_1.write 
+    from
+        app_role ar1_0 
+    left join
+        app_role_permission p1_0 
+            on ar1_0.id=p1_0.role_id 
+    left join
+        permission p1_1 
+            on p1_1.id=p1_0.permission_id 
+    where
+        ar1_0.id=?
+Hibernate: 
+    select
+        lr1_0.id,
+        lr1_0.annual_entitlement,
+        lr1_0.leave_type,
+        lr1_0.updated_by 
+    from
+        leave_rule lr1_0
+Hibernate: 
+    select
+        au1_0.id,
+        au1_0.active,
+        au1_0.email,
+        au1_0.employee_id,
+        au1_0.password_hash,
+        au1_0.role_id,
+        au1_0.username 
+    from
+        app_user au1_0 
+    where
+        au1_0.username=?
+Hibernate: 
+    select
+        ar1_0.id,
+        ar1_0.description,
+        ar1_0.name,
+        p1_0.role_id,
+        p1_1.id,
+        p1_1.can_approve,
+        p1_1.module_name,
+        p1_1.read,
+        p1_1.write 
+    from
+        app_role ar1_0 
+    left join
+        app_role_permission p1_0 
+            on ar1_0.id=p1_0.role_id 
+    left join
+        permission p1_1 
+            on p1_1.id=p1_0.permission_id 
+    where
+        ar1_0.id=?
+Hibernate: 
+    select
+        au1_0.id,
+        au1_0.active,
+        au1_0.email,
+        au1_0.employee_id,
+        au1_0.password_hash,
+        au1_0.role_id,
+        au1_0.username 
+    from
+        app_user au1_0 
+    where
+        au1_0.username=?
+Hibernate: 
+    select
+        ar1_0.id,
+        ar1_0.description,
+        ar1_0.name,
+        p1_0.role_id,
+        p1_1.id,
+        p1_1.can_approve,
+        p1_1.module_name,
+        p1_1.read,
+        p1_1.write 
+    from
+        app_role ar1_0 
+    left join
+        app_role_permission p1_0 
+            on ar1_0.id=p1_0.role_id 
+    left join
+        permission p1_1 
+            on p1_1.id=p1_0.permission_id 
+    where
+        ar1_0.id=?
+Hibernate: 
+    select
+        o1_0.id,
+        o1_0.amount,
+        o1_0.approved_by,
+        o1_0.corrected_by,
+        o1_0.correction_reason,
+        o1_0.date,
+        o1_0.employee_id,
+        o1_0.hours,
+        o1_0.payroll_eligible,
+        o1_0.rate,
+        o1_0.reason,
+        o1_0.rejection_reason,
+        o1_0.status 
+    from
+        overtime o1_0 
+    where
+        o1_0.employee_id=?
+Hibernate: 
+    select
+        o1_0.id,
+        o1_0.amount,
+        o1_0.approved_by,
+        o1_0.corrected_by,
+        o1_0.correction_reason,
+        o1_0.date,
+        o1_0.employee_id,
+        o1_0.hours,
+        o1_0.payroll_eligible,
+        o1_0.rate,
+        o1_0.reason,
+        o1_0.rejection_reason,
+        o1_0.status 
+    from
+        overtime o1_0 
+    where
+        o1_0.id=?
+Hibernate: 
+    insert 
+    into
+        overtime
+        (amount, approved_by, corrected_by, correction_reason, date, employee_id, hours, payroll_eligible, rate, reason, rejection_reason, status, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    select
+        au1_0.id,
+        au1_0.active,
+        au1_0.email,
+        au1_0.employee_id,
+        au1_0.password_hash,
+        au1_0.role_id,
+        au1_0.username 
+    from
+        app_user au1_0 
+    where
+        au1_0.username=?
+Hibernate: 
+    select
+        ar1_0.id,
+        ar1_0.description,
+        ar1_0.name,
+        p1_0.role_id,
+        p1_1.id,
+        p1_1.can_approve,
+        p1_1.module_name,
+        p1_1.read,
+        p1_1.write 
+    from
+        app_role ar1_0 
+    left join
+        app_role_permission p1_0 
+            on ar1_0.id=p1_0.role_id 
+    left join
+        permission p1_1 
+            on p1_1.id=p1_0.permission_id 
+    where
+        ar1_0.id=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.address,
+        e1_0.bank_account_number,
+        e1_0.bank_name,
+        e1_0.bank_routing_number,
+        e1_0.dept_id,
+        e1_0.designation_id,
+        e1_0.dob,
+        e1_0.email,
+        e1_0.emergency_contact_name,
+        e1_0.emergency_contact_phone,
+        e1_0.employee_code,
+        e1_0.employment_type,
+        e1_0.gender,
+        e1_0.joining_date,
+        e1_0.last_working_day,
+        e1_0.name,
+        e1_0.national_id,
+        e1_0.overtime_eligible,
+        e1_0.phone,
+        e1_0.photo_url,
+        e1_0.salary_grade,
+        e1_0.shift_id,
+        e1_0.status 
+    from
+        employee e1_0
+Hibernate: 
+    select
+        au1_0.id,
+        au1_0.active,
+        au1_0.email,
+        au1_0.employee_id,
+        au1_0.password_hash,
+        au1_0.role_id,
+        au1_0.username 
+    from
+        app_user au1_0 
+    where
+        au1_0.username=?
+Hibernate: 
+    select
+        ar1_0.id,
+        ar1_0.description,
+        ar1_0.name,
+        p1_0.role_id,
+        p1_1.id,
+        p1_1.can_approve,
+        p1_1.module_name,
+        p1_1.read,
+        p1_1.write 
+    from
+        app_role ar1_0 
+    left join
+        app_role_permission p1_0 
+            on ar1_0.id=p1_0.role_id 
+    left join
+        permission p1_1 
+            on p1_1.id=p1_0.permission_id 
+    where
+        ar1_0.id=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.address,
+        e1_0.bank_account_number,
+        e1_0.bank_name,
+        e1_0.bank_routing_number,
+        e1_0.dept_id,
+        e1_0.designation_id,
+        e1_0.dob,
+        e1_0.email,
+        e1_0.emergency_contact_name,
+        e1_0.emergency_contact_phone,
+        e1_0.employee_code,
+        e1_0.employment_type,
+        e1_0.gender,
+        e1_0.joining_date,
+        e1_0.last_working_day,
+        e1_0.name,
+        e1_0.national_id,
+        e1_0.overtime_eligible,
+        e1_0.phone,
+        e1_0.photo_url,
+        e1_0.salary_grade,
+        e1_0.shift_id,
+        e1_0.status 
+    from
+        employee e1_0
+Hibernate: 
+    select
+        au1_0.id,
+        au1_0.active,
+        au1_0.email,
+        au1_0.employee_id,
+        au1_0.password_hash,
+        au1_0.role_id,
+        au1_0.username 
+    from
+        app_user au1_0 
+    where
+        au1_0.username=?
+Hibernate: 
+    select
+        ar1_0.id,
+        ar1_0.description,
+        ar1_0.name,
+        p1_0.role_id,
+        p1_1.id,
+        p1_1.can_approve,
+        p1_1.module_name,
+        p1_1.read,
+        p1_1.write 
+    from
+        app_role ar1_0 
+    left join
+        app_role_permission p1_0 
+            on ar1_0.id=p1_0.role_id 
+    left join
+        permission p1_1 
+            on p1_1.id=p1_0.permission_id 
+    where
+        ar1_0.id=?
+Hibernate: 
+    select
+        ss1_0.id,
+        ss1_0.allowances,
+        ss1_0.applies_pf,
+        ss1_0.applies_tax,
+        ss1_0.basic,
+        ss1_0.effective_from,
+        ss1_0.employee_id,
+        ss1_0.gross_salary,
+        ss1_0.hra 
+    from
+        salary_structure ss1_0
+Hibernate: 
+    select
+        au1_0.id,
+        au1_0.active,
+        au1_0.email,
+        au1_0.employee_id,
+        au1_0.password_hash,
+        au1_0.role_id,
+        au1_0.username 
+    from
+        app_user au1_0 
+    where
+        au1_0.username=?
+Hibernate: 
+    select
+        ar1_0.id,
+        ar1_0.description,
+        ar1_0.name,
+        p1_0.role_id,
+        p1_1.id,
+        p1_1.can_approve,
+        p1_1.module_name,
+        p1_1.read,
+        p1_1.write 
+    from
+        app_role ar1_0 
+    left join
+        app_role_permission p1_0 
+            on ar1_0.id=p1_0.role_id 
+    left join
+        permission p1_1 
+            on p1_1.id=p1_0.permission_id 
+    where
+        ar1_0.id=?
+Hibernate: 
+    select
+        tr1_0.id,
+        tr1_0.category,
+        tr1_0.effective_from,
+        tr1_0.max_income,
+        tr1_0.min_income,
+        tr1_0.rate,
+        tr1_0.slab_name 
+    from
+        tax_rule tr1_0
+Hibernate: 
+    select
+        au1_0.id,
+        au1_0.active,
+        au1_0.email,
+        au1_0.employee_id,
+        au1_0.password_hash,
+        au1_0.role_id,
+        au1_0.username 
+    from
+        app_user au1_0 
+    where
+        au1_0.username=?
+Hibernate: 
+    select
+        ar1_0.id,
+        ar1_0.description,
+        ar1_0.name,
+        p1_0.role_id,
+        p1_1.id,
+        p1_1.can_approve,
+        p1_1.module_name,
+        p1_1.read,
+        p1_1.write 
+    from
+        app_role ar1_0 
+    left join
+        app_role_permission p1_0 
+            on ar1_0.id=p1_0.role_id 
+    left join
+        permission p1_1 
+            on p1_1.id=p1_0.permission_id 
+    where
+        ar1_0.id=?
+Hibernate: 
+    select
+        tr1_0.id,
+        tr1_0.category,
+        tr1_0.effective_from,
+        tr1_0.max_income,
+        tr1_0.min_income,
+        tr1_0.rate,
+        tr1_0.slab_name 
+    from
+        tax_rule tr1_0
+^C
