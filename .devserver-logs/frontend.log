@@ -1,36 +1,36 @@
 npm notice run payroll-app@0.0.0 npx
 npm notice run ng serve --port 4200
-> Building...
-√ Building...
-Initial chunk files | Names                |  Raw size
-chunk-LXVKNEWS.js   | -                    |  74.18 kB | 
-main.js             | main                 |  62.19 kB | 
-styles.css          | styles               |  32.14 kB | 
-chunk-JG2HMCGR.js   | -                    |  22.21 kB | 
+[33m>[39m Building...
+[32m√[39m Building...
+[1mInitial chunk files[22m[2m | [22m[1mNames[22m               [2m | [22m [1mRaw size[22m
+[32mchunk-LXVKNEWS.js[39m  [2m | [22m[2m-[22m                   [2m | [22m [36m74.18 kB[39m[2m | [22m
+[32mmain.js[39m            [2m | [22m[2mmain[22m                [2m | [22m [36m62.19 kB[39m[2m | [22m
+[32mstyles.css[39m         [2m | [22m[2mstyles[22m              [2m | [22m [36m32.14 kB[39m[2m | [22m
+[32mchunk-JG2HMCGR.js[39m  [2m | [22m[2m-[22m                   [2m | [22m [36m22.21 kB[39m[2m | [22m
 
-                    | Initial total        | 190.72 kB
+[1m [22m                  [2m | [22m[1mInitial total[22m       [2m | [22m[1m190.72 kB[22m
 
-Lazy chunk files    | Names                |  Raw size
-chunk-ZDLI27N7.js   | organisation-page    | 101.63 kB | 
-chunk-EZVK22JD.js   | salary-rules-page    |  80.53 kB | 
-chunk-YOXDC733.js   | settlements-page     |  60.12 kB | 
-chunk-SVH76HNL.js   | attendance-page      |  56.82 kB | 
-chunk-AGPMK6BO.js   | users-page           |  51.84 kB | 
-chunk-DZMBQJ5Y.js   | batch-detail         |  51.76 kB | 
-chunk-WEIU6P74.js   | dashboard-page       |  50.20 kB | 
-chunk-YHVNVQIG.js   | leave-page           |  49.61 kB | 
-chunk-FCPOFCSW.js   | loans-bonuses-page   |  48.56 kB | 
-chunk-H3U7EUNE.js   | reports-page         |  44.60 kB | 
-chunk-5EIERQYU.js   | employee-detail      |  42.94 kB | 
-chunk-HP75KTOU.js   | overtime-detail      |  38.77 kB | 
-chunk-U5RNMRP5.js   | change-requests-page |  33.20 kB | 
-chunk-Q5FNVTSI.js   | profile-page         |  32.51 kB | 
-chunk-M7HVM5MC.js   | settlement-detail    |  29.90 kB | 
-...and 32 more lazy chunks files. Use "--verbose" to show all the files.
+[1mLazy chunk files[22m   [2m | [22m[1mNames[22m               [2m | [22m [1mRaw size[22m
+[32mchunk-ZDLI27N7.js[39m  [2m | [22m[2morganisation-page[22m   [2m | [22m[36m101.63 kB[39m[2m | [22m
+[32mchunk-EZVK22JD.js[39m  [2m | [22m[2msalary-rules-page[22m   [2m | [22m [36m80.53 kB[39m[2m | [22m
+[32mchunk-YOXDC733.js[39m  [2m | [22m[2msettlements-page[22m    [2m | [22m [36m60.12 kB[39m[2m | [22m
+[32mchunk-SVH76HNL.js[39m  [2m | [22m[2mattendance-page[22m     [2m | [22m [36m56.82 kB[39m[2m | [22m
+[32mchunk-AGPMK6BO.js[39m  [2m | [22m[2musers-page[22m          [2m | [22m [36m51.84 kB[39m[2m | [22m
+[32mchunk-DZMBQJ5Y.js[39m  [2m | [22m[2mbatch-detail[22m        [2m | [22m [36m51.76 kB[39m[2m | [22m
+[32mchunk-WEIU6P74.js[39m  [2m | [22m[2mdashboard-page[22m      [2m | [22m [36m50.20 kB[39m[2m | [22m
+[32mchunk-YHVNVQIG.js[39m  [2m | [22m[2mleave-page[22m          [2m | [22m [36m49.61 kB[39m[2m | [22m
+[32mchunk-FCPOFCSW.js[39m  [2m | [22m[2mloans-bonuses-page[22m  [2m | [22m [36m48.56 kB[39m[2m | [22m
+[32mchunk-H3U7EUNE.js[39m  [2m | [22m[2mreports-page[22m        [2m | [22m [36m44.60 kB[39m[2m | [22m
+[32mchunk-5EIERQYU.js[39m  [2m | [22m[2memployee-detail[22m     [2m | [22m [36m42.94 kB[39m[2m | [22m
+[32mchunk-HP75KTOU.js[39m  [2m | [22m[2movertime-detail[22m     [2m | [22m [36m38.77 kB[39m[2m | [22m
+[32mchunk-U5RNMRP5.js[39m  [2m | [22m[2mchange-requests-page[22m[2m | [22m [36m33.20 kB[39m[2m | [22m
+[32mchunk-Q5FNVTSI.js[39m  [2m | [22m[2mprofile-page[22m        [2m | [22m [36m32.51 kB[39m[2m | [22m
+[32mchunk-M7HVM5MC.js[39m  [2m | [22m[2msettlement-detail[22m   [2m | [22m [36m29.90 kB[39m[2m | [22m
+[2m...and 32 more lazy chunks files. Use "--verbose" to show all the files.[22m
 
-Application bundle generation complete. [6.825 seconds] - 2026-09-08T17:35:58.872Z
+Application bundle generation complete. [10.637 seconds] - 2026-09-12T09:07:18.598Z
 
 Watch mode enabled. Watching for file changes...
 NOTE: Raw file sizes do not reflect development server per-request transformations.
-  ➜  Local:   http://localhost:4200/
-  ➜  press h + enter to show help
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m4200[22m/[39m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
